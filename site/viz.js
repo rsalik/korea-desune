@@ -134,10 +134,13 @@
     const toks = (n) => String(n || '').toLowerCase().replace(/\(.*?\)/g, ' ').split(/[\/,&]/).map((x) => x.trim()).filter((x) => x.length > 2);
     const f = toks(fromName), t = toks(toName);
     const has = (text, list) => list.some((x) => String(text || '').toLowerCase().includes(x));
-    const score = (l) => (has(l.from, f) ? 1 : 0) + (has(l.to, t) ? 1 : 0) + (has(l.to, f) ? 0.5 : 0) + (has(l.from, t) ? 0.5 : 0);
+    const score = (l) => (has(l.from, f) ? 1 : 0) + (has(l.to, t) ? 1 : 0);
     const best = Math.max.apply(null, legs.map(score));
     const pool = best > 0 ? legs.filter((l) => score(l) === best) : legs;
-    return pool.reduce((a, b) => (legMinutes(b) > legMinutes(a) ? b : a), pool[0]);
+    // main mode of the move: long-distance public transport beats a rental car; ties go to the longest leg
+    const pri = { flight: 5, rail: 4, bus: 3, ferry: 2, car: 1 };
+    const better = (a, b) => (pri[modeStyle(b.mode)] - pri[modeStyle(a.mode)]) || (legMinutes(b) - legMinutes(a));
+    return pool.reduce((a, b) => (better(a, b) > 0 ? b : a), pool[0]);
   }
   function modeStyle(mode) {
     const m = String(mode || '');
@@ -295,9 +298,9 @@
 
   function flashHint() {
     if (!M) return;
-    M.hint.classList.add('is-on');
+    M.hint.classList.add('vz-is-on');
     clearTimeout(M.hintTimer);
-    M.hintTimer = setTimeout(() => M && M.hint.classList.remove('is-on'), 1400);
+    M.hintTimer = setTimeout(() => M && M.hint.classList.remove('vz-is-on'), 1400);
   }
 
   /* ----- layout (runs on init and when the container is resized) --------------------------------------------------------------- */
@@ -541,7 +544,7 @@
       pin.dx = dx; pin.dy = dy;
       pin.body.setAttribute('transform', 'translate(' + dx.toFixed(1) + ' ' + dy.toFixed(1) + ')');
       pin.stem.setAttribute('x2', dx.toFixed(1)); pin.stem.setAttribute('y2', dy.toFixed(1));
-      pin.el.classList.toggle('is-displaced', Math.hypot(dx, dy) > 4);
+      pin.el.classList.toggle('vz-is-displaced', Math.hypot(dx, dy) > 4);
     });
   }
 
@@ -563,7 +566,7 @@
       ]));
     });
     if (pin.grp.entries.length > entries.length) card.appendChild(h('div', { class: 'vz-card-kind', text: '+' + (pin.grp.entries.length - entries.length) + ' more here' }));
-    card.classList.add('is-on');
+    card.classList.add('vz-is-on');
     pin.el.setAttribute('aria-describedby', 'vz-card');
     positionCard(pin);
   }
@@ -581,7 +584,7 @@
   }
   function hideCard() {
     if (!M) return;
-    M.card.classList.remove('is-on');
+    M.card.classList.remove('vz-is-on');
     if (M.shownPin) { M.shownPin.el.removeAttribute('aria-describedby'); M.shownPin = null; }
   }
 
@@ -782,19 +785,21 @@
 
     // geometry
     const cw = Math.round(scroll.getBoundingClientRect().width) || container.clientWidth || 0;
-    const W = Math.max(cw, 640);
-    const labelW = W < 760 ? 172 : clamp(Math.round(W * 0.23), 190, 250);
-    const padR = 16;
+    // Phones: fit the width (no sideways scroll, which would hide the label column) with narrower labels and 2-week ticks.
+    const narrow = cw > 0 && cw < 640;
+    const W = narrow ? Math.max(cw, 300) : Math.max(cw, 640);
+    const labelW = narrow ? 116 : W < 760 ? 172 : clamp(Math.round(W * 0.23), 190, 250);
+    const padR = narrow ? 8 : 16;
     const x0 = labelW, x1 = W - padR, plotW = x1 - x0;
     const xOf = (ms) => x0 + clamp((ms - t0) / (t1 - t0), 0, 1) * plotW;
-    const nameFont = '600 12.5px ' + bodyFont();
+    const nameFont = (narrow ? '600 11.5px ' : '600 12.5px ') + bodyFont();
     const topH = 48;
     const barH = 14;
 
     // rows
     let y = topH;
     const layoutRows = rows.map((r) => {
-      const lines = wrapText(r.name, labelW - 14, nameFont, 2);
+      const lines = wrapText(r.name, labelW - 10, nameFont, narrow ? 3 : 2);
       const rowH = lines.length * 15 + 15 + 12;
       const out = { r, lines, y, rowH };
       y += rowH;
@@ -817,8 +822,10 @@
 
     // weekly grid + ticks (Mondays)
     const grid = s('g', { class: 'vz-grid' });
+    let monday = 0;
     for (let ms = t0; ms < t1; ms += DAY_MS) {
       if (new Date(ms).getUTCDay() !== 1) continue;
+      if (narrow && monday++ % 2) continue;
       const x = xOf(ms);
       grid.appendChild(s('line', { class: 'vz-gridline', x1: x, x2: x, y1: 34, y2: plotBottom }));
       grid.appendChild(s('text', { class: 'vz-tick', x, y: 28, 'text-anchor': 'middle', text: monthDay(ms) }));
@@ -840,7 +847,7 @@
         + (r.note ? r.note + '\n' : '') + 'Confidence: ' + (r.confidence || 'n/a')
         + (vd.length ? '\nYour route is here: ' + vd.map((d) => monthDay(utc(d))).join(', ') : '');
       const g = s('g', {
-        class: 'vz-fol-row vz-k-' + kind + (vd.length ? ' is-visited' : '') + (FOL.selected === r.id ? ' is-selected' : ''),
+        class: 'vz-fol-row vz-k-' + kind + (vd.length ? ' vz-is-visited' : '') + (FOL.selected === r.id ? ' vz-is-selected' : ''),
         tabindex: 0, role: 'button', 'aria-pressed': FOL.selected === r.id ? 'true' : 'false',
         'aria-label': r.name + ', ' + (r.region || '') + '. First color ' + monthDay(a) + ', peak ' + monthDayRange(b, c - DAY_MS) + (vd.length ? '. Visited on your route.' : '') + ' Press for notes.',
       });
@@ -848,7 +855,7 @@
       g.appendChild(s('rect', { class: 'vz-fol-hit', x: 0, y: lr.y, width: W, height: lr.rowH }));
       g.appendChild(s('line', { class: 'vz-rowline', x1: 0, x2: W, y1: lr.y + lr.rowH, y2: lr.y + lr.rowH }));
       // label
-      const name = s('text', { class: 'vz-fol-name', x: 6, y: lr.y + 8 });
+      const name = s('text', { class: 'vz-fol-name' + (narrow ? ' vz-fol-name--narrow' : ''), x: 6, y: lr.y + 8 });
       lr.lines.forEach((ln, i) => name.appendChild(s('tspan', { x: 6, y: lr.y + 8 + 12 + i * 15, text: ln })));
       g.appendChild(name);
       g.appendChild(s('text', { class: 'vz-fol-region', x: 6, y: lr.y + 8 + 12 + lr.lines.length * 15 + 1, text: clip(r.region || '', Math.floor((labelW - 12) / 5.6)) }));
@@ -857,16 +864,17 @@
       if (xc > xb) g.appendChild(s('rect', { class: 'vz-bar-peak', x: xb, y: cy - barH / 2, width: Math.max(2, xc - xb), height: barH }));
       // peak dates beside the bar
       const label = monthDayRange(b, c - DAY_MS), lw = label.length * 6 + 4;
-      if (xc + 6 + lw <= x1) g.appendChild(s('text', { class: 'vz-fol-dates', x: xc + 6, y: cy, 'dominant-baseline': 'central', text: label }));
+      if (narrow) { /* no room beside the bars on phones; the detail panel shows the dates */ }
+      else if (xc + 6 + lw <= x1) g.appendChild(s('text', { class: 'vz-fol-dates', x: xc + 6, y: cy, 'dominant-baseline': 'central', text: label }));
       else if (xa - 6 - lw >= x0) g.appendChild(s('text', { class: 'vz-fol-dates', x: xa - 6, y: cy, 'text-anchor': 'end', 'dominant-baseline': 'central', text: label }));
       // visited diamonds
       vd.forEach((d) => {
-        const x = xOf(utc(d) + DAY_MS / 2);
-        g.appendChild(s('path', { class: 'vz-visit', d: 'M' + x + ',' + (cy - 6) + 'L' + (x + 6) + ',' + cy + 'L' + x + ',' + (cy + 6) + 'L' + (x - 6) + ',' + cy + 'Z' }, [s('title', { text: 'Your route is here on ' + monthDay(utc(d)) })]));
+        const x = xOf(utc(d) + DAY_MS / 2), q = narrow ? 3.5 : 6;
+        g.appendChild(s('path', { class: 'vz-visit', d: 'M' + x + ',' + (cy - q - 1) + 'L' + (x + q) + ',' + cy + 'L' + x + ',' + (cy + q + 1) + 'L' + (x - q) + ',' + cy + 'Z' }, [s('title', { text: 'Your route is here on ' + monthDay(utc(d)) })]));
       });
       const toggle = () => {
         FOL.selected = FOL.selected === r.id ? null : r.id;
-        rowEls.forEach((el, id) => { el.classList.toggle('is-selected', id === FOL.selected); el.setAttribute('aria-pressed', id === FOL.selected ? 'true' : 'false'); });
+        rowEls.forEach((el, id) => { el.classList.toggle('vz-is-selected', id === FOL.selected); el.setAttribute('aria-pressed', id === FOL.selected ? 'true' : 'false'); });
         fillFoliageDetail(detail, FOL.selected ? r : null, vd);
       };
       g.addEventListener('click', toggle);
@@ -977,14 +985,19 @@
         if (canon != null) prevCanon = canon;
 
         let list = events.filter((e) => e.start <= iso && iso <= e.end);
-        const rank = (e) => (e.kind === 'closure' ? 0 : e.kind === 'festival' || e.kind === 'show' ? 1 : 2);
+        const rank = (e) => (e.kind === 'closure' && e.start === e.end ? 0 : e.kind === 'festival' || e.kind === 'show' ? 1 : e.kind === 'free-entry' ? 2 : e.kind === 'closure' ? 4 : 3); // one-day closures first, standing restrictions last
         const here = (e) => !!day && cityMatches(e.city, keys);
         if (!EV.all) {
           const kept = list.filter(here);
           list.forEach((e) => { if (!kept.includes(e)) hiddenIds.add(e.id); });
           list = kept;
         }
-        list = list.map((e, i) => ({ e, i })).sort((p, q) => rank(p.e) - rank(q.e) || p.i - q.i).map((p) => p.e);
+        // Events the plan actually visits that day (same place, or within ~400 m of an item) go to the top.
+        const items = day ? (day.items || []) : [];
+        const inPlan = (e) => items.some((it) => (e.place_id && it.place_id === e.place_id)
+          || (e.lat != null && it.lat != null && Math.abs(e.lat - it.lat) < 0.004 && Math.abs(e.lon - it.lon) < 0.005));
+        const planned = new Set(list.filter(inPlan));
+        list = list.map((e, i) => ({ e, i })).sort((p, q) => (planned.has(q.e) - planned.has(p.e)) || rank(p.e) - rank(q.e) || p.i - q.i).map((p) => p.e);
 
         const head = h('div', { class: 'vz-ev-head' + (travel ? ' vz-ev-head--travel' : '') }, [
           h('div', { class: 'vz-ev-datebox' }, [
@@ -1002,7 +1015,7 @@
         const mkChip = (e) => {
           const away = EV.all && !here(e);
           const b = h('button', {
-            type: 'button', class: 'vz-chip vz-chip--' + (e.kind || 'season') + (away ? ' vz-chip--away' : '') + (EV.selected === e.id ? ' is-selected' : ''),
+            type: 'button', class: 'vz-chip vz-chip--' + (e.kind || 'season') + (away ? ' vz-chip--away' : '') + (EV.selected === e.id ? ' vz-is-selected' : ''),
             title: [e.name_ko, e.times, e.note].filter(Boolean).join(' · '), 'aria-pressed': EV.selected === e.id ? 'true' : 'false',
             'data-ev': e.id,
           }, [
@@ -1012,7 +1025,7 @@
           ]);
           b.addEventListener('click', () => {
             EV.selected = EV.selected === e.id ? null : e.id;
-            grid.querySelectorAll('.vz-chip').forEach((el) => { const on = el.getAttribute('data-ev') === EV.selected; el.classList.toggle('is-selected', on); el.setAttribute('aria-pressed', on ? 'true' : 'false'); });
+            grid.querySelectorAll('.vz-chip').forEach((el) => { const on = el.getAttribute('data-ev') === EV.selected; el.classList.toggle('vz-is-selected', on); el.setAttribute('aria-pressed', on ? 'true' : 'false'); });
             fillEventDetail(detail, EV.selected ? e : null);
           });
           return h('li', { class: 'vz-ev-item' }, b);

@@ -13,7 +13,7 @@
 .vz-map { position: absolute; inset: 0; min-width: 0; }
 .vz-svg {
   position: absolute; inset: 0; width: 100%; height: 100%; display: block;
-  touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none; -webkit-tap-highlight-color: transparent;
+  touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none;
 }
 .vz-svg:active { cursor: grabbing; }
 
@@ -60,7 +60,7 @@
 .vz-pin:hover .vz-pin-bg, .vz-pin:focus-visible .vz-pin-bg { fill: var(--celadon); }
 .vz-pin-stem { stroke: var(--ink); stroke-width: 1.25; display: none; }
 .vz-pin-dot { fill: var(--ink); display: none; }
-.vz-pin.is-displaced .vz-pin-stem, .vz-pin.is-displaced .vz-pin-dot { display: inline; }
+.vz-pin.vz-is-displaced .vz-pin-stem, .vz-pin.vz-is-displaced .vz-pin-dot { display: inline; }
 
 /* dim the route while a day is focused (it stays visible for context) */
 .vz-focused .vz-l-links, .vz-focused .vz-l-bases { opacity: 0.35; }
@@ -74,7 +74,7 @@
   padding: 0.5rem 0.65rem; background: var(--card); color: var(--ink); border: 1px solid var(--ink); box-shadow: 3px 3px 0 var(--line);
   font-family: var(--font-body); font-size: 0.8rem; line-height: 1.4; pointer-events: none; opacity: 0; visibility: hidden;
 }
-.vz-card.is-on { opacity: 1; visibility: visible; }
+.vz-card.vz-is-on { opacity: 1; visibility: visible; }
 .vz-card-item + .vz-card-item { margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px dashed var(--line); }
 .vz-card-time { font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); }
 .vz-card-title { font-weight: 600; font-size: 0.9rem; line-height: 1.3; margin: 0.1rem 0; }
@@ -112,7 +112,7 @@
   background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 0.75rem; text-align: center;
   pointer-events: none; opacity: 0;
 }
-.vz-hint.is-on { opacity: 0.92; }
+.vz-hint.vz-is-on { opacity: 0.92; }
 @media (prefers-reduced-motion: no-preference) {
   .vz-hint { transition: opacity 0.2s; }
 }
@@ -145,10 +145,11 @@
 .vz-fol-row.vz-k-grass { --vz-strong: var(--celadon); --vz-soft: var(--celadon-soft); }
 .vz-fol-hit { fill: var(--card); fill-opacity: 0; stroke: none; pointer-events: all; }
 .vz-fol-row:hover .vz-fol-hit { fill-opacity: 0.7; }
-.vz-fol-row.is-selected .vz-fol-hit { fill-opacity: 0.85; stroke: var(--ink); stroke-width: 1.5; }
+.vz-fol-row.vz-is-selected .vz-fol-hit { fill-opacity: 0.85; stroke: var(--ink); stroke-width: 1.5; }
 .vz-fol-row:focus-visible .vz-fol-hit { fill-opacity: 0.7; stroke: var(--ink); stroke-width: 2; }
 .vz-fol-name { font-size: 12.5px; font-weight: 400; fill: var(--ink); }
-.vz-fol-row.is-visited .vz-fol-name { font-weight: 600; }
+.vz-fol-name--narrow { font-size: 11.5px; }
+.vz-fol-row.vz-is-visited .vz-fol-name { font-weight: 600; }
 .vz-fol-region { font-size: 11px; fill: var(--muted); }
 .vz-bar-soft { fill: var(--vz-soft); stroke: var(--vz-strong); stroke-width: 1; }
 .vz-bar-peak { fill: var(--vz-strong); }
@@ -202,7 +203,7 @@
 .vz-chip--free-entry { --vz-chip-bg: var(--sea-soft); --vz-chip-edge: var(--sea); }
 .vz-chip--away { background: none; color: var(--muted); border: 1px dashed var(--line); border-left: 3px dashed var(--vz-chip-edge); }
 .vz-chip:hover { filter: none; box-shadow: inset 0 0 0 1px var(--vz-chip-edge); }
-.vz-chip.is-selected { box-shadow: inset 0 0 0 2px var(--ink); }
+.vz-chip.vz-is-selected { box-shadow: inset 0 0 0 2px var(--ink); }
 .vz-chip-kind { font-family: var(--font-mono); font-size: 0.625rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
 .vz-chip-name { font-weight: 500; overflow-wrap: anywhere; }
 .vz-chip-times {
