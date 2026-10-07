@@ -1,0 +1,1946 @@
+{
+ "foliage": [
+  {
+   "id": "odaesan-seonjae-gil-woljeongsa",
+   "name": "Odaesan (Woljeongsa fir path, Seonjae-gil)",
+   "name_ko": "오대산 월정사 전나무숲길 · 선재길",
+   "region": "Gangwon (Pyeongchang)",
+   "lat": 37.7316,
+   "lon": 128.5925,
+   "first_color": "2026-10-07",
+   "peak_start": "2026-10-15",
+   "peak_end": "2026-10-22",
+   "kind": "maple",
+   "note": "Weather i puts the 80% peak at Oct 16; other forecasts say Oct 17-20. The low Seonjae-gil valley runs a few days behind the summit, so Oct 17-21 should be at or just past peak. KFS \"peak\" = about 50% of the forest colored; Weather i \"peak\" = about 80%. The window spans both.",
+   "confidence": "medium-high",
+   "place_ids": [
+    "odaesan-seonjae-gil-woljeongsa",
+    "woljeongsa-fir-forest",
+    "seonjae-gil-sangwonsa"
+   ]
+  },
+  {
+   "id": "seoraksan-ridges",
+   "name": "Seoraksan ridges (Gwongeumseong, Ulsanbawi, upper slopes)",
+   "name_ko": "설악산 능선 (권금성 · 울산바위)",
+   "region": "Gangwon (Sokcho)",
+   "lat": 38.169,
+   "lon": 128.501,
+   "first_color": "2026-09-28",
+   "peak_start": "2026-10-14",
+   "peak_end": "2026-10-22",
+   "kind": "mixed",
+   "note": "KMA saw first color on Sep 28 (normal timing). KFS peak for the whole mountain is Oct 20, Weather i Oct 25; the high ridges color first, about Oct 15-20. Seen from the cable car, they are at or just past peak during the trip. KFS \"peak\" = about 50% of the forest colored; Weather i \"peak\" = about 80%. The window spans both.",
+   "confidence": "high",
+   "place_ids": [
+    "seoraksan-gwongeumseong-cable-car",
+    "gwongeumseong-cable-car",
+    "seorak-cable-car",
+    "seoraksan-ulsanbawi",
+    "ulsanbawi"
+   ]
+  },
+  {
+   "id": "seoraksan-valleys",
+   "name": "Seoraksan valleys (Sogongwon to Biseondae, Juongol)",
+   "name_ko": "설악산 계곡 (소공원~비선대 · 주전골)",
+   "region": "Gangwon (Sokcho / Yangyang)",
+   "lat": 38.1652,
+   "lon": 128.4783,
+   "first_color": "2026-10-08",
+   "peak_start": "2026-10-20",
+   "peak_end": "2026-10-27",
+   "kind": "maple",
+   "note": "The low valleys (200-400 m) peak after the ridges. KFS Oct 20 and Weather i Oct 25 bracket this window. This is the best foliage on the whole trip. Heullimgol needs a KNPS booking; Juongol from Osaek does not. KFS \"peak\" = about 50% of the forest colored; Weather i \"peak\" = about 80%. The window spans both.",
+   "confidence": "high",
+   "place_ids": [
+    "seoraksan-sogongwon-biseondae",
+    "biseondae-geumganggul",
+    "juongol-osaek-outback",
+    "heullimgol-juongol-osaek",
+    "seoraksan-heullimgol-jujeongol",
+    "seoraksan-sogongwon-sinheungsa"
+   ]
+  },
+  {
+   "id": "bukhansan-baegundae",
+   "name": "Bukhansan (Seoul)",
+   "name_ko": "북한산",
+   "region": "Seoul",
+   "lat": 37.6588,
+   "lon": 126.9779,
+   "first_color": "2026-10-18",
+   "peak_start": "2026-10-28",
+   "peak_end": "2026-11-06",
+   "kind": "mixed",
+   "note": "Forecasts disagree: first color Oct 15-23, peak Oct 28-30 (secondary summaries) or Nov 4 (Weather i). Upper slopes show partial color Oct 20-25; lower valleys stay mostly green. KFS \"peak\" = about 50% of the forest colored; Weather i \"peak\" = about 80%. The window spans both.",
+   "confidence": "medium",
+   "place_ids": [
+    "bukhansan-baegundae"
+   ]
+  },
+  {
+   "id": "seoul-palaces-namsan",
+   "name": "Seoul palaces and Namsan (Huwon, Deoksugung wall road, Namsan)",
+   "name_ko": "창덕궁 후원 · 덕수궁 돌담길 · 남산",
+   "region": "Seoul",
+   "lat": 37.5826,
+   "lon": 126.9919,
+   "first_color": "2026-10-20",
+   "peak_start": "2026-10-30",
+   "peak_end": "2026-11-12",
+   "kind": "mixed",
+   "note": "City maples peak late Oct to early Nov; ginkgo streets early to mid Nov (KFS national ginkgo average Oct 30). Expect green with early color during the trip. The Huwon (Secret Garden) maples are usually the first to turn in central Seoul.",
+   "confidence": "medium-high",
+   "place_ids": [
+    "seoul-palaces-deoksugung-namsan",
+    "changdeokgung-huwon",
+    "deoksugung",
+    "n-seoul-tower",
+    "namsangol",
+    "gyeongbokgung",
+    "changgyeonggung",
+    "inwangsan"
+   ]
+  },
+  {
+   "id": "nami-gapyeong",
+   "name": "Nami Island and Gapyeong (Garden of Morning Calm)",
+   "name_ko": "남이섬 · 아침고요수목원",
+   "region": "Gangwon / Gyeonggi (Gapyeong)",
+   "lat": 37.7906,
+   "lon": 127.5256,
+   "first_color": "2026-10-15",
+   "peak_start": "2026-10-26",
+   "peak_end": "2026-11-05",
+   "kind": "ginkgo",
+   "note": "Nami's ginkgo and metasequoia lanes peak about Oct 28-Nov 5 in a late year; on Oct 23-25 expect mixed green and yellow with red maples starting. The Garden of Morning Calm turns about a week earlier, so it is the better pick from about Oct 20. Weekends are very crowded.",
+   "confidence": "medium",
+   "place_ids": [
+    "nami-island",
+    "garden-of-morning-calm",
+    "nami-gapyeong-morning-calm"
+   ]
+  },
+  {
+   "id": "hwadam-botanic-garden",
+   "name": "Hwadam Botanic Garden",
+   "name_ko": "화담숲",
+   "region": "Gyeonggi (Gwangju)",
+   "lat": 37.3412,
+   "lon": 127.2919,
+   "first_color": "2026-10-15",
+   "peak_start": "2026-10-28",
+   "peak_end": "2026-11-08",
+   "kind": "maple",
+   "note": "The autumn season (timed tickets on NOL only) runs Oct 23-Nov 15. Maples usually peak late Oct to early Nov, so Oct 23-25 is good early-to-near-peak color, not full peak.",
+   "confidence": "medium",
+   "place_ids": [
+    "hwadam-botanic-garden"
+   ]
+  },
+  {
+   "id": "gyeongju-autumn",
+   "name": "Gyeongju (Bulguksa maples, Tongiljeon ginkgo road, Gyerim)",
+   "name_ko": "경주 불국사 · 통일전 은행나무길 · 계림",
+   "region": "Gyeongbuk (Gyeongju)",
+   "lat": 35.7903,
+   "lon": 129.332,
+   "first_color": "2026-10-20",
+   "peak_start": "2026-10-31",
+   "peak_end": "2026-11-10",
+   "kind": "mixed",
+   "note": "Bulguksa maples and the Tongiljeon ginkgo road usually peak about Nov 1-10. In this late year they may still be green-yellow on Oct 20-24. Expect early color only.",
+   "confidence": "medium-high",
+   "place_ids": [
+    "gyeongju-autumn-spots",
+    "bulguksa",
+    "tongiljeon-ginkgo",
+    "gyerim",
+    "seokguram"
+   ]
+  },
+  {
+   "id": "juwangsan-jusanji",
+   "name": "Juwangsan (Jusanji pond, Yongchu gorge)",
+   "name_ko": "주왕산 주산지 · 용추협곡",
+   "region": "Gyeongbuk (Cheongsong)",
+   "lat": 36.3946,
+   "lon": 129.1564,
+   "first_color": "2026-10-12",
+   "peak_start": "2026-10-24",
+   "peak_end": "2026-11-02",
+   "kind": "maple",
+   "note": "KFS peak Oct 26; no Weather i figure was found, so the 80% end of the window is an estimate. Strong color at Jusanji and the gorge from about Oct 22. About 1 h 30 by car from Gyeongju; no option visits it. KFS \"peak\" = about 50% of the forest colored; Weather i \"peak\" = about 80%. The window spans both.",
+   "confidence": "medium",
+   "place_ids": [
+    "juwangsan-jusanji"
+   ]
+  },
+  {
+   "id": "jirisan-piagol",
+   "name": "Jirisan (Piagol valley)",
+   "name_ko": "지리산 피아골",
+   "region": "Jeonnam (Gurye)",
+   "lat": 35.2795,
+   "lon": 127.578,
+   "first_color": "2026-10-20",
+   "peak_start": "2026-10-27",
+   "peak_end": "2026-11-07",
+   "kind": "maple",
+   "note": "KFS peak Oct 27; Weather i first color Oct 28 and peak Nov 5. Upper Piagol could look good Oct 24-25; the lower valley turns later. KFS \"peak\" = about 50% of the forest colored; Weather i \"peak\" = about 80%. The window spans both.",
+   "confidence": "medium",
+   "place_ids": [
+    "jirisan-piagol"
+   ]
+  },
+  {
+   "id": "naejangsan",
+   "name": "Naejangsan",
+   "name_ko": "내장산",
+   "region": "Jeonbuk (Jeongeup)",
+   "lat": 35.4848,
+   "lon": 126.8896,
+   "first_color": "2026-10-27",
+   "peak_start": "2026-11-04",
+   "peak_end": "2026-11-12",
+   "kind": "maple",
+   "note": "Korea's most famous maple park peaks after the trip: KFS Nov 4, Weather i Nov 11. Not worth a detour Oct 17-25. KFS \"peak\" = about 50% of the forest colored; Weather i \"peak\" = about 80%. The window spans both.",
+   "confidence": "high",
+   "place_ids": [
+    "naejangsan"
+   ]
+  },
+  {
+   "id": "hallasan-yeongsil",
+   "name": "Hallasan (Yeongsil, Eorimok)",
+   "name_ko": "한라산 영실 · 어리목",
+   "region": "Jeju",
+   "lat": 33.3591,
+   "lon": 126.4945,
+   "first_color": "2026-10-31",
+   "peak_start": "2026-11-06",
+   "peak_end": "2026-11-14",
+   "kind": "mixed",
+   "note": "KFS peak Nov 6, Weather i first color Oct 31 and peak Nov 13. Shrubs above about 1,400 m on the Yeongsil cliffs can show color in late October; the lower forest stays green. Do not pick Jeju for foliage. KFS \"peak\" = about 50% of the forest colored; Weather i \"peak\" = about 80%. The window spans both.",
+   "confidence": "high",
+   "place_ids": [
+    "hallasan-yeongsil",
+    "hallasan-yeongsil-trail",
+    "hallasan-eorimok-trail"
+   ]
+  },
+  {
+   "id": "busan-mountains",
+   "name": "Busan mountains (Geumjeongsan, Beomeosa)",
+   "name_ko": "부산 금정산 · 범어사",
+   "region": "Busan",
+   "lat": 35.2843,
+   "lon": 129.0684,
+   "first_color": "2026-10-30",
+   "peak_start": "2026-11-12",
+   "peak_end": "2026-11-24",
+   "kind": "mixed",
+   "note": "Busan's mountain foliage peaks mid to late November. In late October the city is still green, so go for the coast and Seunghaksan silver grass instead. Some cherry trees in town start turning red-orange in late October.",
+   "confidence": "medium-high",
+   "place_ids": []
+  },
+  {
+   "id": "haneul-park-silver-grass",
+   "name": "Haneul Park silver grass (Seoul Eulalia Festival)",
+   "name_ko": "하늘공원 억새 (서울억새축제)",
+   "region": "Seoul (Mapo)",
+   "lat": 37.5684,
+   "lon": 126.8853,
+   "first_color": "2026-10-01",
+   "peak_start": "2026-10-10",
+   "peak_end": "2026-10-31",
+   "kind": "silver-grass",
+   "note": "Silver plumes are at their best mid to late October. The festival runs Oct 17-23 with the park open to 21:00. Best light is the hour before sunset (about 16:45-17:50).",
+   "confidence": "high",
+   "place_ids": [
+    "haneul-park-silver-grass",
+    "haneul-park",
+    "seoul-haneul-park-eulalia"
+   ]
+  },
+  {
+   "id": "mingdongsan-silver-grass",
+   "name": "Mingdongsan silver grass ridge",
+   "name_ko": "정선 민둥산 억새",
+   "region": "Gangwon (Jeongseon)",
+   "lat": 37.2447,
+   "lon": 128.7668,
+   "first_color": "2026-09-25",
+   "peak_start": "2026-10-10",
+   "peak_end": "2026-10-31",
+   "kind": "silver-grass",
+   "note": "Festival Sep 18-Nov 8; the grass is fullest mid to late October. Remote (about 3 h from Seoul, then a 1.5-2 h climb); no option includes it.",
+   "confidence": "medium-high",
+   "place_ids": [
+    "mingdongsan-silver-grass"
+   ]
+  },
+  {
+   "id": "jeju-saebyeol-oreum",
+   "name": "Saebyeol Oreum silver grass (Jeju)",
+   "name_ko": "새별오름 억새",
+   "region": "Jeju (Aewol)",
+   "lat": 33.3661,
+   "lon": 126.3567,
+   "first_color": "2026-10-01",
+   "peak_start": "2026-10-15",
+   "peak_end": "2026-11-10",
+   "kind": "silver-grass",
+   "note": "Silver grass covers the cone from mid October to mid November, so it is at peak during the trip. 2026 timing is not separately confirmed. Windy on top.",
+   "confidence": "medium",
+   "place_ids": [
+    "jeju-saebyeol-oreum",
+    "saebyeol-oreum"
+   ]
+  },
+  {
+   "id": "seunghaksan-silver-grass",
+   "name": "Seunghaksan silver grass (Busan)",
+   "name_ko": "승학산 억새밭",
+   "region": "Busan (Saha-gu)",
+   "lat": 35.104,
+   "lon": 128.979,
+   "first_color": "2026-10-01",
+   "peak_start": "2026-10-15",
+   "peak_end": "2026-11-05",
+   "kind": "silver-grass",
+   "note": "Peaks mid October to early November, so late October is ideal. Best in afternoon backlight. Busan's best autumn color in October.",
+   "confidence": "medium",
+   "place_ids": [
+    "seunghaksan-silver-grass"
+   ]
+  },
+  {
+   "id": "pink-muhly",
+   "name": "Pink muhly (Cheomseongdae Gyeongju, Daejeo Busan, Jeju)",
+   "name_ko": "핑크뮬리 (첨성대 · 대저생태공원)",
+   "region": "Gyeongju / Busan / Jeju",
+   "lat": 35.8347,
+   "lon": 129.219,
+   "first_color": "2026-09-15",
+   "peak_start": "2026-09-25",
+   "peak_end": "2026-10-14",
+   "kind": "mixed",
+   "note": "Pink muhly grass peaks late September to early October and is fading, brownish pink, by Oct 17-25. Jeju's Hueree Park runs a little later. Treat it as a bonus, not a reason to go.",
+   "confidence": "high",
+   "place_ids": [
+    "cheomseongdae",
+    "daejeo-pink-muhly",
+    "busan-daejeo-eco-park",
+    "yangju-nari-park",
+    "hueree-park"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "id": "seoul-eulalia-festival",
+   "name": "25th Seoul Eulalia (Silver Grass) Festival",
+   "name_ko": "제25회 서울억새축제",
+   "city": "Seoul",
+   "start": "2026-10-17",
+   "end": "2026-10-23",
+   "times": "10:00-21:00 daily, night lighting",
+   "cost": "Free",
+   "kind": "festival",
+   "note": "Haneul Park in World Cup Park. Line 6 World Cup Stadium Stn exit 1, then about 20 min on foot to the 291 steps, or the electric shuttle from Nanjicheon parking (about 2,000-3,000 in 2025). Come for the hour before sunset.",
+   "lat": 37.5684,
+   "lon": 126.8851,
+   "confidence": "high",
+   "place_id": "haneul-park-silver-grass"
+  },
+  {
+   "id": "mapo-naru-saeujeot-festival",
+   "name": "Mapo Naru Shrimp Festival",
+   "name_ko": "제19회 마포나루 새우젓축제",
+   "city": "Seoul",
+   "start": "2026-10-16",
+   "end": "2026-10-18",
+   "times": "Daytime into evening",
+   "cost": "Free entry; food extra",
+   "kind": "festival",
+   "note": "Kimchi-season salted-shrimp market with food stalls. Listed at World Cup Park Peace Plaza, at the foot of Haneul Park; one source says the Mapo riverside, so check the venue. Pairs with the Eulalia Festival on Sat 17 or Sun 18.",
+   "lat": 37.5661,
+   "lon": 126.8975,
+   "confidence": "medium"
+  },
+  {
+   "id": "jeongdong-culture-festival",
+   "name": "Jeongdong Culture Festival",
+   "name_ko": "정동문화축제",
+   "city": "Seoul",
+   "start": "2026-10-16",
+   "end": "2026-10-17",
+   "times": "Daytime and evening",
+   "cost": "Free",
+   "kind": "festival",
+   "note": "Street festival on the Deoksugung stone-wall road. An easy add-on for the arrival afternoon.",
+   "lat": 37.5661,
+   "lon": 126.972,
+   "confidence": "medium"
+  },
+  {
+   "id": "seoul-wow-book-festival",
+   "name": "Seoul Wow Book Festival",
+   "name_ko": "서울와우북페스티벌",
+   "city": "Seoul",
+   "start": "2026-10-16",
+   "end": "2026-10-18",
+   "times": "Daytime",
+   "cost": "Free",
+   "kind": "festival",
+   "note": "Indie book fair around Hongdae. Minor; only if you are there anyway.",
+   "lat": 37.5527,
+   "lon": 126.9224,
+   "confidence": "medium"
+  },
+  {
+   "id": "seoul-design-week-2026",
+   "name": "Seoul Design Week 2026",
+   "name_ko": "2026 서울디자인위크",
+   "city": "Seoul",
+   "start": "2026-10-14",
+   "end": "2026-10-25",
+   "times": "Daytime and evening",
+   "cost": "Mostly free",
+   "kind": "festival",
+   "note": "At Dongdaemun Design Plaza (DDP), which also runs facade media art at night. Fits a neon-city evening.",
+   "lat": 37.5665,
+   "lon": 127.0092,
+   "confidence": "medium"
+  },
+  {
+   "id": "hangang-festival-autumn",
+   "name": "Hangang Festival (autumn)",
+   "name_ko": "2026 한강페스티벌_가을",
+   "city": "Seoul",
+   "start": "2026-10-17",
+   "end": "2026-10-25",
+   "times": "Varies by program",
+   "cost": "Mostly free",
+   "kind": "festival",
+   "note": "Programs spread over the Han River parks (Jamwon, Ttukseom, Gangseo and others). Check the day's program on the Hangang Parks site.",
+   "lat": 37.5167,
+   "lon": 127.0119,
+   "confidence": "medium"
+  },
+  {
+   "id": "hanseong-baekje-culture-festival",
+   "name": "Hanseong Baekje Culture Festival",
+   "name_ko": "한성백제문화제",
+   "city": "Seoul",
+   "start": "2026-10-23",
+   "end": "2026-10-25",
+   "times": "Daytime and evening (parade, stage shows)",
+   "cost": "Free",
+   "kind": "festival",
+   "note": "History festival at Mongchontoseong fortress in Olympic Park, with costume parade and lantern events in past years. Best on Sat Oct 24. Dates come from aggregators; no official 2026 page was reached.",
+   "lat": 37.5206,
+   "lon": 127.1214,
+   "confidence": "medium"
+  },
+  {
+   "id": "national-museum-our-dining-table",
+   "name": "National Museum of Korea: \"Our Dining Table\" exhibition",
+   "name_ko": "국립중앙박물관 특별전 우리들의 밥상",
+   "city": "Seoul",
+   "start": "2026-07-01",
+   "end": "2026-10-25",
+   "times": "Museum hours; Wed and Sat to 21:00",
+   "cost": "Free to about 15,000 (check)",
+   "kind": "show",
+   "note": "Korean food-culture exhibition that closes on the last day of the trip. A good rainy-day pick for food lovers.",
+   "lat": 37.524,
+   "lon": 126.9803,
+   "confidence": "medium"
+  },
+  {
+   "id": "kbo-semi-playoff",
+   "name": "KBO baseball semi-playoff",
+   "name_ko": "2026 KBO 준플레이오프",
+   "city": "Seoul (Jamsil) / Gwangju",
+   "start": "2026-10-17",
+   "end": "2026-10-23",
+   "times": "Weekends about 14:00, weekdays 18:30",
+   "cost": "About 20,000-80,000 (not confirmed)",
+   "kind": "show",
+   "note": "Games come to Jamsil only if LG or Doosan advance. Postseason tickets sell out in minutes and usually need Korean ID checks. Do not plan around it; a pub screening is the realistic version.",
+   "lat": 37.5121,
+   "lon": 127.0719,
+   "confidence": "low"
+  },
+  {
+   "id": "seoul-music-festival-2026",
+   "name": "Seoul Music Festival 2026",
+   "name_ko": "2026 서울뮤직페스티벌",
+   "city": "Seoul",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "times": "Check",
+   "cost": "Check",
+   "kind": "festival",
+   "note": "On Nodeul Island. Lineup and tickets not verified.",
+   "lat": 37.5178,
+   "lon": 126.9586,
+   "confidence": "low"
+  },
+  {
+   "id": "gyeongbokgung-starlight-night-walk",
+   "name": "Gyeongbokgung Starlight Night Walk (foreigner-only sessions)",
+   "name_ko": "경복궁 별빛야행 (외국인 전용 회차)",
+   "city": "Seoul",
+   "start": "2026-10-21",
+   "end": "2026-10-24",
+   "times": "Two sessions a night: 18:20-20:10 and 19:30-21:20",
+   "cost": "60,000 per person (royal 12-dish meal, court music, guided night tour)",
+   "kind": "show",
+   "note": "SOLD OUT on Creatrip (the only channel) as of Oct 6. Cancellations only: max 2 tickets per booker, so 3 people need 2 bookers, and seats tend to reappear 1-2 at a time before each date's free-cancel cutoff (3 days before). Treat as a long shot; Mulbit Yeonhwa is the fallback.",
+   "lat": 37.5796,
+   "lon": 126.977,
+   "confidence": "high"
+  },
+  {
+   "id": "mulbit-yeonhwa-weekend-1",
+   "name": "Changgyeonggung Mulbit Yeonhwa night media-art show",
+   "name_ko": "창경궁 물빛연화",
+   "city": "Seoul",
+   "start": "2026-10-17",
+   "end": "2026-10-18",
+   "times": "Pond shows at 19:00, 19:30, 20:00 (about 16 min each); palace open to 21:00, last entry 20:00",
+   "cost": "1,000 (includes palace entry)",
+   "kind": "show",
+   "note": "Runs Oct 7-Nov 1, Wed-Sun only (off Mon 19 and Tue 20). Book on Ticketlink (up to 4 per person) or Creatrip. Up to 400 per session, so seats are far easier than Starlight.",
+   "lat": 37.583,
+   "lon": 126.9936,
+   "confidence": "high",
+   "place_id": "changgyeonggung"
+  },
+  {
+   "id": "mulbit-yeonhwa-week-2",
+   "name": "Changgyeonggung Mulbit Yeonhwa night media-art show",
+   "name_ko": "창경궁 물빛연화",
+   "city": "Seoul",
+   "start": "2026-10-21",
+   "end": "2026-10-25",
+   "times": "Pond shows at 19:00, 19:30, 20:00 (about 16 min each); palace open to 21:00, last entry 20:00",
+   "cost": "1,000 (includes palace entry; free admission on Wed Oct 21)",
+   "kind": "show",
+   "note": "Same show, second block of trip dates (Wed-Sun). Close to Ikseon-dong and Daehangno for dinner.",
+   "lat": 37.583,
+   "lon": 126.9936,
+   "confidence": "high",
+   "place_id": "changgyeonggung"
+  },
+  {
+   "id": "gyeongbokgung-saenggwabang",
+   "name": "Gyeongbokgung Saenggwabang royal tea and sweets",
+   "name_ko": "경복궁 생과방",
+   "city": "Seoul",
+   "start": "2026-10-17",
+   "end": "2026-10-26",
+   "times": "10:00, 11:40, 14:00, 15:40 (about 70 min); not on Tuesdays",
+   "cost": "About 15,000 (2025 price; 2026 not confirmed)",
+   "kind": "show",
+   "note": "Court teas and traditional sweets inside the palace. The closest thing to a Japanese tea-house moment in Seoul. Season runs Sep 2-Oct 26.",
+   "lat": 37.5784,
+   "lon": 126.9768,
+   "confidence": "medium",
+   "place_id": "gyeongbokgung"
+  },
+  {
+   "id": "deoksugung-night-seokjojeon",
+   "name": "Deoksugung \"Night at Seokjojeon\"",
+   "name_ko": "덕수궁 밤의 석조전",
+   "city": "Seoul",
+   "start": "2026-10-17",
+   "end": "2026-10-18",
+   "times": "18:00, 18:40, 19:15",
+   "cost": "About 30,000-50,000 (past years)",
+   "kind": "show",
+   "note": "Last two nights of the season. Korean-language and pre-sold; low priority on a jet-lag weekend.",
+   "lat": 37.5654,
+   "lon": 126.9747,
+   "confidence": "high"
+  },
+  {
+   "id": "changdeokgung-moonlight-tour-last-night",
+   "name": "Changdeokgung Moonlight Tour (last night)",
+   "name_ko": "창덕궁 달빛기행",
+   "city": "Seoul",
+   "start": "2026-10-17",
+   "end": "2026-10-17",
+   "times": "Evening, about 100 min",
+   "cost": "30,000",
+   "kind": "show",
+   "note": "Not doable: the final night is Korean-language and sold out, and the foreigner sessions ended Oct 11. Listed so nobody hunts for it. Visit Huwon by day instead.",
+   "lat": 37.5794,
+   "lon": 126.991,
+   "confidence": "high"
+  },
+  {
+   "id": "banpo-moonlight-rainbow-fountain",
+   "name": "Banpo Bridge Moonlight Rainbow Fountain",
+   "name_ko": "반포대교 달빛무지개분수",
+   "city": "Seoul",
+   "start": "2026-10-16",
+   "end": "2026-10-25",
+   "times": "12:00, 19:30, 20:00, 20:30, 21:00 (about 20 min each)",
+   "cost": "Free",
+   "kind": "show",
+   "note": "Daily until the season ends Oct 31. The night shows are lit. Watch from the Banpo Hangang Park steps or Sebitseom. Cancelled without notice for rain, wind or high water.",
+   "lat": 37.5124,
+   "lon": 126.9959,
+   "confidence": "high"
+  },
+  {
+   "id": "jamsu-car-free-sunday-oct18",
+   "name": "Car-free Jamsu Bridge festival",
+   "name_ko": "차 없는 잠수교 뚜벅뚜벅 축제",
+   "city": "Seoul",
+   "start": "2026-10-18",
+   "end": "2026-10-18",
+   "times": "About 12:00-21:00 (past years)",
+   "cost": "Free",
+   "kind": "festival",
+   "note": "The lower bridge under Banpo Bridge closes to cars on Sundays (Sep 6-Oct 25): markets, buskers, food trucks. Stay for the 19:30 fountain.",
+   "lat": 37.5146,
+   "lon": 126.9962,
+   "confidence": "medium"
+  },
+  {
+   "id": "jamsu-car-free-sunday-oct25",
+   "name": "Car-free Jamsu Bridge festival (final Sunday)",
+   "name_ko": "차 없는 잠수교 뚜벅뚜벅 축제",
+   "city": "Seoul",
+   "start": "2026-10-25",
+   "end": "2026-10-25",
+   "times": "About 12:00-21:00 (past years)",
+   "cost": "Free",
+   "kind": "festival",
+   "note": "Last day of the season, and departure day. Only works as a midday stroll if you are already in Seoul; leave for the airport by about 17:30.",
+   "lat": 37.5146,
+   "lon": 126.9962,
+   "confidence": "medium"
+  },
+  {
+   "id": "han-river-drone-light-show",
+   "name": "Han River drone light show",
+   "name_ko": "한강 드론 라이트쇼",
+   "city": "Seoul",
+   "start": "2026-10-17",
+   "end": "2026-10-24",
+   "times": "Select nights, about 20:00-21:00 (2025 pattern: Saturdays)",
+   "cost": "Free",
+   "kind": "show",
+   "note": "Listed Sep 12-Oct 31 on select nights; the 2026 nights are not confirmed. Check the Hangang Parks site. Weather-dependent.",
+   "lat": 37.5294,
+   "lon": 127.0699,
+   "confidence": "low"
+  },
+  {
+   "id": "gangneung-coffee-festival",
+   "name": "18th Gangneung Coffee Festival",
+   "name_ko": "제18회 강릉커피축제",
+   "city": "Gangneung",
+   "start": "2026-10-21",
+   "end": "2026-10-25",
+   "times": "10:00-21:00",
+   "cost": "Free entry; some classes and tastings paid",
+   "kind": "festival",
+   "note": "Main venue is Anmok Beach Coffee Street, spread citywide in 2026 (Jumunjin, Jungang Market, Ojukheon). Cafe stamp rally; seaside fireworks reported. Contact 033-647-6802.",
+   "lat": 37.772,
+   "lon": 128.9475,
+   "confidence": "high",
+   "place_id": "gangneung-anmok-gyeongpo"
+  },
+  {
+   "id": "yangyang-pine-mushroom-salmon-festival",
+   "name": "Yangyang Pine Mushroom & Salmon Festival",
+   "name_ko": "양양송이연어축제",
+   "city": "Yangyang",
+   "start": "2026-10-16",
+   "end": "2026-10-18",
+   "times": "Daytime",
+   "cost": "Free entry; songi dishes and salmon catching extra",
+   "kind": "festival",
+   "note": "Songi is Korea's matsutake. Ends before any option reaches the east coast (Mon 19 at the earliest), but songi dishes stay on Yangyang menus into late October.",
+   "lat": 38.0703,
+   "lon": 128.6236,
+   "confidence": "medium"
+  },
+  {
+   "id": "mingdongsan-silver-grass-festival",
+   "name": "Jeongseon Mingdongsan Silver Grass Festival",
+   "name_ko": "정선 민둥산 억새꽃축제",
+   "city": "Jeongseon",
+   "start": "2026-09-18",
+   "end": "2026-11-08",
+   "times": "Daylight",
+   "cost": "Free",
+   "kind": "festival",
+   "note": "Silver grass at its fullest. Remote, and no vehicle access or shuttle to Balgudeok this year; no option includes it.",
+   "lat": 37.2447,
+   "lon": 128.7668,
+   "confidence": "medium"
+  },
+  {
+   "id": "seorak-foliage-traffic-management",
+   "name": "Seoraksan foliage-season traffic control",
+   "name_ko": "설악산 단풍철 특별교통대책",
+   "city": "Sokcho",
+   "start": "2026-10-03",
+   "end": "2026-11-08",
+   "times": "All day, worst on weekends",
+   "cost": "",
+   "kind": "season",
+   "note": "Staged car limits into Sogongwon, free lots B and C with shuttles, and signs showing cable-car waits. Weekend buses from Seoul can take 1-3 h longer. Do Seorak on a weekday.",
+   "lat": 38.1716,
+   "lon": 128.4878,
+   "confidence": "high"
+  },
+  {
+   "id": "seoraksan-foliage-peak",
+   "name": "Seoraksan and Odaesan foliage peak",
+   "name_ko": "설악산 · 오대산 단풍 절정",
+   "city": "Sokcho / Pyeongchang",
+   "start": "2026-10-15",
+   "end": "2026-10-27",
+   "times": "",
+   "cost": "Free (cable car 16,000)",
+   "kind": "season",
+   "note": "Ridges about Oct 15-20, valleys about Oct 20-27; Odaesan about Oct 15-22. The only place on the trip at true peak.",
+   "lat": 38.1192,
+   "lon": 128.4656,
+   "confidence": "high"
+  },
+  {
+   "id": "gwangalli-drone-show-oct17",
+   "name": "Gwangalli M Drone Light Show",
+   "name_ko": "광안리 M 드론라이트쇼",
+   "city": "Busan",
+   "start": "2026-10-17",
+   "end": "2026-10-17",
+   "times": "19:00 and 21:00 (about 12-15 min each)",
+   "cost": "Free",
+   "kind": "show",
+   "note": "Every Saturday. This one is billed with lasers (\"Dimensional Station\"). No option is in Busan on Oct 17.",
+   "lat": 35.1532,
+   "lon": 129.1186,
+   "confidence": "high",
+   "place_id": "gwangalli-drone-show"
+  },
+  {
+   "id": "gwangalli-drone-show-oct24",
+   "name": "Gwangalli M Drone Light Show",
+   "name_ko": "광안리 M 드론라이트쇼 '숲의 멜로디'",
+   "city": "Busan",
+   "start": "2026-10-24",
+   "end": "2026-10-24",
+   "times": "19:00 and 21:00 (about 12-15 min each)",
+   "cost": "Free",
+   "kind": "show",
+   "note": "Show title \"Forest's Melody\". Watch from Gwangalli Beach facing Gwangan Bridge, then hoe at Millak. Cancelled for rain or wind; notice the day before or same day on gwangallimdrone.co.kr.",
+   "lat": 35.1532,
+   "lon": 129.1186,
+   "confidence": "high",
+   "place_id": "gwangalli-drone-show"
+  },
+  {
+   "id": "busan-jagalchi-festival",
+   "name": "Busan Jagalchi Festival",
+   "name_ko": "부산자갈치축제",
+   "city": "Busan",
+   "start": "2026-10-15",
+   "end": "2026-10-18",
+   "times": "Daytime to evening",
+   "cost": "Free; seafood extra",
+   "kind": "festival",
+   "note": "Seafood festival at Korea's biggest fish market. Ends before any option reaches Busan (Oct 22 at the earliest).",
+   "lat": 35.0966,
+   "lon": 129.0306,
+   "confidence": "medium",
+   "place_id": "jagalchi-market"
+  },
+  {
+   "id": "dongnae-eupseong-history-festival",
+   "name": "Dongnae Eupseong History Festival",
+   "name_ko": "제32회 동래읍성역사축제",
+   "city": "Busan",
+   "start": "2026-10-16",
+   "end": "2026-10-18",
+   "times": "Daytime and evening",
+   "cost": "Free",
+   "kind": "festival",
+   "note": "Reenactment of the 1592 battle of Dongnae, near Hurshimchung. Over before any option reaches Busan.",
+   "lat": 35.211,
+   "lon": 129.087,
+   "confidence": "medium"
+  },
+  {
+   "id": "busan-folk-arts-festival",
+   "name": "Busan Folk Arts Festival",
+   "name_ko": "부산종합민속예술제",
+   "city": "Busan",
+   "start": "2026-10-24",
+   "end": "2026-10-25",
+   "times": "Unknown",
+   "cost": "Likely free",
+   "kind": "festival",
+   "note": "Traditional folk performances. Venue and program not verified.",
+   "lat": null,
+   "lon": null,
+   "confidence": "low"
+  },
+  {
+   "id": "golgulsa-sunmudo",
+   "name": "Golgulsa Sunmudo martial-arts demonstration",
+   "name_ko": "골굴사 선무도 시범공연",
+   "city": "Gyeongju",
+   "start": "2026-10-17",
+   "end": "2026-10-25",
+   "times": "Most days, historically 15:00",
+   "cost": "Free",
+   "kind": "show",
+   "note": "Zen martial-arts show at a cave temple east of Gyeongju. Call 054-744-1689 to confirm the day you go.",
+   "lat": 35.7588,
+   "lon": 129.3797,
+   "confidence": "low",
+   "place_id": "golgulsa"
+  },
+  {
+   "id": "national-sports-festival-jeju",
+   "name": "107th National Sports Festival (Jeju)",
+   "name_ko": "제107회 전국체육대회",
+   "city": "Jeju",
+   "start": "2026-10-16",
+   "end": "2026-10-22",
+   "times": "All day",
+   "cost": "",
+   "kind": "festival",
+   "note": "About 30,000 athletes and officials across the island. Flights, hotels and rental cars are tighter and pricier Oct 16-22, which overlaps the island option's Jeju nights (Oct 20-22).",
+   "lat": 33.4996,
+   "lon": 126.5312,
+   "confidence": "high"
+  },
+  {
+   "id": "tamna-cultural-festival",
+   "name": "65th Tamna Cultural Festival",
+   "name_ko": "제65회 탐라문화제",
+   "city": "Jeju City",
+   "start": "2026-10-17",
+   "end": "2026-10-21",
+   "times": "Daytime and evening",
+   "cost": "Free",
+   "kind": "festival",
+   "note": "Jeju's biggest traditional culture festival: folk arts, parade, night theater, market. Moved this year to the Citizens' Welfare Town plaza.",
+   "lat": 33.4893,
+   "lon": 126.5271,
+   "confidence": "high"
+  },
+  {
+   "id": "jeju-folk-5-day-market",
+   "name": "Jeju Folk 5-Day Market",
+   "name_ko": "제주민속오일시장",
+   "city": "Jeju City",
+   "start": "2026-10-22",
+   "end": "2026-10-22",
+   "times": "08:00-18:00",
+   "cost": "Free",
+   "kind": "festival",
+   "note": "About 1,000 vendors on days ending in 2 and 7 (also Oct 17). Near the airport.",
+   "lat": 33.4932,
+   "lon": 126.4753,
+   "confidence": "high"
+  },
+  {
+   "id": "hueree-pink-muhly-festival",
+   "name": "Hueree Pink Muhly Festival",
+   "name_ko": "휴애리 핑크뮬리축제",
+   "city": "Seogwipo",
+   "start": "2026-10-01",
+   "end": "2026-11-05",
+   "times": "09:00-18:00",
+   "cost": "13,000",
+   "kind": "festival",
+   "note": "Jeju's pink muhly runs a little later than the mainland; mid to late October is the tail of its peak. Tangerines are still greenish.",
+   "lat": 33.3095,
+   "lon": 126.6356,
+   "confidence": "medium",
+   "place_id": "hueree-park"
+  },
+  {
+   "id": "seogwipo-chilsimni-festival",
+   "name": "Seogwipo Chilsimni Festival",
+   "name_ko": "서귀포칠십리축제",
+   "city": "Seogwipo",
+   "start": "2026-10-23",
+   "end": "2026-10-25",
+   "times": "10:00-20:00",
+   "cost": "Free",
+   "kind": "festival",
+   "note": "Street parade and drone show at the Cheonjiyeon Falls parking area. Starts the day the island option flies to Busan.",
+   "lat": 33.2469,
+   "lon": 126.5545,
+   "confidence": "high"
+  },
+  {
+   "id": "hwadam-autumn-season",
+   "name": "Hwadam Botanic Garden autumn season",
+   "name_ko": "화담숲 가을 단풍 성수기",
+   "city": "Gwangju (Gyeonggi)",
+   "start": "2026-10-23",
+   "end": "2026-11-15",
+   "times": "08:00-18:00 to Nov 1 (last entry 17:00)",
+   "cost": "11,000 + monorail 5,000-9,000",
+   "kind": "season",
+   "note": "Timed tickets on NOL (Yanolja/Interpark) only; foreign phones and cards may struggle. No closed days in the season. Color is early-to-near-peak on Oct 23-25.",
+   "lat": 37.3412,
+   "lon": 127.2919,
+   "confidence": "high",
+   "place_id": "hwadam-botanic-garden"
+  },
+  {
+   "id": "sanggang-solar-term",
+   "name": "Sanggang, \"frost descent\" solar term",
+   "name_ko": "상강 (霜降)",
+   "city": "Nationwide",
+   "start": "2026-10-23",
+   "end": "2026-10-23",
+   "times": "",
+   "cost": "",
+   "kind": "season",
+   "note": "The last autumn solar term: the traditional start of frost. Mountain mornings in Gangwon can touch 0 C from here on.",
+   "lat": null,
+   "lon": null,
+   "confidence": "high"
+  },
+  {
+   "id": "autumn-seafood-season",
+   "name": "Autumn seafood and songi season",
+   "name_ko": "가을 제철: 전어 · 대하 · 꽃게 · 송이",
+   "city": "Nationwide",
+   "start": "2026-10-16",
+   "end": "2026-10-25",
+   "times": "",
+   "cost": "",
+   "kind": "season",
+   "note": "Gizzard shad (jeoneo), salt-roasted prawns (daeha), fat male blue crab and hairtail are in season at Noryangjin, Jagalchi and Millak. Pine mushrooms (songi) finish in mid to late October around Yangyang. Domestic snow crab is NOT in season.",
+   "lat": null,
+   "lon": null,
+   "confidence": "high"
+  },
+  {
+   "id": "monday-closures-oct19",
+   "name": "Monday closures",
+   "name_ko": "월요일 휴궁 · 휴관",
+   "city": "Seoul",
+   "start": "2026-10-19",
+   "end": "2026-10-19",
+   "times": "All day",
+   "cost": "",
+   "kind": "closure",
+   "note": "Closed: Changdeokgung (and Huwon), Changgyeonggung, Deoksugung, Leeum, the War Memorial and DMZ tours; Mulbit Yeonhwa is off. Open: Gyeongbokgung and the National Museum of Korea. Mori in Busan and many omakase counters are also closed.",
+   "lat": 37.5794,
+   "lon": 126.991,
+   "confidence": "high"
+  },
+  {
+   "id": "tuesday-closures-oct20",
+   "name": "Tuesday closures",
+   "name_ko": "화요일 휴궁",
+   "city": "Seoul",
+   "start": "2026-10-20",
+   "end": "2026-10-20",
+   "times": "All day",
+   "cost": "",
+   "kind": "closure",
+   "note": "Closed: Gyeongbokgung (and Saenggwabang) and Jongmyo. Mulbit Yeonhwa is off (Wed-Sun only). Born and Bred is closed Tuesdays.",
+   "lat": 37.5796,
+   "lon": 126.977,
+   "confidence": "high"
+  },
+  {
+   "id": "jagalchi-third-tuesday",
+   "name": "Jagalchi main building may close (3rd Tuesday)",
+   "name_ko": "자갈치시장 정기휴무 (셋째 화요일)",
+   "city": "Busan",
+   "start": "2026-10-20",
+   "end": "2026-10-20",
+   "times": "All day",
+   "cost": "",
+   "kind": "closure",
+   "note": "The main building has historically closed on the 1st and 3rd Tuesday; Oct 20 is a 3rd Tuesday. Not verified for 2026. No option is in Busan that day.",
+   "lat": 35.0967,
+   "lon": 129.0305,
+   "confidence": "low",
+   "place_id": "jagalchi-market"
+  },
+  {
+   "id": "omakase-sun-mon-closures",
+   "name": "Many omakase and tasting counters closed",
+   "name_ko": "오마카세 · 파인다이닝 휴무",
+   "city": "Seoul / Busan",
+   "start": "2026-10-18",
+   "end": "2026-10-19",
+   "times": "Sun and Mon",
+   "cost": "",
+   "kind": "closure",
+   "note": "Mingles and Sushi Matsumoto close Sun-Mon; Onjium Sat-Mon; Mori (Busan) Mon. Plan the big sushi meal for Tue-Sat.",
+   "lat": null,
+   "lon": null,
+   "confidence": "medium-high"
+  },
+  {
+   "id": "bukchon-red-zone-hours",
+   "name": "Bukchon red zone visiting hours",
+   "name_ko": "북촌 레드존 관광 허용시간",
+   "city": "Seoul",
+   "start": "2026-10-17",
+   "end": "2026-10-25",
+   "times": "Tourists allowed 10:00-17:00 only",
+   "cost": "Fine up to 100,000 outside hours",
+   "kind": "closure",
+   "note": "Bukchon-ro 11-gil is a residential area with a tourist curfew 17:00-10:00. It applies to hanok-stay guests who are judged to be sightseeing.",
+   "lat": 37.5826,
+   "lon": 126.983,
+   "confidence": "high",
+   "place_id": "bukchon-hanok-village"
+  },
+  {
+   "id": "geunjeongjeon-restriction",
+   "name": "Gyeongbokgung Geunjeongjeon courtyard area restricted",
+   "name_ko": "경복궁 근정전 일원 출입 제한",
+   "city": "Seoul",
+   "start": "2026-09-02",
+   "end": "2026-10-31",
+   "times": "Palace hours",
+   "cost": "",
+   "kind": "closure",
+   "note": "Part of the throne-hall area is fenced off. The hall is still visible from the courtyard.",
+   "lat": 37.5786,
+   "lon": 126.977,
+   "confidence": "high",
+   "place_id": "gyeongbokgung"
+  },
+  {
+   "id": "wednesday-culture-day-free-palaces",
+   "name": "Culture Day: free palace entry",
+   "name_ko": "문화가 있는 날 궁궐 무료",
+   "city": "Seoul",
+   "start": "2026-10-21",
+   "end": "2026-10-21",
+   "times": "Palaces open to 21:00 (last entry 20:00)",
+   "cost": "Free",
+   "kind": "free-entry",
+   "note": "Every Wednesday: Deoksugung (since Aug 2026) plus Changgyeonggung, Changdeokgung (not Huwon) and Jongmyo (since Oct 2026). Gyeongbokgung is not included. Makes Wed Oct 21 a free palace evening.",
+   "lat": 37.5654,
+   "lon": 126.9747,
+   "confidence": "medium"
+  },
+  {
+   "id": "hanbok-free-palace-entry",
+   "name": "Free palace entry in hanbok",
+   "name_ko": "한복 착용 시 고궁 무료입장",
+   "city": "Seoul",
+   "start": "2026-10-17",
+   "end": "2026-10-25",
+   "times": "Palace open days",
+   "cost": "Free (hanbok rental extra)",
+   "kind": "free-entry",
+   "note": "Wear hanbok and the palaces and Jongmyo are free. Huwon (Secret Garden) still needs its own ticket.",
+   "lat": 37.5796,
+   "lon": 126.977,
+   "confidence": "high",
+   "place_id": "hanbok-rental"
+  },
+  {
+   "id": "national-museum-free-late",
+   "name": "National Museum of Korea: free, late on Wed and Sat",
+   "name_ko": "국립중앙박물관 무료 · 수 · 토 야간개장",
+   "city": "Seoul",
+   "start": "2026-10-17",
+   "end": "2026-10-25",
+   "times": "Daily 10:00-18:00; Wed and Sat to 21:00",
+   "cost": "Free (permanent galleries)",
+   "kind": "free-entry",
+   "note": "Open every day, including Monday when the palaces close. Late opening on Sat 17, Wed 21 and Sat 24.",
+   "lat": 37.524,
+   "lon": 126.9803,
+   "confidence": "high",
+   "place_id": "national-museum-korea"
+  }
+ ],
+ "guide": {
+  "japan_matches": [
+   {
+    "japan": "Kamakura",
+    "why_loved": "A seaside temple town: the little Enoden coastal train, old temples in the hills, small lanes and cafes, all an easy ride from the big city.",
+    "korea": [
+     {
+      "name": "Busan east coast: Blueline Sky Capsule, Cheongsapo and Haedong Yonggungsa",
+      "place_id": "blueline-park-sky-capsule",
+      "where": "Haeundae to Gijang, Busan",
+      "note": "The closest single match. A tiny rail capsule runs along the sea cliffs, then a Buddhist temple sits on the rocks over the waves. It is busier and more touristy than Kamakura. Capsule 55,000 per 3-person car, one way; book a weekday.",
+      "options": [
+       "classic",
+       "grandloop",
+       "island"
+      ],
+      "image": null
+     },
+     {
+      "name": "Gyeongju: the old Silla capital (Bulguksa, Seokguram, the tombs)",
+      "place_id": "bulguksa",
+      "where": "Gyeongju",
+      "note": "Like Kamakura it was a capital, and it is full of temples and history. The difference: no sea in town, and the sights are spread out, so plan taxis. School-trip crowds on weekdays.",
+      "options": [
+       "classic",
+       "grandloop"
+      ],
+      "image": null
+     },
+     {
+      "name": "Naksansa sea-cliff temple and Sokcho's Abai Village gaetbae raft",
+      "place_id": "naksansa",
+      "where": "Yangyang and Sokcho",
+      "note": "The most spiritual seaside temple: a cliff pavilion and a big Gwaneum statue facing the East Sea. Pairs with Seoraksan. No coastal train here, and Sokcho is a fishing town rather than a pretty one.",
+      "options": [
+       "foliage",
+       "grandloop"
+      ],
+      "image": null
+     },
+     {
+      "name": "Gangneung Anmok coffee beach, Gyeongpo lake and Ojukheon",
+      "place_id": "gangneung-anmok-gyeongpo",
+      "where": "Gangneung",
+      "note": "Small-city seaside charm with a cafe strip on the sand, a Joseon-era house, and the Coffee Festival on Oct 21-25. Temples are less central than in Kamakura.",
+      "options": [
+       "foliage"
+      ],
+      "image": null
+     },
+     {
+      "name": "Donghae coast line KTX-Eum, Gangneung to Gyeongju",
+      "place_id": null,
+      "where": "East coast rail, Gangneung to Gyeongju",
+      "note": "The \"little coastal train\" feeling, stretched to about 2 h 50 min. Sit on the left (east) side heading south for sea views between Jeongdongjin and Samcheok. It is a modern train, not a tram, and long stretches run inland or in tunnels.",
+      "options": [
+       "grandloop"
+      ],
+      "image": null
+     },
+     {
+      "name": "Seogwipo coast and Olle trail 7 (Jeju)",
+      "place_id": "olle-route-7-oedolgae",
+      "where": "Seogwipo, Jeju",
+      "note": "Sea-cliff walks, waterfalls and a harbor town. More nature and resort than temple town, and you need a car or taxis.",
+      "options": [
+       "island"
+      ],
+      "image": null
+     }
+    ]
+   },
+   {
+    "japan": "Shibuya",
+    "why_loved": "Neon, crowds, shopping and late-night energy: the feeling of being in the middle of a huge, young city.",
+    "korea": [
+     {
+      "name": "Hongdae and Yeonnam-dong",
+      "place_id": "hongdae-yeonnam",
+      "where": "Mapo, Seoul",
+      "note": "The best match for youth energy: buskers, neon, photo booths, karaoke (noraebang) and bars until late. Yeonnam's side streets feel more like Shimokitazawa. Busiest Fri-Sat.",
+      "options": [
+       "classic",
+       "foliage",
+       "island"
+      ],
+      "image": null
+     },
+     {
+      "name": "Myeongdong street food and Euljiro Nogari Alley",
+      "place_id": "myeongdong-euljiro",
+      "where": "Jung-gu, Seoul",
+      "note": "The densest neon and night stalls, then plastic stools and beer in Euljiro's printing-shop alleys. Myeongdong is touristy; many Euljiro bars close on Sundays.",
+      "options": [
+       "classic",
+       "foliage",
+       "island"
+      ],
+      "image": null
+     },
+     {
+      "name": "Gwangalli Beach drone show and Seomyeon",
+      "place_id": "gwangalli-drone-show",
+      "where": "Busan",
+      "note": "Saturday nights at Gwangalli: a free drone show (19:00 and 21:00) over the lit bridge, then raw fish at Millak. Seomyeon is Busan's smaller-scale neon downtown.",
+      "options": [
+       "classic",
+       "grandloop",
+       "island"
+      ],
+      "image": null
+     }
+    ]
+   },
+   {
+    "japan": "Izu ryokan",
+    "why_loved": "A traditional inn with a hot-spring bath, quiet rooms and a long dinner: slowing down after busy city days.",
+    "korea": [
+     {
+      "name": "Ragung, Gyeongju (hanok suite with private outdoor hot-spring bath)",
+      "place_id": null,
+      "lodging_id": "ragung",
+      "where": "Bomun, Gyeongju",
+      "note": "The closest single property. Open and bookable only on Wed Oct 21: about 200,000 for 3 (170,000 + 30,000 third adult), free cancel to Oct 14. No breakfast, isolated at night, and no kaiseki dinner, so eat in town first.",
+      "options": [
+       "classic",
+       "grandloop"
+      ],
+      "image": null
+     },
+     {
+      "name": "Paradise Hotel Busan with Cimer sea-view hot spring, and Hurshimchung",
+      "place_id": "hurshimchung",
+      "lodging_id": "paradise-hotel-busan",
+      "where": "Haeundae and Dongnae, Busan",
+      "note": "Onsen-by-the-sea feeling in Western rooms. Paradise's Special Deal includes Cimer (about 532,000 for 3 on Thu Oct 22; Sat Oct 24 is unavailable). Hurshimchung is a huge public hot-spring bath, 15,000 weekdays / 18,000 weekends, open to anyone.",
+      "options": [
+       "classic",
+       "grandloop",
+       "island"
+      ],
+      "image": null
+     },
+     {
+      "name": "Seorak hot springs: Hanwha Sorano with Waterpia, or Cheoksan",
+      "place_id": "seorak-waterpia",
+      "lodging_id": "hanwha-resort-seorak-sorano",
+      "where": "Sokcho, under Seoraksan",
+      "note": "A hot soak after a foliage hike, which is very Izu. Sorano's ALL INCLUSIVE rate (227,000 Mon-Thu) adds Waterpia and breakfast for 2; add 49,000 for the third pass. It feels like a water park, not an inn. Cheoksan has rooms with in-room hot-spring tubs at 120,000, but booking is by Korean phone or bank transfer.",
+      "options": [
+       "foliage",
+       "grandloop"
+      ],
+      "image": null
+     },
+     {
+      "name": "Seongyojang hanok stay, Gangneung",
+      "place_id": null,
+      "lodging_id": "seongyojang",
+      "where": "Gangneung",
+      "note": "A real Joseon-era manor with rooms on heated floors: the ryokan's quiet and tradition, but no hot spring. 168,000-191,000 with private bathroom, plus 15,000 per extra person.",
+      "options": [
+       "foliage"
+      ],
+      "image": null
+     },
+     {
+      "name": "Pinx Podo Hotel and Sanbangsan hot spring (Jeju)",
+      "place_id": "sanbangsan-hot-spring",
+      "lodging_id": "podo-hotel",
+      "where": "Andeok and Sanbangsan, Jeju",
+      "note": "Podo is an Itami Jun building with natural hot-spring water piped to every room and Korean-style rooms with floor bedding: the nearest thing to an onsen inn on Jeju, at about 385,000-550,000 a night (not live-checked). Sanbangsan is a public carbonated hot spring with outdoor pools, 14,000-19,000.",
+      "options": [
+       "island"
+      ],
+      "image": null
+     }
+    ]
+   },
+   {
+    "japan": "Sushi omakase",
+    "why_loved": "Sitting at a counter while a chef serves piece by piece, with very fresh fish.",
+    "korea": [
+     {
+      "name": "Seoul entry-level sushi counters (Sushi Jinsu, Sushi Chohi, Sushi Sora)",
+      "place_id": null,
+      "food_id": "sushi-jinsu",
+      "where": "Seoul",
+      "note": "Real Edomae-style counters with lunch from about 45,000-60,000 per person, bookable on CatchTable Global. Quality is good, not Tokyo-top.",
+      "options": [
+       "classic",
+       "foliage",
+       "grandloop",
+       "island"
+      ],
+      "image": null
+     },
+     {
+      "name": "Sushi Kanesaka Seoul (1 Michelin star)",
+      "place_id": null,
+      "food_id": "sushi-kanesaka-seoul",
+      "where": "Grand InterContinental Parnas, Samseong, Seoul",
+      "note": "The Ginza Kanesaka lineage. Lunch 230,000-280,000, dinner 330,000-380,000 (official 2026). Book by phone 02-559-7627 or the hotel site; 9 seats.",
+      "options": [
+       "classic",
+       "foliage",
+       "grandloop",
+       "island"
+      ],
+      "image": null
+     },
+     {
+      "name": "Busan: Iwa (aged-fish sushi) and Mori (kaiseki)",
+      "place_id": null,
+      "food_id": "iwa-busan",
+      "where": "Haeundae, Busan",
+      "note": "Iwa lunch is about 80,000, the best-value Michelin-listed counter. Mori is a Japanese-style kaiseki (about 250,000, closed Mon), the closest thing to a ryokan dinner. Both mostly book by phone, so ask your hotel.",
+      "options": [
+       "classic",
+       "grandloop",
+       "island"
+      ],
+      "image": null
+     },
+     {
+      "name": "Hoe markets: Noryangjin, Jagalchi, Millak",
+      "place_id": "noryangjin",
+      "food_id": "noryangjin-hoe",
+      "where": "Seoul and Busan",
+      "note": "The Korean way: pick a live fish downstairs, pay by weight, and eat it sliced upstairs (setting fee about 5,000-6,000 per person). Thick-cut and chewy, with spicy stew after. Not a counter experience. Agree the price per kg first.",
+      "options": [
+       "classic",
+       "foliage",
+       "grandloop",
+       "island"
+      ],
+      "image": null
+     },
+     {
+      "name": "Born and Bred hanu omakase",
+      "place_id": null,
+      "food_id": "born-and-bred",
+      "where": "Majang-dong, Seoul",
+      "note": "The omakase format with Korean beef instead of fish: 380,000 chef's tasting. Book 2-3 months ahead on CatchTable, so it may already be full. Closed Tue.",
+      "options": [
+       "classic",
+       "foliage",
+       "grandloop",
+       "island"
+      ],
+      "image": null
+     }
+    ]
+   }
+  ],
+  "food": {
+   "tiers": [
+    {
+     "tier": "Entry",
+     "price": "45,000-110,000 per person",
+     "examples": [
+      {
+       "name": "Sushi Jinsu",
+       "city": "Seoul (Seocho)",
+       "price": "Lunch omakase 45,000, free corkage (2026 blog)",
+       "booking": "CatchTable Global",
+       "note": "Best-value counter in Seoul.",
+       "closed": "Check on CatchTable",
+       "food_id": "sushi-jinsu"
+      },
+      {
+       "name": "Sushi Chohi",
+       "city": "Seoul (Gangnam)",
+       "price": "Lunch from 45,000, dinner from 110,000 (2026 article)",
+       "booking": "CatchTable Global",
+       "note": "Value counter; lunch is the deal.",
+       "closed": "Check on CatchTable",
+       "food_id": "sushi-chohi"
+      },
+      {
+       "name": "Sushi Sora",
+       "city": "Seoul (Gwanghwamun, Mapo and others)",
+       "price": "Lunch 50,000-60,000, dinner 100,000-110,000 (likely 2024-25 prices)",
+       "booking": "CatchTable Global",
+       "note": "Reliable chain; the Gwanghwamun branch is near the palaces.",
+       "closed": "Varies by branch",
+       "food_id": "sushi-sora"
+      },
+      {
+       "name": "Sushi Nee (L7 Haeundae)",
+       "city": "Busan",
+       "price": "Lunch 60,000, dinner 110,000",
+       "booking": "CatchTable or phone",
+       "note": "Takes parties up to 7, so 3 is easy.",
+       "closed": "Check on CatchTable",
+       "food_id": "sushi-nee-busan"
+      },
+      {
+       "name": "Iwa",
+       "city": "Busan (Haeundae)",
+       "price": "Lunch about 80,000",
+       "booking": "Phone +82 10-8543-3356 (ask your hotel to call)",
+       "note": "Chef ages his fish; Michelin Selected.",
+       "closed": "Open daily 11:30-22:00",
+       "food_id": "iwa-busan"
+      },
+      {
+       "name": "Umok (hanu omakase)",
+       "city": "Seoul (Dosan Park)",
+       "price": "99,000 counter (Dec 2024; likely higher now)",
+       "booking": "CatchTable Global",
+       "note": "Korean beef served omakase-style.",
+       "closed": "Check on CatchTable",
+       "food_id": "umok"
+      }
+     ]
+    },
+    {
+     "tier": "Mid",
+     "price": "100,000-200,000 per person",
+     "examples": [
+      {
+       "name": "Sushi Ima",
+       "city": "Busan (Haeundae)",
+       "price": "Dinner 180,000",
+       "booking": "CatchTable",
+       "note": "One of Busan's top sushi counters.",
+       "closed": "Check on CatchTable",
+       "food_id": "sushi-ima-busan"
+      },
+      {
+       "name": "Onjium",
+       "city": "Seoul (Seochon, facing Gyeongbokgung)",
+       "price": "Lunch about 140,000 (third-party)",
+       "booking": "Phone +82 2-6952-0024; hard to get",
+       "note": "Joseon court cuisine from a research kitchen. The most cultural meal in Seoul. Cash only per the Michelin listing.",
+       "closed": "Sat-Mon (lunch Tue-Fri)",
+       "food_id": "onjium"
+      },
+      {
+       "name": "Sushi Cho (Westin Josun)",
+       "city": "Seoul (City Hall)",
+       "price": "Lunch about 140,000+, dinner about 340,000",
+       "booking": "Westin Josun website or phone; English-speaking staff",
+       "note": "Easiest high-end counter for foreigners to book.",
+       "closed": "Check with the hotel",
+       "food_id": "sushi-cho"
+      },
+      {
+       "name": "Bicena (1 Michelin star)",
+       "city": "Seoul (Lotte World Tower 81F)",
+       "price": "Lunch about 170,000 (third-party)",
+       "booking": "CatchTable or Signiel website",
+       "note": "Korean tasting 81 floors up.",
+       "closed": "Check on CatchTable",
+       "food_id": "bicena"
+      }
+     ]
+    },
+    {
+     "tier": "High",
+     "price": "200,000-500,000 per person",
+     "examples": [
+      {
+       "name": "Sushi Kanesaka Seoul (1 star)",
+       "city": "Seoul (Samseong)",
+       "price": "Lunch 230,000-280,000, dinner 330,000-380,000 (official 2026)",
+       "booking": "Phone 02-559-7627 or hotel site; 9 seats",
+       "note": "Lunch at 12:00 is the smart way in.",
+       "closed": "Check with the hotel",
+       "food_id": "sushi-kanesaka-seoul"
+      },
+      {
+       "name": "Mori (1 star, kaiseki)",
+       "city": "Busan (Haeundae)",
+       "price": "About 250,000",
+       "booking": "Phone +82 51-731-9889 (CatchTable also reported)",
+       "note": "Dinner Tue-Fri 19:00, Sat-Sun 17:00. The best stand-in for a ryokan dinner.",
+       "closed": "Mon",
+       "food_id": "mori-busan"
+      },
+      {
+       "name": "Born and Bred (hanu omakase)",
+       "city": "Seoul (Majang-dong)",
+       "price": "380,000 chef's tasting",
+       "booking": "CatchTable, 2-3 months ahead; phone +82 2-2294-5005",
+       "note": "Asia's 50 Best 2026 #56. The upstairs a la carte is a fallback.",
+       "closed": "Tue",
+       "food_id": "born-and-bred"
+      },
+      {
+       "name": "Mingles (3 stars)",
+       "city": "Seoul (Cheongdam)",
+       "price": "Lunch 320,000 (since Mar 2026), dinner about 420,000",
+       "booking": "CatchTable Global (opens about 1 month ahead, sells out fast)",
+       "note": "Korea's only 3-star; modern Korean built on jang (fermented sauces).",
+       "closed": "Sun-Mon",
+       "food_id": "mingles"
+      },
+      {
+       "name": "Sushi Matsumoto (1 star)",
+       "city": "Seoul (Cheongdam)",
+       "price": "2026 price not found; expect about 250,000+ lunch",
+       "booking": "Phone +82 2-543-4334",
+       "note": "Japanese chef, classic Edomae.",
+       "closed": "Sun-Mon",
+       "food_id": "sushi-matsumoto"
+      },
+      {
+       "name": "Sosuheon (2 stars)",
+       "city": "Seoul (Mallijae, near Seoul Station)",
+       "price": "Dinner about 500,000",
+       "booking": "Phone +82 10-9694-3368, Korean only; ask a concierge",
+       "note": "Seoul's top sushi counter, 8 seats in a hanok.",
+       "closed": "Check by phone",
+       "food_id": "sosuheon"
+      }
+     ]
+    }
+   ],
+   "autumn": [
+    {
+     "item": "Gizzard shad",
+     "ko": "전어",
+     "where": "Noryangjin, Jagalchi, Millak",
+     "note": "The classic autumn fish: grilled whole or sliced. Still good in mid to late October."
+    },
+    {
+     "item": "Salt-roasted big prawns",
+     "ko": "대하 소금구이",
+     "where": "Noryangjin; Namdang port festival (to Nov 8, far west)",
+     "note": "Roasted on a bed of salt at the table. September to November."
+    },
+    {
+     "item": "Autumn male blue crab",
+     "ko": "가을 수꽃게",
+     "where": "Noryangjin; soy-marinated gejang restaurants",
+     "note": "Fat males after the summer ban. Ganjang-gejang is the famous dish."
+    },
+    {
+     "item": "Pine mushroom",
+     "ko": "송이버섯",
+     "where": "Yangyang near Naksansa and Seorak",
+     "note": "Korea's matsutake, mid September to mid/late October. Prices swing with the harvest."
+    },
+    {
+     "item": "Hairtail",
+     "ko": "갈치",
+     "where": "Jeju (Negeori Sikdang), grilled at Jagalchi",
+     "note": "Braised or grilled; peak September-October."
+    },
+    {
+     "item": "Red snow crab (not snow crab)",
+     "ko": "홍게",
+     "where": "Sokcho Dongmyeong port, Jumunjin, Gijang",
+     "note": "Domestic snow crab (daegae) is out of season until about December, so October daegae is imported. Red snow crab is the local choice. Prices are by weight; ask first."
+    },
+    {
+     "item": "Persimmons",
+     "ko": "홍시 · 곶감",
+     "where": "Hanok villages and markets everywhere",
+     "note": "Soft ripe hongsi and dried gotgam, October-November."
+    },
+    {
+     "item": "New-crop rice",
+     "ko": "햅쌀",
+     "where": "Any good hansik restaurant",
+     "note": "The first rice of the year from October; noticeably better."
+    },
+    {
+     "item": "Roasted chestnuts and sweet potatoes, hotteok, bungeoppang",
+     "ko": "군밤 · 군고구마 · 호떡 · 붕어빵",
+     "where": "Street carts in Myeongdong, Insadong; BIFF Square year-round",
+     "note": "Carts start appearing in late October, more in November."
+    }
+   ],
+   "regional": [
+    {
+     "city": "Seoul",
+     "dishes": [
+      {
+       "dish": "Market crawl: mung-bean pancake, beef tartare, mayak gimbap",
+       "ko": "빈대떡 · 육회 · 마약김밥",
+       "where": "Gwangjang Market (Soonhee-ne, Buchon Yukhoe)",
+       "price": "About 20,000-25,000 per person"
+      },
+      {
+       "dish": "Pork belly over charcoal",
+       "ko": "삼겹살",
+       "where": "Geumdwaeji Sikdang, Sindang-dong (daily 11:30-23:00, walk-in queue)",
+       "price": "About 30,000"
+      },
+      {
+       "dish": "Straw-smoked beef short rib",
+       "ko": "우대갈비",
+       "where": "Mongtan, Samgakji (long on-site waitlist)",
+       "price": "About 45,000"
+      },
+      {
+       "dish": "Ginseng chicken soup",
+       "ko": "삼계탕",
+       "where": "Tosokchon, Seochon",
+       "price": "About 21,000"
+      },
+      {
+       "dish": "Knife-cut noodles and dumplings",
+       "ko": "칼국수 · 만두",
+       "where": "Myeongdong Kyoja",
+       "price": "About 11,000"
+      },
+      {
+       "dish": "Whole-chicken hot pot",
+       "ko": "닭한마리",
+       "where": "Jinokhwa Halmae, Dongdaemun",
+       "price": "About 15,000"
+      }
+     ]
+    },
+    {
+     "city": "Busan",
+     "dishes": [
+      {
+       "dish": "Pork and rice soup",
+       "ko": "돼지국밥",
+       "where": "Ssangdungi Dwaeji Gukbap, Daeyeon-dong",
+       "price": "About 11,000"
+      },
+      {
+       "dish": "Busan wheat cold noodles",
+       "ko": "밀면",
+       "where": "Gaegeum Milmyeon, or Choryang Milmyeon by Busan Station",
+       "price": "About 10,000"
+      },
+      {
+       "dish": "Raw fish with a bridge view",
+       "ko": "활어회",
+       "where": "Millak Fishermen's Market, Gwangalli",
+       "price": "About 25,000-35,000"
+      },
+      {
+       "dish": "Pick-your-fish sashimi",
+       "ko": "자갈치 활어회",
+       "where": "Jagalchi Market, Nampo",
+       "price": "About 30,000"
+      },
+      {
+       "dish": "Pufferfish soup",
+       "ko": "복국",
+       "where": "Geumsu Bokguk, Haeundae (open 24 h)",
+       "price": "About 18,000"
+      },
+      {
+       "dish": "Seed hotteok and fish cakes",
+       "ko": "씨앗호떡 · 어묵",
+       "where": "BIFF Square; Samjin Eomuk, Yeongdo",
+       "price": "2,500-8,000"
+      },
+      {
+       "dish": "Grilled clams by the sea",
+       "ko": "조개구이",
+       "where": "Cheongsapo shacks",
+       "price": "About 25,000"
+      }
+     ]
+    },
+    {
+     "city": "Gyeongju",
+     "dishes": [
+      {
+       "dish": "Lettuce-wrap set with 20+ side dishes",
+       "ko": "쌈밥",
+       "where": "Ssambap street, south of Daereungwon",
+       "price": "About 15,000-20,000"
+      },
+      {
+       "dish": "Egg-strand gimbap",
+       "ko": "교리김밥",
+       "where": "Gyori Gimbap, Gyochon (may close Wed; sells out)",
+       "price": "About 6,000"
+      },
+      {
+       "dish": "Red-bean pastry",
+       "ko": "황남빵",
+       "where": "Hwangnam-ppang main shop",
+       "price": "About 1,000 a piece"
+      },
+      {
+       "dish": "Aristocratic hanjeongsik course",
+       "ko": "한정식",
+       "where": "Yoseokgung, Gyochon (reserve)",
+       "price": "About 50,000-150,000 (prior-year)"
+      }
+     ]
+    },
+    {
+     "city": "Sokcho",
+     "dishes": [
+      {
+       "dish": "Squid sundae and Hamheung cold noodles",
+       "ko": "오징어순대 · 함흥냉면",
+       "where": "Abai Village (Dancheon Sikdang)",
+       "price": "About 15,000"
+      },
+      {
+       "dish": "Sweet-spicy fried chicken",
+       "ko": "닭강정",
+       "where": "Manseok Dakgangjeong, Jungang Market",
+       "price": "About 8,000 (box 20,000-25,000)"
+      },
+      {
+       "dish": "Spicy cold raw-fish soup",
+       "ko": "물회",
+       "where": "Bongpo Meoguri Jip (long lunch queue)",
+       "price": "About 20,000-22,000"
+      },
+      {
+       "dish": "Steamed red snow crab",
+       "ko": "홍게찜",
+       "where": "Dongmyeong port",
+       "price": "About 40,000 (by weight)"
+      }
+     ]
+    },
+    {
+     "city": "Gangneung",
+     "dishes": [
+      {
+       "dish": "Seawater-curdled soft tofu",
+       "ko": "초당순두부",
+       "where": "Chodang Halmeoni Sundubu",
+       "price": "About 12,000"
+      },
+      {
+       "dish": "Spicy jjamppong soft-tofu stew",
+       "ko": "짬뽕순두부",
+       "where": "Donghwa Gaden (go before 11:00)",
+       "price": "About 13,000"
+      },
+      {
+       "dish": "Specialty coffee",
+       "ko": "스페셜티 커피",
+       "where": "Terarosa Coffee factory; Anmok Beach cafes",
+       "price": "About 9,000"
+      },
+      {
+       "dish": "Market snacks: crab croquettes, dakgangjeong",
+       "ko": "중앙시장 먹거리",
+       "where": "Gangneung Jungang Market",
+       "price": "About 15,000"
+      }
+     ]
+    },
+    {
+     "city": "Jeju",
+     "dishes": [
+      {
+       "dish": "Black pork barbecue",
+       "ko": "흑돼지구이",
+       "where": "Dombedon or Donsadon, Jeju City",
+       "price": "About 30,000-35,000"
+      },
+      {
+       "dish": "Pork noodle soup",
+       "ko": "고기국수",
+       "where": "Jamae Guksu or Olle Guksu",
+       "price": "About 12,000"
+      },
+      {
+       "dish": "Braised hairtail",
+       "ko": "갈치조림",
+       "where": "Negeori Sikdang, Seogwipo",
+       "price": "About 25,000"
+      },
+      {
+       "dish": "Abalone hot-pot rice",
+       "ko": "전복돌솥밥",
+       "where": "Myeongjin Jeonbok, east coast",
+       "price": "About 18,000"
+      }
+     ]
+    }
+   ],
+   "how_to_book": [
+    "CatchTable Global (app, English) takes foreign phones and cards. It is the main way to book omakase and tasting menus. A deposit is charged at booking.",
+    "Many top counters (Sosuheon, Sushi Matsumoto, Onjium, Mori, Iwa) book only by phone. Email your hotel and ask the concierge to call, or message the restaurant on Instagram.",
+    "Lunch omakase costs 30-50% less than dinner at the same counter (Kanesaka: 230,000 lunch vs 330,000 dinner).",
+    "No-show rules are strict: typically 50% charged within 3 days and 100% within 24 h. Cancel early if plans change.",
+    "Naver reservations often need a Korean phone number; do not count on them.",
+    "Popular casual places (Mongtan, Geumdwaeji, Haeundae Amso Galbi) use walk-in or on-site waitlists. Arrive before opening or late.",
+    "Plan sushi for Tue-Sat. Many counters close Sun-Mon, Mori closes Mon and Born and Bred closes Tue.",
+    "At fish markets, agree the price per kg before the fish is killed, then pay a setting fee upstairs (about 5,000-6,000 per person) plus extra for the spicy fish stew."
+   ]
+  },
+  "arrival": [
+   "Before you fly (Oct 14 or 15, US time): each traveler files the free Korea e-Arrival Card at e-arrivalcard.go.kr. Screenshot the confirmation. Avoid look-alike sites that charge a fee.",
+   "Before you fly: buy and install an eSIM (about 25,000-45,000 for 8-10 days of unlimited data). Leave it switched off until landing.",
+   "Book the first hotel from the night of Oct 16 and tell the hotel you arrive about 07:00 on Oct 17. Then the room is ready when you are.",
+   "05:15 Sat Oct 17: land at Incheon, Terminal 1 assumed (check the Air Premia app the week before). Immigration at dawn is usually quick; the e-Arrival Card replaces the paper form. Expect fingerprints and a photo.",
+   "After bags and customs (about 06:00): switch on the eSIM. Withdraw some cash at an airport ATM. Buy a T-money card at a convenience store on the arrivals floor (3,000-5,000 plus a cash top-up), or get a WOWPASS from a machine.",
+   "Getting to the hotel, easiest: a regular taxi from the arrivals rank, about 65,000-80,000 for all 3 including tolls, 50-70 min at dawn, door to door. About the same as 3 AREX tickets. Kakao T also works.",
+   "Getting to the hotel, by train: the first AREX Express from T1 leaves at 05:23, too early for you; the next ones run about every 30-40 min. 13,000 each (11,000 with a voucher), 43 min to Seoul Station, then a short taxi. The all-stop AREX is about 4,750 but slow and crowded with bags.",
+   "About 07:00: check in, shower, sleep until late morning. Keep day 1 gentle: a short walk, a long lunch and a sunset plan.",
+   "Without the Oct 16 night: leave bags at the front desk. Early check-in on a Saturday is rarely guaranteed before 12:00-15:00."
+  ],
+  "departure": [
+   "Sun Oct 25, flight at 21:55 from Incheon T1. Aim to be at the airport by about 19:00.",
+   "Air Premia is not part of the Seoul Station City Airport Terminal check-in, so your bags travel with you to the airport.",
+   "Bags after check-out: ask the hotel to hold them (free), or use T-Luggage at Seoul Station, Myeongdong, Hongdae or Jongno 3-ga (09:00-22:00, about 6,000-13,000 per large bag). T-Luggage also delivers to the airport for 20,000-29,000 per bag, but its listing says T2; confirm T1 before relying on it.",
+   "From central Seoul: leave by about 17:30. AREX Express from Seoul Station takes 43 min (13,000); a taxi is about 65,000-80,000 for 3 but Sunday-evening traffic can be slow.",
+   "From Busan: take a KTX that reaches Seoul Station by about 16:30 (leave Busan about 13:30-14:00; 54,400 each, about 2 h 20-2 h 40). Book now: Sunday afternoon trains sell out. Then AREX from Seoul Station.",
+   "From Gangwon: do not plan a Sunday-afternoon bus to Seoul; foliage traffic can add hours. Use the KTX from Gangneung if you must.",
+   "At the airport: tax-refund kiosks are before security for larger purchases. Spend or refund leftover WOWPASS and T-money balances."
+  ],
+  "money_apps": [
+   {
+    "name": "T-money card",
+    "what": "Tap card for subways, buses and many taxis nationwide",
+    "note": "3,000-5,000 at convenience stores. Top up with cash only. Seoul subway base fare 1,550."
+   },
+   {
+    "name": "WOWPASS",
+    "what": "Prepaid debit card with T-money built in",
+    "note": "Top up with a foreign card or cash at WOWPASS machines. Useful when a US card fails in a Korean app or shop."
+   },
+   {
+    "name": "Climate Card (tourist)",
+    "what": "Unlimited Seoul subway and buses",
+    "note": "About 5,000 for 1 day to 20,000 for 7 days, plus the card. Does not cover AREX. Only pays off on heavy-transit Seoul days; T-money is simpler."
+   },
+   {
+    "name": "Naver Map",
+    "what": "Walking and transit directions, with an English interface",
+    "note": "Google Maps lacks walking directions in Korea. Search in Korean names (the name_ko fields) when English fails."
+   },
+   {
+    "name": "Kakao Map",
+    "what": "Second map app; good for bus times and place details",
+    "note": "Handy cross-check, especially outside Seoul."
+   },
+   {
+    "name": "Kakao T",
+    "what": "Taxi hailing",
+    "note": "Takes foreign phone numbers and cards. Kakao's English app k.ride and Uber also work in Seoul and Busan. Seoul base fare 4,800."
+   },
+   {
+    "name": "Papago",
+    "what": "Translation, including camera mode for menus and signs",
+    "note": "Better than generic translators for Korean."
+   },
+   {
+    "name": "CatchTable Global",
+    "what": "Restaurant bookings in English",
+    "note": "Works with foreign phones and cards; charges deposits."
+   },
+   {
+    "name": "Korail+ (korail.com)",
+    "what": "KTX and other train tickets",
+    "note": "Since the Sep 2026 KTX-SRT merger, Seoul, Yongsan and Suseo trains are all in one app. Foreign cards can fail 3-D Secure; fall back to korail.com on desktop, a station counter, or a reseller (Trip.com, Klook)."
+   },
+   {
+    "name": "Kobus / T-money Bus",
+    "what": "Express and intercity bus tickets (e.g. Seoul to Sokcho)",
+    "note": "Kiosks and counters at terminals take foreign cards and cash; Klook sells some routes."
+   },
+   {
+    "name": "Foreign credit cards",
+    "what": "Visa and Mastercard work almost everywhere, including taxis and markets",
+    "note": "Amex less so. Carry some cash for street food and small stalls. Use a card with no foreign-transaction fee."
+   },
+   {
+    "name": "Tax refund",
+    "what": "Look for \"Tax Free\" shops",
+    "note": "Instant refund at the register for 15,000 to under 1,000,000 per receipt (about 5,000,000 total per trip); show your passport. Bigger purchases: kiosks at Incheon before security."
+   },
+   {
+    "name": "Tipping",
+    "what": "Not expected",
+    "note": "Not in restaurants, taxis or hotels. Upscale hotels include a service charge."
+   }
+  ],
+  "entry": [
+   "US citizens are exempt from K-ETA through Dec 31 2026. No K-ETA is needed for Oct 17.",
+   "Each traveler must file the free Korea e-Arrival Card online (e-arrivalcard.go.kr) within 3 days before arrival. For a 05:15 Oct 17 landing, do it Oct 14-15 US time, before the flight. Paper arrival cards ended Jan 1 2026.",
+   "Optional: a K-ETA (10,000, k-eta.go.kr only, valid 3 years) replaces the e-Arrival Card and covers future trips. Not needed for this one.",
+   "Use only the .go.kr government sites. Look-alike sites charge fees.",
+   "Driving (island option only): bring a physical International Driving Permit from AAA, plus your US license and passport. No IDP means no rental car."
+  ],
+  "weather": {
+   "summary": "Crisp, mostly dry autumn. Warm afternoons in the cities, cold mornings in the mountains. Forecasters expected 2026 to run warmer than normal, which is why foliage is late in the south.",
+   "temps": "Seoul: highs 17-21 C, lows 7-12 C (October normal 20.2 / 10.6 C; 52 mm of rain on about 5 days). Gyeongju and Busan: highs 20-23 C, lows 10-13 C. Jeju: highs 21-23 C, lows 14-16 C, windy. Seorak and Odaesan valleys: highs 14-19 C, early mornings 3-8 C; ridges and the cable-car top can be near 0-5 C, with frost possible after Sanggang (Oct 23). Sunrise/sunset in Seoul: Oct 17 06:40/17:53, Oct 21 06:44/17:48, Oct 25 06:48/17:43. Sokcho and Gyeongju are about 5-10 min earlier; Jeju about 5 min later in the evening.",
+   "packing": [
+    "Layers: t-shirts, a long-sleeve shirt and a warm fleece or light down jacket each.",
+    "Windproof, water-resistant shell (mountains, coast, Jeju wind).",
+    "Hat and light gloves for Seorak mornings and the cable-car top.",
+    "Comfortable walking shoes with grip; trail shoes if you plan Biseondae, Ulsanbawi or Juongol.",
+    "Slip-on shoes: you remove them in hanok stays, temples and many restaurants.",
+    "A small packable umbrella.",
+    "Swimsuit for Waterpia, Cimer or Ananti pools (public baths like Hurshimchung are nude and single-sex, no swimsuit).",
+    "Compact daypack, and luggage small enough to carry on trains (pack light if changing hotels often).",
+    "Passport (needed for tax refunds, Starlight entry and hotel check-in), a no-fee credit card, and some cash.",
+    "Phone power bank; Korea uses 220 V Type C/F plugs, so bring adapters.",
+    "Physical AAA International Driving Permit, only if you will rent a car on Jeju."
+   ]
+  },
+  "general_book_now": [
+   {
+    "what": "All KTX and KTX-Eum tickets",
+    "when": "Now",
+    "how": "Korail+ app or korail.com (English). All Oct 17-25 trains are already on sale. Foliage weekends, Sunday Oct 25 trains to Seoul and the 3-a-day Donghae KTX-Eum sell out first.",
+    "priority": "critical"
+   },
+   {
+    "what": "Every hotel night",
+    "when": "Now, within 48 h",
+    "how": "Official sites, NOL World, Agoda or Booking. Inventory is very thin: many shortlisted hotels were already sold out on Oct 6. Prefer free-cancellation rates where offered.",
+    "priority": "critical"
+   },
+   {
+    "what": "First hotel from the night of Oct 16",
+    "when": "Now",
+    "how": "Same booking as the first stop, so the room is ready at about 07:00 after the 05:15 landing.",
+    "priority": "high"
+   },
+   {
+    "what": "Omakase or tasting dinner",
+    "when": "Now (CatchTable opens about 1 month ahead)",
+    "how": "CatchTable Global; phone-only counters through your hotel concierge. Pick Tue-Sat.",
+    "priority": "high"
+   },
+   {
+    "what": "e-Arrival Card for each traveler",
+    "when": "Oct 14-15 (US time), within 3 days before landing",
+    "how": "e-arrivalcard.go.kr only",
+    "priority": "critical"
+   },
+   {
+    "what": "eSIM with data",
+    "when": "Before flying",
+    "how": "Any tourist eSIM (KT, SKT, LG U+ or Airalo-type), about 25,000-45,000 for 8-10 days",
+    "priority": "high"
+   },
+   {
+    "what": "Starlight Night Walk cancellation watch",
+    "when": "Check daily until each date's free-cancel cutoff (Oct 18-21 for the Oct 21-24 sessions)",
+    "how": "Creatrip only, max 2 tickets per person, so 2 of you need accounts. Long shot; book Mulbit Yeonhwa as the backup.",
+    "priority": "normal"
+   },
+   {
+    "what": "Changgyeonggung Mulbit Yeonhwa night show",
+    "when": "Now",
+    "how": "Ticketlink (up to 4 per person) or Creatrip. 1,000 each; Wed-Sun 19:00, 19:30 or 20:00.",
+    "priority": "normal"
+   },
+   {
+    "what": "Huwon (Secret Garden) tour",
+    "when": "6 days ahead at 10:00 KST (e.g. Oct 12 for Oct 18)",
+    "how": "Changdeokgung official booking site. Closed Mondays.",
+    "priority": "normal"
+   },
+   {
+    "what": "Tell your card issuer you are traveling",
+    "when": "Before flying",
+    "how": "Your bank app. 3-D Secure codes go to your US phone number, so keep it reachable.",
+    "priority": "normal"
+   }
+  ]
+ }
+}

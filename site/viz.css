@@ -1,0 +1,215 @@
+/* viz.css - styles for viz.js (route map, foliage chart, events strip).
+ * Colors come only from the page's CSS custom properties (--paper --card --ink --muted --line --celadon[-soft] --maple[-soft]
+ * --ginkgo[-soft] --sea[-soft] --land) and fonts from --font-display / --font-body / --font-mono. Every class is prefixed vz-. */
+
+/* ------------------------------------------------------------------ shared */
+.vz-sr {
+  position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap; border: 0;
+}
+
+/* ------------------------------------------------------------------ map */
+.vz-host { position: relative; overflow: hidden; min-height: 260px; background: var(--sea-soft); }
+.vz-map { position: absolute; inset: 0; min-width: 0; }
+.vz-svg {
+  position: absolute; inset: 0; width: 100%; height: 100%; display: block;
+  touch-action: none; cursor: grab; user-select: none; -webkit-user-select: none;
+}
+.vz-svg:active { cursor: grabbing; }
+
+.vz-sea { fill: var(--sea-soft); }
+.vz-neighbor {
+  fill: var(--land); stroke: var(--line); stroke-width: 1; fill-rule: evenodd; vector-effect: non-scaling-stroke; stroke-linejoin: round;
+}
+.vz-prov {
+  fill: var(--card); stroke: var(--line); stroke-width: 1; fill-rule: evenodd; vector-effect: non-scaling-stroke; stroke-linejoin: round;
+}
+.vz-han { fill: var(--sea-soft); stroke: none; fill-rule: evenodd; }
+.vz-muni { fill: none; stroke: var(--line); stroke-width: 0.5; vector-effect: non-scaling-stroke; stroke-linejoin: round; }
+.vz-map:not(.vz-zoomed) .vz-l-muni { display: none; }
+
+/* route links */
+.vz-link { fill: none; vector-effect: non-scaling-stroke; stroke-linecap: round; stroke-linejoin: round; stroke-width: 3; }
+.vz-link--rail { stroke: var(--celadon); }
+.vz-link--bus { stroke: var(--sea); stroke-dasharray: 9 6; stroke-linecap: butt; }
+.vz-link--flight { stroke: var(--sea); stroke-dasharray: 0.1 7; }
+.vz-link--ferry, .vz-link--car { stroke: var(--muted); stroke-dasharray: 9 6; stroke-linecap: butt; }
+.vz-link--icn { stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 0.1 5; }
+
+/* markers (these live in constant-size groups, so px here are screen px) */
+.vz-base-dot { fill: var(--paper); stroke: var(--ink); stroke-width: 2.5; }
+.vz-icn-dot { fill: var(--card); stroke: var(--muted); stroke-width: 1.75; }
+.vz-label {
+  font-family: var(--font-body); font-size: 12.5px; font-weight: 600; fill: var(--ink);
+  paint-order: stroke fill; stroke: var(--paper); stroke-width: 4px; stroke-linejoin: round; pointer-events: none;
+}
+.vz-label-sub { font-family: var(--font-mono); font-size: 11px; font-weight: 400; fill: var(--muted); }
+.vz-label--icn { font-family: var(--font-mono); font-size: 11px; font-weight: 500; fill: var(--muted); }
+
+/* day focus */
+.vz-connector {
+  fill: none; stroke: var(--ink); stroke-width: 1.25; stroke-opacity: 0.7; vector-effect: non-scaling-stroke;
+  stroke-linejoin: round; stroke-linecap: round;
+}
+.vz-food-dot { fill: var(--ginkgo); stroke: var(--paper); stroke-width: 1.5; }
+.vz-pin { cursor: pointer; outline: none; }
+.vz-pin-bg { fill: var(--ink); stroke: var(--paper); stroke-width: 2; }
+.vz-pin-num { font-family: var(--font-mono); font-size: 11.5px; font-weight: 500; fill: var(--paper); pointer-events: none; }
+.vz-pin-ring { fill: none; stroke: var(--celadon); stroke-width: 3; display: none; }
+.vz-pin:focus-visible .vz-pin-ring { display: inline; }
+.vz-pin:hover .vz-pin-bg, .vz-pin:focus-visible .vz-pin-bg { fill: var(--celadon); }
+.vz-pin-stem { stroke: var(--ink); stroke-width: 1.25; display: none; }
+.vz-pin-dot { fill: var(--ink); display: none; }
+.vz-pin.vz-is-displaced .vz-pin-stem, .vz-pin.vz-is-displaced .vz-pin-dot { display: inline; }
+
+/* dim the route while a day is focused (it stays visible for context) */
+.vz-focused .vz-l-links, .vz-focused .vz-l-bases { opacity: 0.35; }
+@media (prefers-reduced-motion: no-preference) {
+  .vz-l-links, .vz-l-bases { transition: opacity 0.3s; }
+}
+
+/* hover / focus card */
+.vz-card {
+  position: absolute; left: 0; top: 0; z-index: 3; width: max-content; max-width: min(280px, calc(100% - 16px));
+  padding: 0.5rem 0.65rem; background: var(--card); color: var(--ink); border: 1px solid var(--ink); box-shadow: 3px 3px 0 var(--line);
+  font-family: var(--font-body); font-size: 0.8rem; line-height: 1.4; pointer-events: none; opacity: 0; visibility: hidden;
+}
+.vz-card.vz-is-on { opacity: 1; visibility: visible; }
+.vz-card-item + .vz-card-item { margin-top: 0.5rem; padding-top: 0.5rem; border-top: 1px dashed var(--line); }
+.vz-card-time { font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); }
+.vz-card-title { font-weight: 600; font-size: 0.9rem; line-height: 1.3; margin: 0.1rem 0; }
+.vz-card-kind { font-family: var(--font-mono); font-size: 0.6875rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.vz-card-detail { margin: 0.25rem 0 0; color: var(--ink); }
+
+/* overlay controls */
+.vz-ctl { position: absolute; top: 8px; right: 8px; z-index: 2; display: flex; gap: 4px; }
+.vz-btn {
+  min-width: 32px; height: 32px; padding: 0 0.6rem; font-family: var(--font-mono); font-size: 0.8rem; font-weight: 500; line-height: 1;
+  color: var(--ink); background: var(--card); border: 1px solid var(--line); border-radius: 2px; cursor: pointer;
+}
+.vz-btn:hover { border-color: var(--ink); }
+.vz-btn:active { background: var(--paper); }
+.vz-btn:focus-visible, .vz-chip:focus-visible, .vz-more > summary:focus-visible, .vz-check-input:focus-visible {
+  outline: 2px solid var(--ink); outline-offset: 2px;
+}
+@media (pointer: coarse) { .vz-btn { min-width: 40px; height: 40px; } }
+
+.vz-maplegend {
+  position: absolute; left: 8px; bottom: 8px; z-index: 2; margin: 0; padding: 0.3rem 0.5rem; list-style: none; display: flex; flex-wrap: wrap; gap: 0.15rem 0.8rem;
+  max-width: calc(100% - 16px); background: var(--card); border: 1px solid var(--line); font-family: var(--font-mono); font-size: 0.6875rem; color: var(--muted);
+}
+.vz-maplegend:empty { display: none; }
+.vz-maplegend-item { display: inline-flex; align-items: center; gap: 0.35rem; }
+.vz-swatch { display: inline-block; width: 22px; height: 0; border-top: 3px solid var(--muted); }
+.vz-swatch--rail { border-top-color: var(--celadon); }
+.vz-swatch--bus { border-top: 3px dashed var(--sea); }
+.vz-swatch--flight { border-top: 3px dotted var(--sea); }
+.vz-swatch--ferry, .vz-swatch--car { border-top: 3px dashed var(--muted); }
+.vz-swatch--icn { border-top: 2px dotted var(--muted); }
+
+.vz-hint {
+  position: absolute; left: 50%; bottom: 40px; z-index: 3; transform: translateX(-50%); max-width: calc(100% - 24px); padding: 0.35rem 0.7rem;
+  background: var(--ink); color: var(--paper); font-family: var(--font-mono); font-size: 0.75rem; text-align: center;
+  pointer-events: none; opacity: 0;
+}
+.vz-hint.vz-is-on { opacity: 0.92; }
+@media (prefers-reduced-motion: no-preference) {
+  .vz-hint { transition: opacity 0.2s; }
+}
+
+/* ------------------------------------------------------------------ foliage chart */
+.vz-fol { min-width: 0; }
+.vz-fol-summary { margin: 0 0 0.5rem; font-weight: 500; }
+.vz-keys { display: flex; flex-wrap: wrap; gap: 0.3rem 1.1rem; margin: 0 0 0.75rem; padding: 0; list-style: none; font-size: 0.8rem; color: var(--muted); }
+.vz-key { display: inline-flex; align-items: center; gap: 0.4rem; }
+.vz-key-sw { display: inline-block; width: 22px; height: 10px; border: 1px solid var(--line); }
+.vz-key-sw--early { background: var(--maple-soft); border-color: var(--maple); }
+.vz-key-sw--maple { background: var(--maple); border-color: var(--maple); }
+.vz-key-sw--ginkgo { background: var(--ginkgo); border-color: var(--ginkgo); }
+.vz-key-sw--grass { background: var(--celadon); border-color: var(--celadon); }
+.vz-key-sw--trip { background: var(--line); border: 1px dashed var(--muted); }
+.vz-key-sw--visit { width: 9px; height: 9px; margin: 0 6px; background: var(--ink); border: 0; transform: rotate(45deg); }
+
+.vz-scroll { position: relative; max-width: 100%; overflow-x: auto; }
+.vz-fol-svg { display: block; font-family: var(--font-body); }
+
+.vz-band-rect { fill: var(--line); fill-opacity: 0.6; stroke: var(--muted); stroke-width: 1; stroke-dasharray: 3 3; }
+.vz-band-label { font-family: var(--font-mono); font-size: 11px; font-weight: 500; letter-spacing: 0.06em; text-transform: uppercase; fill: var(--ink); }
+.vz-gridline { stroke: var(--line); stroke-width: 1; }
+.vz-axis { stroke: var(--muted); stroke-width: 1; }
+.vz-tick { font-family: var(--font-mono); font-size: 11px; fill: var(--muted); }
+.vz-rowline { stroke: var(--line); stroke-width: 1; }
+
+.vz-fol-row { cursor: pointer; outline: none; --vz-strong: var(--maple); --vz-soft: var(--maple-soft); }
+.vz-fol-row.vz-k-ginkgo { --vz-strong: var(--ginkgo); --vz-soft: var(--ginkgo-soft); }
+.vz-fol-row.vz-k-grass { --vz-strong: var(--celadon); --vz-soft: var(--celadon-soft); }
+.vz-fol-hit { fill: var(--card); fill-opacity: 0; stroke: none; pointer-events: all; }
+.vz-fol-row:hover .vz-fol-hit { fill-opacity: 0.7; }
+.vz-fol-row.vz-is-selected .vz-fol-hit { fill-opacity: 0.85; stroke: var(--ink); stroke-width: 1.5; }
+.vz-fol-row:focus-visible .vz-fol-hit { fill-opacity: 0.7; stroke: var(--ink); stroke-width: 2; }
+.vz-fol-name { font-size: 12.5px; font-weight: 400; fill: var(--ink); }
+.vz-fol-name--narrow { font-size: 11.5px; }
+.vz-fol-row.vz-is-visited .vz-fol-name { font-weight: 600; }
+.vz-fol-region { font-size: 11px; fill: var(--muted); }
+.vz-bar-soft { fill: var(--vz-soft); stroke: var(--vz-strong); stroke-width: 1; }
+.vz-bar-peak { fill: var(--vz-strong); }
+.vz-fol-dates { font-family: var(--font-mono); font-size: 10.5px; fill: var(--muted); paint-order: stroke fill; stroke: var(--paper); stroke-width: 3px; stroke-linejoin: round; }
+.vz-visit { fill: var(--ink); stroke: var(--paper); stroke-width: 1.5; }
+
+/* shared detail panel (foliage + events) */
+.vz-detail { margin-top: 0.75rem; max-width: 68ch; padding: 0.6rem 0.8rem; background: var(--card); border: 1px solid var(--line); border-left: 3px solid var(--ink); font-size: 0.9rem; }
+.vz-detail[hidden] { display: none; }
+.vz-detail-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: 0.15rem 0.6rem; }
+.vz-detail-name { font-weight: 600; }
+.vz-detail-ko { color: var(--muted); font-size: 0.8rem; }
+.vz-detail-meta { margin-top: 0.15rem; font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); }
+.vz-detail-note { margin: 0.4rem 0 0; line-height: 1.5; }
+
+/* ------------------------------------------------------------------ events strip */
+.vz-ev { min-width: 0; }
+.vz-ev-bar { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem 1rem; margin-bottom: 0.6rem; }
+.vz-check { display: inline-flex; align-items: center; gap: 0.5rem; min-height: 32px; font-size: 0.9rem; cursor: pointer; }
+.vz-check-input { width: 18px; height: 18px; margin: 0; accent-color: var(--celadon); cursor: pointer; }
+.vz-ev-note { font-size: 0.8rem; color: var(--muted); }
+
+.vz-ev-scroll { position: relative; max-width: 100%; overflow-x: auto; padding-bottom: 0.25rem; }
+.vz-ev-grid { display: grid; grid-template-columns: repeat(var(--vz-cols, 9), minmax(150px, 1fr)); }
+@media (min-width: 700px) {
+  .vz-ev-grid { grid-template-columns: repeat(var(--vz-cols, 9), minmax(118px, 1fr)); }
+}
+.vz-ev-col { min-width: 0; padding: 0 0.4rem 0.6rem; border-left: 1px solid var(--line); }
+.vz-ev-col:last-child { border-right: 1px solid var(--line); }
+.vz-ev-head { margin: 0 -0.4rem 0.45rem; padding: 0.4rem 0.4rem 0.35rem; border-bottom: 2px solid var(--ink); }
+.vz-ev-datebox { display: flex; align-items: baseline; gap: 0.4rem; }
+.vz-ev-date { font-family: var(--font-mono); font-size: 0.8rem; font-weight: 500; letter-spacing: 0.06em; }
+.vz-ev-ko { font-size: 0.8rem; color: var(--muted); }
+.vz-ev-base { min-height: 1.3em; margin-top: 0.1rem; font-size: 0.8rem; line-height: 1.3; color: var(--muted); overflow-wrap: anywhere; }
+.vz-ev-head--travel { background: var(--celadon-soft); border-bottom-color: var(--celadon); }
+.vz-ev-head--travel .vz-ev-base { color: var(--ink); font-weight: 600; }
+.vz-ev-arrow { color: var(--celadon); font-weight: 700; }
+
+.vz-ev-list { display: grid; gap: 4px; margin: 0; padding: 0; list-style: none; }
+.vz-ev-item { min-width: 0; }
+.vz-ev-empty { padding: 0.2rem 0.1rem; font-size: 0.75rem; color: var(--muted); }
+
+.vz-chip {
+  --vz-chip-bg: var(--celadon-soft); --vz-chip-edge: var(--celadon);
+  display: flex; flex-direction: column; align-items: flex-start; gap: 1px; width: 100%; margin: 0; padding: 0.3rem 0.4rem 0.35rem;
+  font: inherit; font-size: 0.75rem; line-height: 1.3; text-align: left; color: var(--ink);
+  background: var(--vz-chip-bg); border: 0; border-left: 3px solid var(--vz-chip-edge); border-radius: 0; cursor: pointer;
+}
+.vz-chip--closure { --vz-chip-bg: var(--maple-soft); --vz-chip-edge: var(--maple); }
+.vz-chip--season { --vz-chip-bg: var(--ginkgo-soft); --vz-chip-edge: var(--ginkgo); }
+.vz-chip--free-entry { --vz-chip-bg: var(--sea-soft); --vz-chip-edge: var(--sea); }
+.vz-chip--away { background: none; color: var(--muted); border: 1px dashed var(--line); border-left: 3px dashed var(--vz-chip-edge); }
+.vz-chip:hover { filter: none; box-shadow: inset 0 0 0 1px var(--vz-chip-edge); }
+.vz-chip.vz-is-selected { box-shadow: inset 0 0 0 2px var(--ink); }
+.vz-chip-kind { font-family: var(--font-mono); font-size: 0.625rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.vz-chip-name { font-weight: 500; overflow-wrap: anywhere; }
+.vz-chip-times {
+  font-family: var(--font-mono); font-size: 0.6875rem; color: var(--muted); overflow-wrap: anywhere;
+  display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden;
+}
+.vz-more > summary { padding: 0.25rem 0.2rem; font-family: var(--font-mono); font-size: 0.75rem; color: var(--muted); cursor: pointer; }
+.vz-more[open] > summary { margin-bottom: 4px; }
+.vz-ev-list--more { margin: 0; }
