@@ -1,0 +1,310 @@
+{
+  "domain": "followup-gangwon_lodging_and_hotspring_status",
+  "as_of": "2026-10-06",
+  "method_note": "Live per-night prices were pulled on Oct 6, 2026 for check-ins on Mon Oct 19 through Sat Oct 24 (one night each), searched for 3 adults. Sources: mom-mom.net (it resells Yanolja and Webtour inventory and embeds the live offer JSON) and yeogi.com (property pages loaded in a browser). Yanolja, Agoda and Trip.com pages could not be scraped (403 or JavaScript only). Waug ignored the date parameters, so its prices were discarded. Prices are KRW per room per night, VAT included. Korean OTAs usually need a Korean phone number for membership prices. Expect Agoda, Trip.com or NOL World to be roughly 0-15% higher (assumption, not checked).",
+  "resolution": "Gangwon lodging now has live prices (high confidence for the dates checked; prices move daily). Weekday rates for a room that sleeps 3 adults: Osaek Greenyard 123-160k; Seongyojang hanok 78k (shared bathroom) or 168-191k (private bathroom); St. John's Gangneung about 140-175k (the 3rd person sleeps free up to the room maximum); Hanwha Sorano family condo 192k; Sol Beach Yangyang condo 189-194k; Skybay Gyeongpo about 260k including the 22k fee for the 3rd person; Lotte Resort Sokcho 330-341k, or 218-274k with an 18:00 'sunset' check-in; Kensington Hotel Seorak 360-460k, with few rooms left and Tue Oct 20 sold out for 3 people. Friday Oct 23 runs about 15-30% above weekdays. Saturday Oct 24 runs 1.4-1.8x weekdays, and Greenyard and Sol Beach (Sono-direct listing) were sold out that night. The file's warning that Saturday costs 1.5-2x weekdays holds. Hot springs: Osaek Greenyard's carbonated spring and jjimjilbang are operating in Oct 2026 (live listing notices, and an Aug 24, 2026 visit report). The spring is open 06:00-22:00; entry is 18,000 for the public, 13,000 for guests, and 28,000/20,000 with the jjimjilbang. One caveat: the signature carbonated pool is cool, not hot. Cheoksan Hot Spring is confirmed for 2026: 53°C alkaline water, a public sauna open daily 05:30-20:00 (outdoor baths until 19:00), 11,000 per adult, and private family baths at 50k/70k per 3 hours. It also has on-site rooms with private hot-spring tubs, priced at 120k per night for 3-4 people in October (its peak season runs Oct 1-Nov 15). That makes it the best-value 'onsen ryokan' substitute in Gangwon, but booking is by phone or bank transfer in Korean. Waterpia: a room-only stay at Sorano does NOT include it. Guests get a discounted day pass instead: 49,000 per adult in low season (from Oct 12), and the night spa costs 27,000. Sorano's '[10월] 추캉스 ALL INCLUSIVE' rate includes Waterpia day passes and breakfast for 2 adults, at 227k on weekdays, 256k on Friday and 316k on Saturday. That is only 35k more than room-only, so for 3 adults it is the best deal: add 49k for the third Waterpia pass and optionally 30k for the third breakfast. Seongyojang: confirmed live with many 3-person rooms (check-in 16:00, check-out 10:00).",
+  "lodging": [
+    {
+      "id": "hanwha-resort-seorak-sorano",
+      "name": "Hanwha Resort Seorak Sorano",
+      "name_ko": "한화리조트 설악 쏘라노",
+      "city": "Sokcho",
+      "area": "Nohak-dong (Seorak entrance), next to Seorak Waterpia",
+      "type": "hot-spring-resort",
+      "lat": 38.1965,
+      "lon": 128.539,
+      "room_for_3": "Deluxe (FAM) family condo sleeps 4 as standard (max 4-6 depending on listing), so 3 adults pay no extra-person fee (the fee is 10,000 per person above standard). The condo types have a kitchen; the hotel-type and Teenieping rooms do not.",
+      "price_krw_per_night_low": 192000,
+      "price_krw_per_night_high": 316000,
+      "price_note": "Live on Oct 6, 2026 (mom-mom/Webtour and yeogi, 3 adults). Room-only Deluxe FAM/FTB/FTL: 192,000 Mon-Thu Oct 19-22, 226,000 Fri Oct 23, 296,000 Sat Oct 24. The '[10월][추캉스 ALL INCLUSIVE]' rate adds Waterpia day passes and Arte breakfast buffet for 2 adults: 227,000 on weekdays, 256,000 Fri, 316,000 Sat. A third Waterpia pass is 49,000 (guest low-season rate) and a third breakfast about 30,000 (guest rate; the walk-in price is 37,000).",
+      "highlights": "The weekday all-inclusive rate is the best value in Gangwon: room, 2 Waterpia hot-spring day passes and 2 breakfasts for 227k. Waterpia is a hot-spring water park with outdoor baths and a night spa looking at Ulsanbawi. It is the closest big resort to Seoraksan's Sogongwon entrance.",
+      "drawbacks": "Older condo buildings and a family or kid-heavy crowd, with breakfast queues reported. Waterpia closes at 17:00 (last entry 16:30); the night spa runs 18:00-20:30. Only 1 room was left at some rates.",
+      "booking": "mom-mom.net (Webtour), yeogi.com (property 6426 '한화리조트 설악 쏘라노 본관'), or hanwharesort.co.kr directly. Mobile coupons for package passes arrive by KakaoTalk after check-in, or ask at the front desk before check-in.",
+      "sources": [
+        "https://mom-mom.net/travel/properties/695ba71a7c4b817000c924c0",
+        "https://www.yeogi.com/domestic-accommodations/6426",
+        "https://mom-mom.net/shop/products/6aab6edf8689d45996ec372a"
+      ],
+      "confidence": "high",
+      "image_query": "Hanwha Resort Seorak Sorano Waterpia Ulsanbawi"
+    },
+    {
+      "id": "kensington-hotel-seorak",
+      "name": "Kensington Hotel Seorak",
+      "name_ko": "켄싱턴호텔 설악",
+      "city": "Sokcho",
+      "area": "Seorak-dong, inside the park entrance zone (5-minute walk to the park gate)",
+      "type": "hotel",
+      "lat": 38.1745,
+      "lon": 128.496,
+      "room_for_3": "Deluxe Ondol (standard 3, max 4), Premier Twin or Premier Family Twin (3/3), Executive (Family) Twin (3/3), and Korean, Western or Diana suites (4/4). Standard rooms take only 2.",
+      "price_krw_per_night_low": 359900,
+      "price_krw_per_night_high": 479900,
+      "price_note": "Live on yeogi, Oct 6, 2026, 3 adults, room only. Mon Oct 19: 359,900 (Deluxe Ondol). Tue Oct 20: every room for 3+ sold out. Wed Oct 21: 359,900. Thu Oct 22: 459,900 (only Executive Family Twin left). Fri Oct 23: 379,900. Sat Oct 24: 479,900 (Executive Twin, 1 left). The '속초 온천여행' package adds 20,000 and includes 2 Cheoksan Hot Spring tickets, a cable-car discount and a 10k hotel voucher. Breakfast packages add about 60-85k.",
+      "highlights": "The only hotel inside the park zone: walk to Sinheungsa and the cable car before the day-trippers' traffic arrives. Its British-heritage theme gives it character.",
+      "drawbacks": "The most expensive of the set, about 1.9x Sorano on weekdays. Inventory is nearly gone (1-2 rooms left on most dates), so book now or drop it.",
+      "booking": "yeogi.com (property 6428) or kensington.co.kr.",
+      "sources": [
+        "https://www.yeogi.com/domestic-accommodations/6428"
+      ],
+      "confidence": "high",
+      "image_query": "Kensington Hotel Seorak Sokcho autumn"
+    },
+    {
+      "id": "lotte-resort-sokcho",
+      "name": "Lotte Resort Sokcho",
+      "name_ko": "롯데리조트 속초",
+      "city": "Sokcho",
+      "area": "Daepo-dong (Oeongchi), beachfront",
+      "type": "resort",
+      "lat": 38.1684,
+      "lon": 128.6093,
+      "room_for_3": "Hotel Deluxe or Grand Deluxe Family Twin (3/3), Condo Deluxe 18평 (3/3), Condo Family 23평 (4/4), and Junior Family Suite (4/4).",
+      "price_krw_per_night_low": 218000,
+      "price_krw_per_night_high": 578000,
+      "price_note": "Live on mom-mom, Oct 6, 2026, 3 adults. Regular rates (Webtour): hotel Deluxe Family Twin or condo Family 23평 at 341k Mon/Tue/Thu and 330k Wed, 422k Fri Oct 23, 578k Sat Oct 24. Yanolja 'Sunset Check-in' rates (18:00 in, 10:00 out, single night only): 218-274k on weekdays, 288k Fri, 377k Sat. A one-off 'super deal' Deluxe Family Twin was 235k on Wed Oct 21.",
+      "highlights": "Every room has an ocean view, and the heated infinity pool sits over the sea. Oeongchi coastal walk.",
+      "drawbacks": "The water park costs extra: 65,000 per adult, or 33,000 for the infinity pool only. Regular rates run 1.7x Sorano.",
+      "booking": "mom-mom.net (Yanolja and Webtour listings), yeogi, Agoda, lotteresort.com.",
+      "sources": [
+        "https://mom-mom.net/travel/properties/64f0bce20e9d8fca1f9134fa",
+        "https://mom-mom.net/travel/properties/695ba7e47c4b817000c9264b"
+      ],
+      "confidence": "high",
+      "image_query": "Lotte Resort Sokcho infinity pool sea"
+    },
+    {
+      "id": "sol-beach-yangyang",
+      "name": "Sol Beach Yangyang (Sono)",
+      "name_ko": "쏠비치 양양",
+      "city": "Yangyang",
+      "area": "Naksan beach",
+      "type": "resort",
+      "lat": 38.095,
+      "lon": 128.664,
+      "room_for_3": "Resort Family (with kitchen, beds) is 4/6 and Resort Suite is 5/8. Hotel Executive Family Twin is 4/5. Hotel Family Superior and Suite Deluxe are 2/3 (an extra-person fee may apply).",
+      "price_krw_per_night_low": 189000,
+      "price_krw_per_night_high": 387000,
+      "price_note": "Live on mom-mom, Oct 6, 2026, 3 adults. Resort Family condo: 189-194k Mon-Thu, 234-240k Fri Oct 23, 326k Sat Oct 24 (the Sono-direct listing was sold out Saturday). Add 45k for the 'Water-ful' package (2 water-park passes) or 59k for breakfast for 2. Hotel Executive Family Twin: 245-251k weekdays, 284-301k Fri, 387k Sat.",
+      "highlights": "Mediterranean-style beachfront, about 10 minutes to Naksansa for sunrise. The condo kitchen helps keep costs down.",
+      "drawbacks": "Kitschy styling, and you need a car or taxi. It is 25-30 minutes from the Seorak entrance.",
+      "booking": "mom-mom.net, yeogi, sonohotelsresorts.com.",
+      "sources": [
+        "https://mom-mom.net/travel/properties/695ba7507c4b817000c92528",
+        "https://mom-mom.net/travel/properties/64f0bcd40e9d8fca1f9133f6",
+        "https://mom-mom.net/travel/properties/695ba74e7c4b817000c92523",
+        "https://mom-mom.net/travel/properties/64f0bfc6b599166c3d1a00c6"
+      ],
+      "confidence": "high",
+      "image_query": "Sol Beach Yangyang resort Naksan beach"
+    },
+    {
+      "id": "skybay-gyeongpo",
+      "name": "Skybay Hotel Gyeongpo",
+      "name_ko": "스카이베이 호텔 경포",
+      "city": "Gangneung",
+      "area": "Gyeongpo beach / Gangmun-dong",
+      "type": "hotel",
+      "lat": 37.803,
+      "lon": 128.911,
+      "room_for_3": "Most twins are set up for 2, with a max of 3: the 3rd person costs 22,000 per night, paid at the hotel. '[3인 전용]' Deluxe or Executive Twin rates already include the 3rd guest. Deluxe Family Twin is 4/4.",
+      "price_krw_per_night_low": 240000,
+      "price_krw_per_night_high": 395000,
+      "price_note": "Live on yeogi, Oct 6, 2026, 3 adults. Executive Twin (ocean view) Goodchoice rate: 233-248k Mon-Thu, plus 22k for the 3rd person, so about 255-270k. '[3인 전용]' Deluxe Twin (pine or lake view): 300,300 on weekdays and Fri. Fri Oct 23: cheapest Deluxe about 256k + 22k = 278k. Sat Oct 24: about 323k + 22k = 345k, and 3-person-only Deluxe 343-373k. The rooftop infinity pool costs extra, unless you take the '인피니티풀 2인 포함' rate (+50k).",
+      "highlights": "The 20th-floor infinity pool looks over Gyeongpo beach and the lake. The hotel sits between the sea and Gyeongpo Lake.",
+      "drawbacks": "In-room jacuzzis are not available. The sauna costs 15,000 and closes the first Wednesday of each month. It is big and busy.",
+      "booking": "yeogi.com (property 49688), Agoda, skybaygyeongpo.com.",
+      "sources": [
+        "https://www.yeogi.com/domestic-accommodations/49688"
+      ],
+      "confidence": "high",
+      "image_query": "Skybay Hotel Gyeongpo infinity pool"
+    },
+    {
+      "id": "st-johns-gangneung",
+      "name": "St. John's Hotel Gangneung",
+      "name_ko": "세인트존스 호텔",
+      "city": "Gangneung",
+      "area": "Gangmun beach",
+      "type": "hotel",
+      "lat": 37.792,
+      "lon": 128.922,
+      "room_for_3": "Superior Twin (2/3) and Superior Family Twin (2/4): extra guests stay free up to the room maximum, with extra bedding at 22,000 per night. Superior Bunk Twin is 4/4.",
+      "price_krw_per_night_low": 138000,
+      "price_krw_per_night_high": 300000,
+      "price_note": "Live on yeogi (member price) and mom-mom, Oct 6, 2026, 3 adults. Superior Twin (no ocean view): 138-155k Mon-Thu, 176k Fri Oct 23, 267k Sat Oct 24. Partial-ocean Gorgeous Twin: 148-182k weekdays, 206k Fri, 298k Sat. Bunk Twin (4/4): 215-253k weekdays and Fri, 377-385k Sat. Budget about 22k more for proper 3rd bedding.",
+      "highlights": "The best-value big hotel on the beach. It is a walk to Chodang sundubu village and Gangmun beach, and has a year-round heated Pine infinity pool.",
+      "drawbacks": "A huge, busy property. The Ocean infinity pool is summer-only. Rooms are not cleaned on 2-night stays (towels and water are still supplied). The pool costs extra.",
+      "booking": "yeogi.com (property 48951), mom-mom.net, Agoda.",
+      "sources": [
+        "https://www.yeogi.com/domestic-accommodations/48951",
+        "https://mom-mom.net/travel/properties/64f0bcde0e9d8fca1f9134ae"
+      ],
+      "confidence": "high",
+      "image_query": "St John's Hotel Gangneung Gangmun beach"
+    },
+    {
+      "id": "seongyojang-hanok-stay",
+      "name": "Seongyojang Hanok Stay",
+      "name_ko": "강릉 선교장 한옥스테이",
+      "city": "Gangneung",
+      "area": "Unjeong-dong, near Gyeongpo Lake",
+      "type": "hanok",
+      "lat": 37.7867,
+      "lon": 128.8851,
+      "room_for_3": "Haengrangchae 1-5 (servants' wing): 2 small ondol rooms (plus a loft in #1 and #2), sleeps 4, shared outdoor toilet and shower. Jungsarang (random allocation): 4 bedrooms with private bathroom, 4/6. Choga 1/2 (thatched cottage): 2 bedrooms, kitchen, private bathroom, 6/6. Yeonjidang heritage house: 3 rooms plus daecheong maru, shared bathroom, 6/6. Seobyeoldang heritage house: big room, small room and nu-maru pavilion, private bathroom, 4/6.",
+      "price_krw_per_night_low": 78000,
+      "price_krw_per_night_high": 315000,
+      "price_note": "Live on mom-mom (Yanolja), Oct 6, 2026, 3 adults. Mon-Thu: Haengrangchae 78k; Jungsarang 168k (not offered Thu Oct 22); Choga or Yeonjidang 191k; Seobyeoldang 281k (Mon only). Fri Oct 23 and Sat Oct 24: Haengrangchae 112k; Jungsarang 191k; Choga or Yeonjidang 225k; Seobyeoldang 315k. Extra persons above standard cost 15,000 each.",
+      "highlights": "Sleep inside a 300-year-old noble estate. The grounds are quiet after the day visitors leave. This is the strongest 'ryokan' stand-in for atmosphere, though it has no bath culture. Seobyeoldang or Choga give a private bathroom.",
+      "drawbacks": "Check-in is 16:00 and check-out 10:00. Haengrangchae rooms share an outdoor bathroom, so pick Jungsarang, Choga or Seobyeoldang for privacy. Floor bedding (yo). No onsen.",
+      "booking": "mom-mom.net or Yanolja; phone 050-703-8155. The knsj.co.kr/seongyojang site was unreachable on Oct 6, 2026.",
+      "sources": [
+        "https://mom-mom.net/travel/properties/6894cf18c73b6627799ba90a"
+      ],
+      "confidence": "high",
+      "image_query": "Seongyojang Gangneung hanok autumn"
+    },
+    {
+      "id": "osaek-greenyard",
+      "name": "Osaek Greenyard Hotel",
+      "name_ko": "오색그린야드호텔",
+      "city": "Yangyang",
+      "area": "Osaek, Seo-myeon (at the Jujeongol trailhead, 647 m elevation)",
+      "type": "hot-spring-resort",
+      "lat": 38.08,
+      "lon": 128.537,
+      "room_for_3": "Hotel Deluxe 25평 (3/3), Hotel Family 30평 (4/4), Grand Family 35평 (5/5). Extra persons cost 20,000 each.",
+      "price_krw_per_night_low": 123000,
+      "price_krw_per_night_high": 287000,
+      "price_note": "Live on mom-mom (Yanolja) and yeogi, Oct 6, 2026, 3 adults. Deluxe 25평 'Special Offer' (room only, random room assigned): 123-130k Mon-Thu, 189k Fri Oct 23. Regular Deluxe: 159-163k weekdays. The '온캉스' package with onsen and jjimjilbang included: about 205k weekdays, or 287k Fri for a Family 30평. Sat Oct 24: SOLD OUT on both platforms.",
+      "highlights": "Korea's only carbonated-alkaline compound spring (renovated Apr 2024), at the foot of Jujeongol gorge, the classic Seorak foliage valley. It is the nearest thing to a mountain onsen hotel and the cheapest Seorak base.",
+      "drawbacks": "Dated rooms. The signature carbonated pool is cool, not hot (you sit about 5 minutes until bubbles form), so it feels unlike a Japanese onsen. The hotel is 25-30 minutes from Sokcho, and buses are sparse.",
+      "booking": "mom-mom.net, yeogi.com (property 7362), phone +82-33-670-1004. greenyard.co.kr did not respond on Oct 6, 2026.",
+      "sources": [
+        "https://mom-mom.net/travel/properties/64f0bcdb0e9d8fca1f913463",
+        "https://www.yeogi.com/domestic-accommodations/7362",
+        "https://www.yeogi.com/content/tripholic-dom-ko-yangyang-hanjeungmak-onsen-course"
+      ],
+      "confidence": "high",
+      "image_query": "Osaek Greenyard Hotel Jujeongol autumn"
+    },
+    {
+      "id": "cheoksan-hotspring-hotel",
+      "name": "Cheoksan Hot Spring Resort (rooms)",
+      "name_ko": "척산온천휴양촌",
+      "city": "Sokcho",
+      "area": "Nohak-dong, Gwangwang-ro 327 (about 10 minutes' drive from the Seorak entrance)",
+      "type": "hot-spring-resort",
+      "lat": 38.1901,
+      "lon": 128.553,
+      "room_for_3": "Twin (3/4), Ondol (4/5), Ondol Family (3/4, check-in from 18:00), Twin Family (3/4), Hwangto Ondol (4/5). The KTO listing says rooms have private tubs fed with natural hot-spring water. Extra persons cost 15,000 each.",
+      "price_krw_per_night_low": 120000,
+      "price_krw_per_night_high": 180000,
+      "price_note": "Official rate card (choksan.co.kr, read Oct 6, 2026). Oct 1-Nov 15 counts as peak season, so every night of the trip is priced at the peak rate. Twin or Ondol: 120,000. Hwangto Ondol: 140,000. Twin Family: 180,000. Suite (4/6): 250,000. Guests get 1 free entry to the public baths. Booking needs 100% payment by Korean bank transfer within 24 hours, then a phone call to confirm.",
+      "highlights": "A true 53°C alkaline hot spring with outdoor rotenburo, and an in-room hot-spring tub at a budget price. This is the most onsen-like stay in Gangwon.",
+      "drawbacks": "Dated 1985 resort. Booking by bank transfer or phone in Korean is awkward for foreigners (a Korean-speaking friend or the hotel concierge could help). No in-room cooking. The men's outdoor bath is small, a balcony-style space.",
+      "booking": "choksan.co.kr (online form, then bank transfer), phone 033-636-4000 or 033-636-4806.",
+      "sources": [
+        "https://www.choksan.co.kr/default/reserve/cost_info.php?top=3",
+        "https://www.ktriptips.com/kor/stay/2708691"
+      ],
+      "confidence": "medium",
+      "image_query": "Cheoksan hot spring Sokcho outdoor bath"
+    }
+  ],
+  "places": [
+    {
+      "id": "cheoksan-hot-spring",
+      "name": "Cheoksan Hot Spring (public baths)",
+      "name_ko": "척산온천휴양촌 사우나",
+      "city": "Sokcho",
+      "area": "Nohak-dong",
+      "type": "hot-spring",
+      "lat": 38.1901,
+      "lon": 128.553,
+      "hours": "Daily 05:30-20:00 for the sauna and baths. Outdoor rotenburo 08:30-19:00, jjimjil building 10:00-19:00.",
+      "price_krw": "Adult 11,000 (10,290 prepaid on Waug, valid to Dec 31, 2026). Sauna plus jjimjilbang 20,000. Private family hot-spring room, 3 hours: 50,000 for 2 people or 70,000 for 4, plus 15,000 per extra person. Family rooms are booked by phone on the same day from 09:00.",
+      "notes": "53°C alkaline water drawn from 4,000 m down. Confirmed by the official rate page and a Waug ticket sold for 2026, with reviews dated Sep 2026. The nearby Cheoksan Foot-bath Park (free entry, 1,000 KRW foot bath) is open Mar-Nov, 10:00-17:30.",
+      "sources": [
+        "https://www.choksan.co.kr/default/reserve/cost_info.php?top=3",
+        "https://www.choksan.co.kr/default/facility/facility02.php?top=4&ss=1",
+        "https://www.waug.com/ko/activities/143416"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "osaek-carbonated-spring",
+      "name": "Osaek Carbonated Hot Spring and Pulse Bath (at Greenyard)",
+      "name_ko": "오색탄산온천 & 암반파동욕",
+      "city": "Yangyang",
+      "area": "Osaek",
+      "type": "hot-spring",
+      "lat": 38.08,
+      "lon": 128.537,
+      "hours": "Hot spring 06:00-22:00. Jjimjilbang 06:00-21:00. Some sources say weekends run to 23:00.",
+      "price_krw": "Spring only: 18,000 (13,000 for hotel guests, valid until 15:00 after check-out). Spring plus pulse bath or jjimjilbang: 28,000 (20,000 for guests). Room-only 'Special Offer' guests pay 12,000.",
+      "notes": "Operating as of Oct 2026: the live listing notices (basement B2) and an Aug 24, 2026 visit report both show it running. Day visitors are welcome, and the hotel validates parking. A good soak after hiking Jujeongol.",
+      "sources": [
+        "https://mom-mom.net/travel/properties/64f0bcdb0e9d8fca1f913463",
+        "https://www.yeogi.com/content/tripholic-dom-ko-yangyang-hanjeungmak-onsen-course"
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "seorak-waterpia",
+      "name": "Seorak Waterpia (hot-spring water park and spa)",
+      "name_ko": "설악 워터피아",
+      "city": "Sokcho",
+      "area": "Hanwha Resort Seorak",
+      "type": "hot-spring",
+      "lat": 38.1965,
+      "lon": 128.539,
+      "hours": "Day 10:00-17:00 (last entry 16:30). Night spa 18:00-20:30 (last entry 20:00). Hours vary by date, so check hanwharesort.co.kr.",
+      "price_krw": "Guest rate, low season (Oct 12-Dec 10, 2026): day pass 49,000 per adult; night spa 27,000. Public prices are higher; the summer combined ticket was 99,000. Included for 2 adults in Sorano's ALL INCLUSIVE room rate.",
+      "notes": "Sorano guests are NOT given free entry with a room-only rate. They get the guest discount, or buy the all-inclusive package. The package voucher can be issued before check-in at the front desk on the day of arrival.",
+      "sources": [
+        "https://mom-mom.net/shop/products/6aab6edf8689d45996ec372a",
+        "https://www.yeogi.com/domestic-accommodations/6426"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "tips": [
+    "Cheapest strong Seorak plan: 2 weekday nights at Sorano on the ALL INCLUSIVE rate (2 x 227k, plus 49k for the 3rd Waterpia pass) is about 503k, or about 168k per person, with hot springs and breakfast included. The alternative is Osaek Greenyard at 123-160k per night for the Jujeongol foliage hike plus a spring soak.",
+    "For a real hot-water soak, Cheoksan beats Osaek: 53°C water and outdoor baths. Kensington Seorak's '속초 온천여행' rate bundles 2 Cheoksan tickets for +20k.",
+    "Gangneung pairing: St. John's at about 140-155k on weekdays is the budget pick. Spend one night at Seongyojang (Jungsarang 168k or Choga 191k, both with private bathrooms) for the hanok 'ryokan' experience.",
+    "Lotte Resort Sokcho's 'Sunset Check-in' rates (18:00 in, 10:00 out) cut about 25% if you arrive after sightseeing anyway. They cannot be used for consecutive nights.",
+    "Korea Tourism Organization's '2026 가을편 숙세페' coupon (30,000 KRW off stays of 70k+ with check-in Sep 22-Nov 8) appears on Korean OTAs. It probably needs a Korean phone and ID verification (unverified for foreigners).",
+    "All Gangwon prices were checked for 3 adults. Rooms marked 2/3 (Skybay, Sol Beach hotel wing) charge about 22k for the 3rd person at the hotel; St. John's lets the 3rd guest stay free."
+  ],
+  "warnings": [
+    "Saturday Oct 24 is the crunch night. Osaek Greenyard and the Sono-direct Sol Beach listing were already sold out, and Kensington had 1 room left. Weekend rates run 1.4-1.8x weekdays. Avoid a Gangwon Saturday, or book today.",
+    "Kensington Hotel Seorak had no room for 3 on Tue Oct 20, and only 1-2 rooms on the other dates.",
+    "Osaek's famous carbonated pool is cool water, not a hot onsen. Set expectations accordingly.",
+    "Cheoksan rooms need payment by Korean bank transfer within 24 hours of booking. Foreign cards may not work.",
+    "The Korean OTA prices here (mom-mom, yeogi, Yanolja) may need a Korean phone number. Agoda, Trip.com or NOL World prices for the same rooms were not verified and may run higher.",
+    "Hanwharesort.co.kr, greenyard.co.kr and knsj.co.kr/seongyojang could not be reached from the research environment. Facts come from live OTA listings instead."
+  ],
+  "key_numbers_krw": {
+    "sorano_weekday_room_only": 192000,
+    "sorano_fri": 226000,
+    "sorano_sat": 296000,
+    "sorano_all_inclusive_weekday_fri_sat": [227000, 256000, 316000],
+    "waterpia_guest_day_pass_adult_lowseason": 49000,
+    "kensington_weekday_3pax": [359900, 459900],
+    "kensington_fri_sat": [379900, 479900],
+    "lotte_sokcho_weekday_regular": [330000, 341000],
+    "lotte_sokcho_fri_sat_regular": [422000, 578000],
+    "solbeach_condo_weekday_fri_sat": [189000, 240000, 326000],
+    "skybay_weekday_incl_3rd": [255000, 300300],
+    "skybay_fri_sat_incl_3rd": [278000, 345000],
+    "stjohns_weekday_fri_sat": [138000, 176000, 267000],
+    "seongyojang_weekday_shared_bath_private_bath": [78000, 168000],
+    "seongyojang_fri_sat_shared_private": [112000, 191000],
+    "greenyard_weekday_fri_sat": [123000, 189000, "sold out"],
+    "cheoksan_room_oct_3to4pax": 120000,
+    "cheoksan_bath_adult": 11000,
+    "osaek_spring_public_guest": [18000, 13000]
+  }
+}

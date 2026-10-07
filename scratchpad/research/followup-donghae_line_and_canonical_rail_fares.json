@@ -1,0 +1,95 @@
+{
+  "domain": "followup-donghae_line_and_canonical_rail_fares",
+  "as_of": "2026-10-06",
+  "resolution": "(1) Donghae-line KTX-Eum from Gangneung: 752 dep 09:36 arr Gyeongju 12:30 (2h54) / arr Bujeon 13:36; 754 dep 14:56 arr Gyeongju 17:44 / Bujeon 18:50; 756 dep 18:35 arr Gyeongju 21:22 / Bujeon 22:29. Fares 34,300 (Gangneung-Gyeongju) and 46,800 (Gangneung-Bujeon), adult general seat. Plus ITX-Maeum 1822 dep 05:46 arr Gyeongju 09:08 (24,800) / Bujeon 10:49 (34,900). Source: train.asamaru.net timetable for Oct 7-13 2026, identical every day that week (high confidence for that week; medium-high for Oct 21-23 because no timetable revision is announced, but the specific dates and live seat availability could NOT be read: korail.com search is a JavaScript app that does not render without a browser session). The Gyeongju arrival estimate of 12:20 is wrong: use 12:30. The service originates at Gangneung (news: 'departs Gangneung, stopping at Jeongdongjin, Mukho, Donghae, Samcheok, Uljin, Yeongdeok, Pohang, Gyeongju, Taehwagang to Bujeon'; high confidence). (2) The Donghae-line KTX-Eum started Dec 30, 2025, with 3 round trips a day (high confidence; Dec 15 2025 press reports). logistics.json's 'Dec 30 2024' is a year off. heritage.json's 'Dec 20 2024' refers to the Jungang-line KTX-Eum (Cheongnyangni-Andong-Gyeongju-Bujeon) starting to stop at Gyeongju. That is a different service and both statements can be true. (3) The booking window is 2 months before departure from Oct 1, 2026 (high confidence; SBS Biz Sep 20 2026 and Wikitree, a MOLIT/Korail announcement). The 1-month figure is the old rule. The opening hour (07:00) is the long-standing Korail practice and was not restated in the articles (medium). The point is moot for this trip: Oct 17-25 is already inside even the old 1-month window, so every train is on sale NOW and the group should book today, especially the 3-a-day KTX-Eum and the foliage-season weekend trains to Gangneung. (4) Canonical fares after the Sep 1 2026 KTX-SRT merger (about a 10% cut on high-speed KTX routes, guaranteed for 3 years): Seoul-Gyeongju 44,500 (KTX; 44,000 on KTX-Sancheon, 44,600 on KTX-Eum). heritage's 49,300 is the pre-cut fare. Gyeongju-Busan Station 10,100 (heritage's ~11,000 is pre-cut). Seoul-Busan 54,400 (was 59,800). Seoul-Gangneung 27,600, unchanged by the cut (standing 23,500). AREX Express: official fare 13,000 adult (walk-up 'regular fare' 18,500/19,100 is the theoretical undiscounted price). 11,000 is only a third-party voucher price (Klook/Trip.com/Waug), so plan with 13,000 and treat 11,000 as an optional saving. All high confidence. (5) The Gangneung-Samcheok Sea Train (바다열차) is NOT running: it was retired after its last run on Dec 26, 2023 (old rolling stock, no budget). Gangwon mentions a revival only as a future plan (July 2026). For a coastal ride, use the regular Donghae-line KTX-Eum, ITX-Maeum or Nuriro between Gangneung, Jeongdongjin and Samcheok, sitting on the left/east side heading south. High confidence.",
+  "transport": [
+    {
+      "from": "Gangneung",
+      "to": "Gyeongju Station (ex-Singyeongju)",
+      "mode": "KTX-Eum (Donghae Line) / ITX-Maeum",
+      "duration": "KTX-Eum 2h47-2h54; ITX-Maeum 3h22",
+      "price_krw_pp": 34300,
+      "frequency": "KTX-Eum 752 09:36→12:30, 754 14:56→17:44, 756 18:35→21:22; ITX-Maeum 1822 05:46→09:08 (24,800). Same every day Oct 7-13 2026.",
+      "booking": "Korail+ app / korail.com (letskorail.com redirects). Already on sale for Oct 21-23. Book now.",
+      "notes": "Train originates at Gangneung. Reverse (Gyeongju→Gangneung) departures 08:56, 15:04, 20:45 per gangwon.json. Live seat availability for Oct 21-23 not checked.",
+      "sources": ["https://train.asamaru.net/시간표/강릉역-강릉선/출발/신경주역-경부선/도착/", "https://sateconomy.co.kr/news/view/1065592407440910"]
+    },
+    {
+      "from": "Gangneung",
+      "to": "Busan Bujeon",
+      "mode": "KTX-Eum (Donghae Line) / ITX-Maeum",
+      "duration": "KTX-Eum 3h54-4h00; ITX-Maeum 5h03",
+      "price_krw_pp": 46800,
+      "frequency": "752 09:36→13:36, 754 14:56→18:50, 756 18:35→22:29; ITX-Maeum 1822 05:46→10:49 (34,900)",
+      "booking": "Korail+ / korail.com",
+      "notes": "Started Dec 30 2025, 3 round trips a day. Stops: Jeongdongjin, Mukho, Donghae, Samcheok, Uljin, Yeongdeok, Pohang, Gyeongju, Taehwagang (Ulsan), Bujeon.",
+      "sources": ["https://train.asamaru.net/시간표/강릉역-강릉선/출발/부전역-동해선/도착/", "https://sateconomy.co.kr/news/view/1065592407440910", "https://m.go.seoul.co.kr/news/2025/12/15/20251215500152"]
+    },
+    {
+      "from": "Seoul Station",
+      "to": "Gyeongju Station",
+      "mode": "KTX",
+      "duration": "~2h-2h15 (most)",
+      "price_krw_pp": 44500,
+      "frequency": "27-28/day, 05:13-20:58",
+      "booking": "Korail+ / korail.com",
+      "notes": "Post-Sep-1-2026 fare. KTX-Sancheon 44,000; KTX-Eum 44,600. 49,300 is the old fare.",
+      "sources": ["https://train.asamaru.net/시간표/서울역-경부선-고속철도/출발/신경주역-경부선/도착/", "https://v.daum.net/v/20260802133927044"]
+    },
+    {
+      "from": "Gyeongju Station",
+      "to": "Busan Station",
+      "mode": "KTX / KTX-Sancheon",
+      "duration": "28-34 min",
+      "price_krw_pp": 10100,
+      "frequency": "~32/day, 07:16-23:12",
+      "booking": "Korail+ / korail.com",
+      "notes": "Post-cut fare. About 11,000 was the old fare.",
+      "sources": ["https://train.asamaru.net/시간표/신경주역-경부선/출발/부산역-경부선-고속철도/도착/"]
+    },
+    {
+      "from": "Seoul Station",
+      "to": "Busan Station",
+      "mode": "KTX",
+      "duration": "~2h30-2h40",
+      "price_krw_pp": 54400,
+      "frequency": "~66-69/day",
+      "booking": "Korail+ / korail.com",
+      "notes": "Cut from 59,800 on Sep 1 2026 (KTX-SRT merger; fares held at SRT level for 3 years).",
+      "sources": ["https://www.hankyung.com/article/2026083145861", "https://www.wikitree.co.kr/articles/1150566"]
+    },
+    {
+      "from": "Seoul Station",
+      "to": "Gangneung",
+      "mode": "KTX-Eum (Gangneung Line)",
+      "duration": "1h51-2h11",
+      "price_krw_pp": 27600,
+      "frequency": "14/day from Seoul Station, 05:06-22:14 (more from Cheongnyangni)",
+      "booking": "Korail+ / korail.com",
+      "notes": "Not changed by the Sep 2026 cut. Standing 23,500.",
+      "sources": ["https://train.asamaru.net/시간표/서울역-경부선-고속철도/출발/강릉역-강릉선/도착/"]
+    },
+    {
+      "from": "Incheon Airport T1/T2",
+      "to": "Seoul Station",
+      "mode": "AREX Express",
+      "duration": "43 min (T1) / 51 min (T2)",
+      "price_krw_pp": 13000,
+      "frequency": "Every ~30-40 min",
+      "booking": "airportrailroad.com, airport machines/counter; third-party vouchers (Klook/Trip.com/Waug) about 11,000",
+      "notes": "Official adult fare 13,000 (the page also lists an undiscounted 'regular' 18,500/19,100). All-stop train 4,750 via T-money.",
+      "sources": ["https://www.airportrailroad.com/train/express/introduce"]
+    }
+  ],
+  "tips": [
+    "Book all intercity trains today on Korail+ / korail.com: the whole trip is already on sale (the window is 2 months from Oct 1 2026), and only 3 KTX-Eum trains a day run Gangneung-Gyeongju.",
+    "For Gangneung→Gyeongju, the 09:36 KTX-Eum 752 arrives 12:30. Plan the Gyeongju afternoon from about 13:00 after the bus or taxi into town.",
+    "Sit on the left (east) side heading south for sea views, mainly Gangneung-Jeongdongjin-Donghae-Samcheok.",
+    "Use AREX Express 13,000 in budgets; buying a Klook/Trip.com voucher saves about 2,000 pp."
+  ],
+  "warnings": [
+    "The Donghae Sea Train (바다열차) has not run since Dec 26 2023. Do not plan it.",
+    "Seat availability for Oct 21-23 was not checked live (korail.com needs an interactive browser session). If 752 is sold out, the fallbacks are 754 (14:56→17:44) or the ITX-Maeum at 05:46.",
+    "The asamaru timetable covers Oct 7-13 only. Oct 21-23 times are assumed to be the same (no timetable revision announced), but check them when booking."
+  ]
+}

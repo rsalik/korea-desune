@@ -1,0 +1,147 @@
+{
+ "domain": "followup-seorak_cablecar_heullimgol_bus_2026",
+ "as_of": "2026-10-07 KST",
+ "resolution": "(1) Seorak Cable Car: the official site's live feed, read 12:15 KST Wed Oct 7 2026, shows hours of 08:30-17:30 today and tomorrow and 08:00-17:30 on Fri Oct 9 (Hangeul Day). Hours are set day by day, so expect about 08:00/08:30-17:30 for Oct 19-23. 17:30 is the close (ticket sales and last boarding). Adult round trip is 16,000 KRW and confirmed on the official 2026 fare table. Round trip only; there is no hiking trail down from the top. Tickets are sold only on the day at the 1st-floor counter or kiosk, with no advance booking. Each ticket is printed with a boarding time. The site shows no per-person limit (the only '1 ticket per person' rule is for the Sokcho-resident discount). A full refund is possible up to 10 min before boarding; after that, a time change or refund costs 20%. There is no official data on weekday sell-out times. On Oct 7 midday (a weekday, before peak) the wait was only 19 minutes. At peak, waits of 1-3 h are common, and on weekends the day's slots can be fully allocated by around midday. Plan to be at the counter by 08:00-08:30 on a weekday. Confidence: high for fare and sales rules, medium-high for hours, low for sell-out timing. (2) Heullimgol: it is OPEN for autumn 2026 and a reservation IS required, Oct 1-Nov 30 2026. The 5,000/day cap is correct (gangwon.json was right) and applies to the 3.1 km one-way section from the Heullimgol Visitor Center to Yongso junction. It is split into hourly slots of about 1,000 each: 08:00-15:00 in October, 09:00-14:00 in November. One booking covers up to 10 people. Online booking (reservation.knps.or.kr, Korean site) closes at 14:00 the day before. Leftover places can be registered on site at the Heullimgol Visitor Center. Hiking without a booking can draw a fine (200,000 KRW for a first offence, up to 500,000), and no-shows get booking bans. The reopening date was Sep 8 2022 (planned for Sep 6 but delayed by Typhoon Hinnamnor), after a closure from Aug 2015 that followed a fatal rockfall. foliage.json's '2024' is wrong; gangwon.json's 'Sep 6 2022' is the planned date. I found no 2026 rockfall closure, though the trail is closed on the day in rain or strong wind. Foreigners: KNPS's English/foreigner portal lists only shelters and campsites, not trail reservations. The Korean site normally requires Korean mobile or i-PIN identity verification, so online booking with a foreign phone is unlikely to work (unverified). The realistic routes are on-site leftover registration at the Heullimgol Visitor Center, which is very likely available on a weekday given the 5,000 cap, or a booking made by a Korean contact or the hotel. The booking-open date is not published; it closes at 14:00 the day before. Juongol from Osaek out and back (to Yongso Falls) needs NO booking, and two-way walking is allowed there. The reservation and the one-way rule apply only to the Heullimgol section, and walking up it in reverse is forbidden. Confidence: high (KNPS service guide + Oct 5 2026 Maeil Shinmun + Sep 2026 Travel News). (3) Buses after the 9% cap rise on Oct 1 2026, adult weekday fares. Seoul Express Bus Terminal (Gangnam) to Sokcho: standard 18,700 / deluxe (udeung) 24,300 / premium 31,500 / late-night about 29,100, about 2h35-3h, 45 departures a day 06:00-23:30. Dong Seoul to Sokcho: deluxe 22,800 / premium 29,600, about 2h16-2h26, 15 a day. Gangneung to Sokcho intercity: mostly 8,400 (direct, about 1 h), with 10,800 on slower 1h40-1h46 runs. The 7,800 fares on 2 runs look like pre-rise data that has not been updated. These figures come from asamaru timetable mirrors dated Oct 2-7 2026, because kobus.co.kr refused connections and was not checked directly. Foreign cards: Kobus has accepted foreign-issued Visa/Mastercard since Aug 2024 (the year comes from the Korea JoongAng Daily article on KTO plans; not seen directly). The T-money intercity site has an English version (intercitybuse.tmoney.co.kr) with a foreign-card option reported. Klook sells express-bus tickets as a fallback. Terminal kiosks and counters take foreign cards and cash. Confidence: medium-high for fares, medium for card acceptance.",
+ "places": [
+  {
+   "id": "seorak-cable-car",
+   "name": "Seorak Cable Car (Sogongwon to Gwongeumseong)",
+   "name_ko": "설악케이블카",
+   "region": "Sokcho",
+   "area": "Seorak-dong / Sogongwon",
+   "category": "nature",
+   "lat": 38.1729,
+   "lon": 128.4891,
+   "summary": "5-min ride (10 min round trip) to about 700 m near Gwongeumseong fortress. Two 50-passenger cabins run every 5 min when busy and every 10-15 min otherwise.",
+   "why": "The core view of the Seorak day; Biseondae can be walked while waiting for the printed boarding time.",
+   "autumn_note": "No senior discount Sep 19-Nov 15 2026 (peak season). Waits of 1-3 h at foliage peak.",
+   "time_needed": "1.5-2 h including time at the top (the last car leaves only about 10-20 min at the top)",
+   "hours": "Set daily. Oct 7-8 2026: 08:30-17:30; Oct 9 (holiday): 08:00-17:30. Expect about 08:00/08:30-17:30 on Oct 19-23; check the homepage the day before.",
+   "closed": "Open every day; suspended in high wind or for safety checks (unused tickets refunded)",
+   "cost_krw": 16000,
+   "cost_note": "Adult (middle school and older) round trip 16,000; child 12,000; under 36 months free. No one-way tickets, no group discount. Full refund until 10 min before boarding; 20% fee after.",
+   "booking": "Same-day on-site sale only (1st-floor counter or kiosk); no advance reservation. Each ticket carries a boarding time. No per-person limit is published.",
+   "tips": "Take Sokcho city bus 7 or 7-1 to Seorak-dong; be at the counter by 08:00-08:30 on a weekday. Buy tickets, then walk Biseondae (about 1 h each way) and come back for the slot. The Sinheungsa lot (033-636-4050) is full before 08:00 on peak days.",
+   "sources": [
+    "https://www.sorakcablecar.co.kr/api/public/field-data",
+    "https://www.sorakcablecar.co.kr/guide",
+    "https://travelmapjourney.com/seoraksan-cablecar-parking-onsite-ticket-2026/",
+    "https://www.ktriptips.com/kor/tourspot/128788"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "heullimgol-reservation-2026",
+   "name": "Heullimgol trail (reservation section, Nam-Seorak)",
+   "name_ko": "설악산 흘림골 탐방로 (흘림골탐방지원센터~용소삼거리)",
+   "region": "Yangyang",
+   "area": "Osaek / Route 44 below Hangyeryeong",
+   "category": "nature",
+   "lat": 38.0981,
+   "lon": 128.4434,
+   "summary": "A 3.1 km one-way reservation section from the Heullimgol Visitor Center past Yeosim Falls, Deungseondae and Sibi Falls to Yongso junction. It continues untimed down Juongol to Osaek, about 6.2 km and 3.5-4 h in total.",
+   "why": "South Seorak's best foliage gorge walk.",
+   "autumn_note": "Reservations Oct 1-Nov 30 2026. October entry is 08:00-15:00 in hourly slots; November entry is 09:00-14:00.",
+   "time_needed": "3.5-4 h total to Osaek",
+   "hours": "Oct: entry 08:00-15:00 (hourly slots)",
+   "closed": "Closed on the day in rain or strong wind; there are 22 rockfall-risk points with warning lights. No 2026 rockfall closure found.",
+   "cost_krw": 0,
+   "cost_note": "Free",
+   "booking": "reservation.knps.or.kr (Korean site): 5,000/day with about 1,000 per hour; up to 10 people per booking; online booking closes at 14:00 the day before; leftovers registered on site at the Heullimgol Visitor Center. Fine for entering without a booking: 200,000 KRW for a first offence, up to 500,000. The foreigner portal does not offer trail bookings.",
+   "tips": "Foreigners without a Korean phone should plan on on-site leftover registration on a weekday (high chance given the cap) or have the hotel or a Korean contact book. One-way only: no walking up from Osaek past Yongso junction. The trailhead has no parking.",
+   "sources": [
+    "https://reservation.knps.or.kr/contents/T/serviceGuide.do?prdDvcd=T&parkId=B03&vrteId=TB031XXX03",
+    "https://www.imaeil.com/page/view/2026100507525103279",
+    "https://thetravelnews.co.kr/2026/09/seoraksan-heullimgol-reservation-september-2026/",
+    "https://blog.swtour.co.kr/heullimgol-jujeongol-course/",
+    "https://www.fnnews.com/news/202209091100446884",
+    "https://www.ad-hoc-news.de/unterhaltung/reisen/seoraksan-national-park-adds-heullimgol-reservations-from-october/70188134"
+   ],
+   "confidence": "high"
+  },
+  {
+   "id": "juongol-osaek-outback",
+   "name": "Juongol valley out-and-back from Osaek",
+   "name_ko": "주전골 (오색~용소폭포 왕복)",
+   "region": "Yangyang",
+   "area": "Osaek",
+   "category": "nature",
+   "lat": 38.0776,
+   "lon": 128.4698,
+   "summary": "Flat gorge path from Osaek village to Yongso Falls and back, about 3 km each way.",
+   "why": "The no-booking fallback with the same autumn colours.",
+   "autumn_note": "Peak usually in the last third of October.",
+   "time_needed": "2-2.5 h",
+   "hours": "Daytime",
+   "closed": "Weather closures possible",
+   "cost_krw": 0,
+   "cost_note": "Free",
+   "booking": "None required; two-way walking allowed (only the Heullimgol section is reservation-only and one-way).",
+   "tips": "Do not continue past Yongso junction up toward Heullimgol (forbidden direction).",
+   "sources": [
+    "https://blog.swtour.co.kr/heullimgol-jujeongol-course/",
+    "https://www.imaeil.com/page/view/2026100507525103279"
+   ],
+   "confidence": "high"
+  }
+ ],
+ "transport": [
+  {
+   "from": "Seoul Express Bus Terminal (Gyeongbu/Yeongdong, Gangnam)",
+   "to": "Sokcho Express Bus Terminal",
+   "mode": "Express bus",
+   "duration": "About 2h35-3h10",
+   "price_krw_pp": 24300,
+   "frequency": "45 a day, 06:00-23:30",
+   "booking": "kobus.co.kr / Express Bus Mobile app (foreign Visa/MC accepted since Aug 2024), Klook, or terminal kiosk",
+   "notes": "Fares after Oct 1 2026: standard 18,700 / deluxe (udeung) 24,300 / premium 31,500 / late-night about 29,100. Pre-rise: 17,200 / 22,300 / 28,900.",
+   "sources": [
+    "https://transportation.asamaru.net/고속버스/시간표/속초고속버스터미널/출발/서울고속버스터미널/도착/",
+    "https://transportation.asamaru.net/고속버스/시간표/서울고속버스터미널/출발/속초고속버스터미널/도착/"
+   ]
+  },
+  {
+   "from": "Dong Seoul Terminal",
+   "to": "Sokcho Express Bus Terminal",
+   "mode": "Express bus",
+   "duration": "About 2h16-2h26",
+   "price_krw_pp": 22800,
+   "frequency": "15 a day, 07:00-20:30",
+   "booking": "kobus.co.kr / app / Klook / terminal",
+   "notes": "Deluxe 22,800 (was 20,900) / premium 29,600 (was 27,100).",
+   "sources": [
+    "https://transportation.asamaru.net/고속버스/시간표/동서울종합터미널/출발/속초고속버스터미널/도착/"
+   ]
+  },
+  {
+   "from": "Gangneung Intercity Bus Terminal",
+   "to": "Sokcho Intercity Bus Terminal",
+   "mode": "Intercity bus",
+   "duration": "About 1h (direct) to 1h46 (slower runs)",
+   "price_krw_pp": 8400,
+   "frequency": "22 a day, 07:14-21:00",
+   "booking": "txbus.t-money.co.kr / intercitybuse.tmoney.co.kr (English), terminal kiosk, or just turn up (rarely sells out midweek)",
+   "notes": "Most fares are 8,400 on direct runs and 10,800 on slower runs; 7,800 on two runs is probably stale pre-rise data.",
+   "sources": [
+    "https://transportation.asamaru.net/시외버스/시간표/강릉시외버스터미널/출발/속초시외버스터미널/도착/"
+   ]
+  }
+ ],
+ "tips": [
+  "Seorak weekday plan: buy cable car tickets about 08:00-08:30, walk Biseondae during the wait, ride, then go to Osaek in the afternoon for Juongol (no booking), or do Heullimgol on a different morning.",
+  "Heullimgol for foreigners: arrive at the Heullimgol Visitor Center for an 08:00-10:00 slot on a weekday and ask for on-site leftover registration (잔여분 현장접수). Or have the hotel book the Korean KNPS site before 14:00 the previous day.",
+  "Use the Express Bus Mobile app or Klook with a foreign card for Seoul-Sokcho; seats sell out on Friday evenings and on Sunday returns in October.",
+  "Cable car live status (hours, wait, current boarding time) can be checked from the official homepage or the JSON feed /api/public/field-data."
+ ],
+ "warnings": [
+  "Heullimgol needs a reservation from Oct 1 to Nov 30 2026; entering without one risks a 200,000 KRW fine. Booking online with a foreign phone is probably impossible because the Korean site needs identity verification.",
+  "foliage.json's '2024 reopening' is wrong. Heullimgol reopened Sep 8 2022 (gangwon.json's Sep 6 was the planned date, delayed by a typhoon).",
+  "Cable car hours are posted daily and can be cut by wind; the last car leaves only 10-20 min at the top.",
+  "Bus fares were checked on an asamaru mirror of kobus/T-money data (Oct 2-7 2026), not on kobus.co.kr directly, because that site refused connections from here."
+ ],
+ "open_questions": [
+  "How many days ahead Heullimgol bookings open (not published; one older guide says 14 days).",
+  "Whether KNPS trail bookings can be made with a foreign phone or email (the foreigner portal lists only shelters and campsites).",
+  "Typical weekday sell-out time for the cable car at the Oct 20 peak (no official data)."
+ ]
+}

@@ -1,0 +1,1 @@
+[out:json][timeout:90];(way["natural"="water"]["water"="river"](37.45,126.75,37.62,127.20);relation["natural"="water"]["water"="river"](37.45,126.75,37.62,127.20);relation["name"="한강"]["type"="waterway"](37.45,126.75,37.62,127.20););out geom;

@@ -1,0 +1,11 @@
+const fs=require('fs');
+const {prov,muni}=require('./part1.json');
+const nb=require('./nb.json'),han=require('./han_s.json');
+const R=n=>Math.round(n*1e4)/1e4;
+const rnd=c=>typeof c[0]==='number'?[R(c[0]),R(c[1])]:c.map(rnd);
+nb.features.forEach(f=>f.geometry.coordinates=rnd(f.geometry.coordinates));
+const hr=han.geometries.length===1?han.geometries[0]:han;nb.features.forEach(f=>f.properties=f.properties||{});
+hr.coordinates&&(hr.coordinates=rnd(hr.coordinates));
+const G={provinces:prov,municipalities:muni,neighbors:nb,hanRiver:hr};
+fs.writeFileSync('../geo.js','/* Map geometry for the trip page: KOSTAT 2013 boundaries via southkorea-maps (CC BY 2.0 KR/MIT), Natural Earth via world-atlas (public domain), Han River from OpenStreetMap (c) contributors, ODbL. */\nwindow.GEO='+JSON.stringify(G)+';\n');
+console.log(nb.features.map(f=>f.properties.name),hr.type);

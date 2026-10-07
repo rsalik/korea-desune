@@ -1,0 +1,71 @@
+{
+  "domain": "followup: gyeongbokgung_starlight_foreigner_booking",
+  "as_of": "2026-10-06",
+  "resolution": "Treat the Starlight Night Walk as a long shot. Do not pin the itinerary to it. Creatrip is the only sales channel for the Oct 21-24 foreigner-only sessions (NOL World is not used in 2026). The live Creatrip page (spot 13949, checked Oct 6, 2026) shows isSoldOut=true for every session. There are 8 sessions in total, 2 per night, with at most 38 people each, so about 304 seats overall. Each person can buy at most 2 tickets, so a group of 3 needs two separate bookers. You cannot buy on the day. Sales for each date close at 23:59 KST two days before. Cancellations get a full refund up to 3 days before and no refund after that, so released seats mostly reappear before each date's free-cancel cutoff. They tend to come back 1-2 at a time, which makes 3 seats in one session unlikely. The session times are settled at 18:20-20:10 and 19:30-21:20 (Creatrip listing, Korea Times, Korean press). The 18:30/19:40 times in events.json are wrong. The price is 60,000 KRW per person (US$44.81 on Creatrip, or $42.12 for members). Ticketlink general sessions do not run Oct 21-24, because those nights are foreigner-only. The only general nights in the trip window are Sat Oct 17 and Sun Oct 18. They were sold by lottery in August and then first-come from Aug 28, they are in Korean, and they are almost certainly gone. The fallback is confirmed and is good. Changgyeonggung is open 09:00-21:00 (last entry 20:00, closed Mon). It runs the 'Mulbit Yeonhwa' media-art night on Wed-Sun, Oct 7 - Nov 1, with pond-show sessions at 19:00, 19:30 and 20:00 (about 16 min each). That show costs 1,000 KRW including admission, via Ticketlink (up to 4 per person) or Creatrip for foreigners. The rest of the light route can be seen with normal admission. Deoksugung is open 09:00-21:00 (closed Mon). Under the weekly 'Culture Day' policy, every Wednesday is free at Deoksugung since Aug 2026 and at Changgyeonggung, Changdeokgung (not Huwon) and Jongmyo since Oct 2026. Gyeongbokgung is not included yet. So Wed Oct 21 is a free palace evening. Confidence: high on sold-out status, times, price and rules; medium on Mulbit availability (not checked live) and on Wednesday-free details.",
+  "events": [
+    {
+      "name": "Gyeongbokgung Starlight Night Tour - foreigner-only sessions (SOLD OUT)",
+      "name_ko": "경복궁 별빛야행 (외국인 전용 회차)",
+      "city": "Seoul",
+      "dates": "Wed Oct 21 - Sat Oct 24, 2026; 4 days, 8 sessions",
+      "times": "Session 1: 18:20-20:10. Session 2: 19:30-21:20. Check-in opens 20 min before at Gyejodang (parking-lot side, east of Gyeongbokgung). Late arrivals may be refused.",
+      "cost": "60,000 KRW per person (Creatrip shows US$44.81, or US$42.12 for members)",
+      "booking": "Creatrip only (exclusive foreigner channel). Max 2 tickets per person, so 3 travelers need 2 bookers. Sales close 23:59 KST two days before each date, and there is no same-day sale. Full refund at least 3 days before; no refund 2 days before or later. Physical passport required for everyone. Showed isSoldOut=true on Oct 6, 2026.",
+      "notes": "Max 38 per session. Ages 7+. Route: Oesojubang royal meal (Doseok Surasang, 12-dish) with court music, then Jibokjae & Palujeong interiors, an English-guided talk at Geoncheonggung, and a special viewing of Hyangwonjeong. Cancelled for rain only if more than 5 mm is forecast at 11:00 that day (full refund). Free-cancel cutoffs, when released seats are most likely: about Oct 18 for Oct 21, Oct 19 for Oct 22, Oct 20 for Oct 23, Oct 21 for Oct 24. Sales close Oct 19, 20, 21 and 22 at 23:59 KST respectively.",
+      "lat": 37.5796,
+      "lon": 126.977,
+      "sources": ["https://creatrip.com/en/spot/13949", "https://www.koreatimes.co.kr/lifestyle/koreanheritage/20260818/gyeongbok-palace-to-offer-nighttime-cultural-experience-this-fall"],
+      "confidence": "high"
+    },
+    {
+      "name": "Changgyeonggung 'Mulbit Yeonhwa' (Moonlight Lotus Show) - autumn",
+      "name_ko": "2026년 하반기 창경궁 물빛연화",
+      "city": "Seoul",
+      "dates": "Oct 7 - Nov 1, 2026, Wed-Sun (20 days). In the trip: Sat 17, Sun 18, Wed 21, Thu 22, Fri 23, Sat 24, Sun 25.",
+      "times": "Pond media-art show (Scene 2, Daechundangji) at 19:00, 19:30, 20:00, about 16 min each. Allow 40-60 min for the full lit route. The palace is open until 21:00 (last entry 20:00).",
+      "cost": "1,000 KRW reserved ticket, including palace admission. Free admission on Wednesdays from Oct 2026 (Culture Day) and for hanbok wearers.",
+      "booking": "Ticketlink, first-come from Sep 11, 11:00, max 4 per person, credit card only, mobile ticket plus ID. Foreigners can book through Creatrip (named partner channel). Only Scene 2 needs a reservation; the other scenes are seen with normal entry. Remaining seats were not checked live.",
+      "notes": "Up to 400 per session (1,200 per day), far more than Starlight, so seats are much more likely. A good 'night palace' replacement, near Ikseon-dong and Daehangno for dinner.",
+      "lat": 37.583,
+      "lon": 126.9936,
+      "sources": ["https://pr.taosnews.com/article/Tickets-for-the-K-Royal-Culture-Festival-Fall-2026-to-open-on-Sep-4/6a98b9595c73a7935efd2481", "https://www.taiwannews.com.tw/en/news/6433020", "https://moneyroan.com/changgyeonggung-night-2026-mulbit-yeonhwa/", "https://royal.khs.go.kr/ROYAL/contents/R201000000.do?selDate=2026-10-21"],
+      "confidence": "high (dates/times/price); medium (foreigner booking and remaining seats)"
+    }
+  ],
+  "places": [
+    {
+      "id": "deoksugung",
+      "name": "Deoksugung Palace (evening)",
+      "name_ko": "덕수궁",
+      "region": "Seoul",
+      "area": "Jung-gu / City Hall",
+      "category": "palace",
+      "lat": 37.5658,
+      "lon": 126.9751,
+      "summary": "Evening palace walk; open until 21:00. The 'Night at Seokjojeon' program ends Oct 18.",
+      "why": "Fallback night palace; walk-up entry with no booking needed.",
+      "autumn_note": "Stone-wall-road ginkgos turn in late Oct to early Nov.",
+      "time_needed": "1 h",
+      "hours": "09:00-21:00 (last entry 20:00)",
+      "closed": "Monday",
+      "cost_krw": 1000,
+      "cost_note": "1,000 KRW. Free every Wednesday since Aug 2026 (weekly Culture Day), so Wed Oct 21 is free. Also free in hanbok.",
+      "booking": "Walk-up",
+      "tips": "On Wed Oct 21 you can do Deoksugung at dusk for free, then take a taxi to Changgyeonggung for a 19:30/20:00 Mulbit show (also free that day), or the other way round.",
+      "sources": ["https://www.segye.com/newsView/20260526512458", "https://www.yugacrew.com/crewletter/palaces-free-wednesday"],
+      "confidence": "medium",
+      "image_query": "Deoksugung night Junghwajeon"
+    }
+  ],
+  "tips": [
+    "Settle the times as 18:20 and 19:30 (about 110 min each). The 18:30/19:40 in events.json is wrong.",
+    "Starlight: if the itinerary happens to have Seoul nights on Oct 21-23, both travelers who book (2 tickets max each) should check Creatrip spot 13949 daily from about Oct 14 until each date's free-cancel cutoff (about Oct 18-21). Do not move Busan (Sat Oct 24) or the Gangwon weekdays to chase it.",
+    "Weekly Culture Day: from Oct 2026, Changgyeonggung, Changdeokgung (not the Huwon garden), Jongmyo and Deoksugung are free every Wednesday. Gyeongbokgung is not yet included and stays 3,000 KRW (and closed Tuesdays).",
+    "Book a Mulbit Yeonhwa pond-show slot (1,000 KRW) on Ticketlink or Creatrip for whichever Wed-Sun night is in Seoul. Even if it is full, the rest of the lit palace is walk-up until 21:00."
+  ],
+  "warnings": [
+    "The Starlight foreigner sessions are sold out (Creatrip isSoldOut=true on Oct 6, 2026). NOL World/Interpark Global is not a 2026 channel. Ticketlink general sessions do not run Oct 21-24.",
+    "Starlight tickets are capped at 2 per person, and orders of more than 2 may be cancelled outright. A party of 3 needs 2 separate bookers and passports that match the names entered. Korean citizens cannot attend.",
+    "Mulbit Yeonhwa and the palaces are closed Mondays (Oct 19). Mulbit runs Wed-Sun only, so it is also off Tue Oct 20."
+  ]
+}

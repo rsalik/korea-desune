@@ -1,0 +1,777 @@
+{
+  "summary": "Research Korea Oct 17-25 2026 trip: foliage, events, cities, stays, food, logistics; then fill gaps",
+  "agentCount": 10,
+  "logs": [
+    "[research:gangwon] failed: You've hit your session limit · resets 3:20am (America/New_York)",
+    "[research:jeju] failed: You've hit your session limit · resets 3:20am (America/New_York)",
+    "[research:heritage] failed: You've hit your session limit · resets 3:20am (America/New_York)",
+    "6/9 research domains returned",
+    "[critic] failed: You've hit your session limit · resets 3:20am (America/New_York)"
+  ],
+  "result": {
+    "digests": [
+      {
+        "domain": "Autumn nature and foliage timing for Oct 17-25 2026",
+        "file": "/private/tmp/claude-501/-Users-rsalik-Library-Application-Support-Claude-scratch-workspaces-e6677c92-2974-4907-a0da-c7ac9ddbdf8c-66f568e9-f8bd-4c52-a222-d71c84fbd621-scratch-2026-10-07-778f00/6608af47-2359-4a74-81a2-d027e855f615/scratchpad/research/foliage.json",
+        "headline_findings": [
+          "Korea Forest Service 2026 map (released Sep 22) puts peak (its 50%-colored measure) at Seoraksan Oct 20, Juwangsan Oct 26, Jirisan Oct 27, Songnisan Oct 28, Palgongsan Oct 30, Naejangsan Nov 4, Hallasan Nov 6. Nationwide ginkgo peaks Oct 30 and maples Oct 31.",
+          "Weather i 2026 (peak = 80% colored): Odaesan Oct 16, Seoraksan Oct 25, Chiaksan Oct 31, Bukhansan Nov 4, Jirisan and Gayasan Nov 5, Naejangsan Nov 11, Palgongsan Nov 12, Hallasan Nov 13. Southern mountains run 7-15 days later than normal because of a warm Sept-Oct.",
+          "KMA saw the first Seoraksan foliage on Sep 28, 2026. That is normal timing and 4 days earlier than 2025. Ridges should peak Oct 15-20 and valleys Oct 20-27, so the whole trip window is prime time for Seoraksan.",
+          "Best color during Oct 17-25 is in high Gangwon: Odaesan Seonjae-gil and Woljeongsa (peak about Oct 16-20, go early in the trip), then Seoraksan valleys (Biseondae, Jujeongol) Oct 19-23. Gapyeong gardens and Nami Island come at the end of the window.",
+          "Seoul city (palaces, Namsan, Deoksugung, Seoul Forest), Gyeongju (Bulguksa, Tongiljeon ginkgo), Naejangsan, Gayasan, Palgongsan and Hallasan will show only early or partial color. Their peaks fall in late Oct to mid Nov.",
+          "Seoul Eulalia Festival at Haneul Park runs Oct 17-23, 2026, 10:00-21:00, and is free. Silver grass will be at peak, which makes it an ideal arrival-day or evening activity.",
+          "Seorak Cable Car costs 16,000 KRW round trip for adults. Tickets are sold on-site the same day only, with an assigned boarding time. Autumn weekend waits run 2-4 h or tickets sell out, so go on a weekday and buy at opening.",
+          "Hwadam Botanic Garden's 2026 autumn season is Oct 23-Nov 15 (08:00-18:00). Entry is 11,000 KRW plus 5,000-9,000 KRW for the monorail, booked online only through NOL by time slot. Only Oct 23-25 of the trip overlaps.",
+          "Silver grass is at peak during the trip: Mingdongsan (festival Sep 18-Nov 8; car access to Balgudeok closed), Ganwoljae/Yeongnam Alps and Jeju Saebyeol Oreum.",
+          "Pink muhly (Cheomseongdae, Yangju Nari Park, Busan Daejeo) peaks late Sep to early Oct and will be fading. Nari Park closes for the season Oct 25.",
+          "Unmunsa's 450-year-old ginkgo courtyard opens only about 2 days in early-mid Nov (Nov 8-9 in 2025). 2026 dates are not announced and will almost certainly fall after the trip.",
+          "Weather: Seoul October normals are a 20.2 C high and 10.6 C low, with 52 mm of rain on about 5 days. Mountain mornings are near 0-5 C. Seoul sunrise and sunset run 06:40/17:53 on Oct 17 and 06:48/17:43 on Oct 25."
+        ],
+        "top_recommendations": [
+          {
+            "name": "Seoraksan Sogongwon-Biseondae walk + Gwongeumseong cable car (weekday Oct 19-22)",
+            "why": "Peak valley color falls exactly in the trip window. The 3 km flat walk each way suits moderately fit adults, and the cable car gives summit views. Pick a weekday to avoid cable-car sellouts."
+          },
+          {
+            "name": "Odaesan Woljeongsa fir path + Seonjae-gil (Oct 17-21)",
+            "why": "Peak is about Oct 16-20. It is a gentle temple-pilgrimage forest walk (9 km, any portion), the closest match to Kamakura's feel, and is reached by KTX to Jinbu."
+          },
+          {
+            "name": "Haneul Park silver grass / Seoul Eulalia Festival (Oct 17-23, open until 21:00)",
+            "why": "It is free and in Seoul, the dates line up exactly with the trip, and sunset over the grass is a good low-effort jet-lag activity."
+          },
+          {
+            "name": "Seoraksan Ulsanbawi hike (3.8 km each way, 4-5 h)",
+            "why": "The best half-day 'big view' hike, looking over sea and colored ridges. Start by 08:00."
+          },
+          {
+            "name": "Hwadam Botanic Garden (Fri Oct 23, pre-booked)",
+            "why": "A Kyoto-style maple garden with 400+ varieties near Seoul. The peak season opens Oct 23 and requires advance online booking."
+          },
+          {
+            "name": "Garden of Morning Calm / Nami Island day (Oct 22-25)",
+            "why": "The garden sits higher and colors earlier, and is good mid-late Oct. Nami's ginkgo road starts turning about Oct 20-Nov 5."
+          },
+          {
+            "name": "Seoul City Wall: Inwangsan sunset or Baegaksan section",
+            "why": "A free 1.5-3 h fortress-wall hike over Seoul, the 'city meets nature' match to Shibuya-plus-hills. It doesn't depend on peak color."
+          }
+        ],
+        "key_numbers": [
+          "KFS peaks: Seoraksan Oct 20, Juwangsan Oct 26, Jirisan Oct 27, Palgongsan Oct 30, Naejangsan Nov 4, Hallasan Nov 6; ginkgo average Oct 30",
+          "Weather i peaks: Odaesan Oct 16, Seoraksan Oct 25, Chiaksan Oct 31, Bukhansan Nov 4, Jirisan/Gayasan Nov 5, Naejangsan Nov 11, Palgongsan Nov 12, Hallasan Nov 13",
+          "Seoraksan first foliage observed Sep 28, 2026",
+          "Seoul Eulalia Festival Oct 17-23, 10:00-21:00, free",
+          "Seorak Cable Car 16,000 KRW adult round trip, on-site same-day only",
+          "Hwadam Botanic Garden Oct 23-Nov 15, 08:00-18:00 (until Nov 1), 11,000 KRW + monorail 5,000/7,000/9,000 KRW, NOL online-only",
+          "Mingdongsan festival Sep 18-Nov 8; summit about 1.5 h up from Jeungsan Elementary School",
+          "Nari Park open until Oct 25 (pink muhly past peak)",
+          "Nami Island about 16,000 KRW (2025 price), Garden of Morning Calm about 11,000-12,000 KRW (unverified for 2026)",
+          "Seoul Oct normals: 20.2 C high / 10.6 C low, 52 mm rain; sunrise 06:40-06:48, sunset 17:53-17:43 (Oct 17-25)",
+          "Temple admission fees (Sinheungsa, Woljeongsa, Bulguksa, Haeinsa) abolished May 2023"
+        ],
+        "conflicts_or_uncertainties": [
+          "Peak definitions differ. KFS uses 50% colored, while KMA, Weather i and KWeather use 80%. So Seoraksan shows as Oct 20 (KFS) vs Oct 25 (Weather i), and Bukhansan as Oct 28-30 (secondary summaries) vs Nov 4 (Weather i/KTO).",
+          "Weather i forecast Seoraksan's first color for Oct 3, but KMA actually observed it Sep 28.",
+          "A trip.com blog says Seorak Cable Car advance booking is essential. The official site says same-day on-site purchase only, and the official site is treated as correct.",
+          "Heullimgol (South Seorak) reopened in 2024 with an autumn reservation system in recent seasons. Its 2026 reservation rules and status are unverified.",
+          "Nami Island and Garden of Morning Calm 2026 prices and hours could not be verified (official sites blocked or empty); 2025-level figures are used.",
+          "The session web-search budget ran out mid-research. Hwangmaesan and Saebyeol Oreum 2026 festival dates, Gyeongju 2026 ginkgo timing, Seoul's 2026 foliage-road list and intercity bus/KTX fares are therefore estimates from typical patterns, marked low or medium confidence.",
+          "Some coordinates are approximate (Tongiljeon, Unmunsa, Ganwoljae, Nari Park, Piagol trailhead) and should be checked against a map.",
+          "Sunrise and sunset times were computed with the NOAA algorithm, not taken from a published table (accurate to about 1-2 min)."
+        ],
+        "counts": {
+          "places": 27,
+          "lodging": 0,
+          "food": 0,
+          "transport": 4,
+          "events": 4
+        }
+      },
+      {
+        "domain": "Festivals, events, special openings and closures in Korea, Oct 16-25 2026",
+        "file": "/private/tmp/claude-501/-Users-rsalik-Library-Application-Support-Claude-scratch-workspaces-e6677c92-2974-4907-a0da-c7ac9ddbdf8c-66f568e9-f8bd-4c52-a222-d71c84fbd621-scratch-2026-10-07-778f00/6608af47-2359-4a74-81a2-d027e855f615/scratchpad/research/events.json",
+        "counts": {
+          "events": 35,
+          "places": 11,
+          "lodging": 0,
+          "food": 0,
+          "transport": 0
+        },
+        "headline_findings": [
+          "Gyeongbokgung Starlight Night Walk (경복궁 별빛야행) has foreigner-only sessions on Wed Oct 21 to Sat Oct 24 at 18:30 and 19:40; dates come from the official royal palace calendar. It is the best palace night program during the trip. The foreigner booking channel and price are unconfirmed (about KRW 60,000 in past years).",
+          "The Gyeongbokgung general night opening ran Sep 2 to Oct 2 and is over. The Changdeokgung Moonlight Tour's foreigner nights (booked only through Creatrip, KRW 30,000) ended Oct 11, and its last Korean-language night, Sat Oct 17, is sold out.",
+          "The autumn Royal Culture Festival (Oct 7-11), the Silla Culture Festival in Gyeongju (Oct 9-11) and the Andong Maskdance Festival (Sep 24 to Oct 4) all end before the travelers arrive.",
+          "The 25th Seoul Eulalia Festival at Haneul Park runs Sat Oct 17 to Fri Oct 23, 10:00-21:00, free (official Seoul city notice). The Mapo Naru Shrimp Festival is next door Oct 16-18.",
+          "The Gangneung Coffee Festival runs Wed Oct 21 to Sun Oct 25, 10:00-21:00, at Anmok Coffee Street and other spots across the city (official site). It is a good anchor for a Gangwon coast leg.",
+          "The Gwangalli drone show in Busan is free and runs every Saturday (Oct 17 and Oct 24) at 19:00 and 21:00 on the October-February schedule. The Busan Fireworks Festival is Nov 7, after the trip.",
+          "The Banpo Moonlight Rainbow Fountain runs until Oct 31 (12:00, 19:30, 20:00, 20:30, 21:00). The car-free Jamsu Bridge festival under it runs Sundays Oct 18 and Oct 25.",
+          "KBO 2026 schedule from Wikipedia: Semi-Playoff Oct 17-23 (KIA in Gwangju vs the LG/Doosan wild-card winner, so possibly games at Jamsil), Playoff Oct 25-31, Korean Series Nov 2-10. The Korean Series is after the trip, and postseason tickets are hard for foreigners to buy.",
+          "No Korean public holidays fall in Oct 16-25. The nearest are Hangul Day Fri Oct 9 and the Oct 5 substitute holiday.",
+          "Weekly closures: Gyeongbokgung and Jongmyo close Tuesday (Oct 20); Changdeokgung, Changgyeonggung, Deoksugung and Leeum close Monday (Oct 19). The National Museum of Korea is open every day of the window, until 21:00 on Wed and Sat. One-off: Gyeongbokgung's Geunjeongjeon foundation area is restricted until Oct 31.",
+          "Not happening during the trip: Seoul Drum Festival (moved to May), Hi Seoul (now the Seoul Spring Festival in Apr-May), Seoul Lantern Festival (Dec-Jan), Seoul Fashion Week (Sep 1-6), Seoul Fireworks (Sep 5). The Jinju Lantern Festival overlaps only Oct 17-18 (Oct 3-18)."
+        ],
+        "top_recommendations": [
+          {
+            "name": "Gyeongbokgung Starlight Night Walk, foreigner nights Oct 21-24",
+            "why": "A royal-kitchen dinner, traditional music and a lantern-lit walk to Hyangwonjeong, held only for foreigners on these 4 nights. Closest Korean analog to a kaiseki evening. Book immediately."
+          },
+          {
+            "name": "Seoul Eulalia Festival + Mapo Naru Shrimp Festival (Sun Oct 18)",
+            "why": "Free silver-grass hill at sunset next to a food festival. A gentle outdoor day after the dawn arrival."
+          },
+          {
+            "name": "Gangneung Coffee Festival (Oct 21-25)",
+            "why": "Seaside cafe-street festival with a Kamakura-like coastal vibe. Pairs with Seoraksan foliage and Sokcho."
+          },
+          {
+            "name": "Gwangalli drone show (Sat Oct 17 or 24, 19:00/21:00)",
+            "why": "Free Busan night spectacle at the beach with Gwangan Bridge behind it. Plan the Busan leg around a Saturday."
+          },
+          {
+            "name": "Banpo Rainbow Fountain + car-free Jamsu Bridge (Sun Oct 18 or 25)",
+            "why": "Free Han River evening. The fountain season ends Oct 31."
+          },
+          {
+            "name": "Changgyeonggung Mulbit Yeonhwa (Oct 7 - Nov 1)",
+            "why": "Media-art light show at Chundangji pond inside a palace that is open until 21:00. A good evening palace option on non-Monday nights."
+          },
+          {
+            "name": "Hanseong Baekje Culture Festival, Olympic Park (Oct 23-25)",
+            "why": "Free history festival with a parade on the Baekje-era earthen fortress; fits Saturday Oct 24 in Seoul."
+          }
+        ],
+        "key_numbers": [
+          "Starlight Night Walk foreigner-only: Oct 21-24, 18:30 & 19:40, about KRW 60,000 (2025 price, unconfirmed)",
+          "Changdeokgung Moonlight Tour: KRW 30,000, ended Oct 17 (foreigner nights ended Oct 11)",
+          "Eulalia Festival: Oct 17-23, 10:00-21:00, free",
+          "Gangneung Coffee Festival: Oct 21-25, 10:00-21:00",
+          "Gwangalli drone show: Sat Oct 17 & 24, 19:00 & 21:00, about 12 min, free",
+          "Banpo fountain: through Oct 31; 12:00, 19:30, 20:00, 20:30, 21:00; 20 min",
+          "Jinju Lantern Festival: Oct 3-18, lanterns lit 18:00-24:00",
+          "Saenggwabang (Gyeongbokgung tea program): through Oct 26, 10:00/11:40/14:00/15:40",
+          "Changgyeonggung Mulbit Yeonhwa: Oct 7 - Nov 1",
+          "KBO: Semi-Playoff Oct 17-23, Playoff Oct 25-31, Korean Series Nov 2-10",
+          "Busan Fireworks: Nov 7 (paid seats KRW 70,000-100,000)",
+          "Palace fees: Gyeongbokgung/Changdeokgung KRW 3,000, Huwon +5,000, Changgyeonggung/Deoksugung/Jongmyo KRW 1,000, integrated pass KRW 10,000, free in hanbok",
+          "Closures: Gyeongbokgung & Jongmyo Tue Oct 20; Changdeokgung/Changgyeonggung/Deoksugung/Leeum Mon Oct 19",
+          "Jagalchi stalls often close 1st & 3rd Tue (Oct 20)",
+          "Bukchon red zone open to tourists only 10:00-17:00"
+        ],
+        "conflicts_or_uncertainties": [
+          "Foreigner booking site and price for the Starlight Night Walk Oct 21-24 sessions are unconfirmed; the kh.or.kr event page was down. Past years used Interpark Global/NOL World.",
+          "KBO 2026 standings and round dates come from Wikipedia while the regular season was still running (it ends Oct 12). Game-by-game venues depend on the wild card. The ticket vendor (NOL Ticket vs Ticketlink) is not verified.",
+          "Hanseong Baekje Festival (Oct 23-25), Hangang Autumn Festival (Oct 17-25), Mapo Naru Shrimp Festival (Oct 16-18), Tamla Culture Festival Jeju (Oct 17-21), Jagalchi Festival (Oct 15-18) and Yangyang Pine Mushroom Festival (Oct 16-18) come only from aggregator calendars, not official pages.",
+          "Han River drone show nights for 2026 (listed Sep 12 - Oct 31) are low confidence.",
+          "A palace notice suggests free admission on Wednesdays ('Culture Day') in 2026 at Changgyeonggung. Not verified for other palaces.",
+          "Price and booking method for Changgyeonggung Mulbit Yeonhwa are unknown (reservations opened Sep 11).",
+          "Palace hours, Huwon tour details, Leeum pricing and Gyeongju site hours are from prior-year knowledge, not 2026 pages.",
+          "No 2026 dates found for Busan One Asia, the Seoul kimjang/kimchi festival (usually Nov), or the Jeonju Bibimbap/Sori festivals. No major K-pop concerts or award shows found Oct 16-25; NMIXX and Jeonghan X Joshua comebacks on Oct 19 mean weekly music-show stages, but seats go mainly to fan clubs.",
+          "The session's web-search budget (200 calls) ran out mid-research. Later checks used WebFetch only."
+        ]
+      },
+      {
+        "domain": "Seoul in depth (neighborhoods, culture/history, markets, experiences, lodging) plus Seoul-based day trips",
+        "file": "/private/tmp/claude-501/-Users-rsalik-Library-Application-Support-Claude-scratch-workspaces-e6677c92-2974-4907-a0da-c7ac9ddbdf8c-66f568e9-f8bd-4c52-a222-d71c84fbd621-scratch-2026-10-07-778f00/6608af47-2359-4a74-81a2-d027e855f615/scratchpad/research/seoul.json",
+        "counts": {
+          "places": 40,
+          "lodging": 11,
+          "food": 11,
+          "transport": 8,
+          "events": 8
+        },
+        "headline_findings": [
+          "The 25th Seoul Silver Grass Festival at Haneul Park runs Sat Oct 17 to Fri Oct 23, 2026, 10:00-21:00 with night lighting, free. Its dates overlap the trip almost exactly.",
+          "The Gyeongbokgung Starlight Tour (60,000 KRW: royal 12-dish meal, court music, guided night tour) has foreigner-only sessions Oct 21-24 at 18:20 and 19:30 via Creatrip. They were listed SOLD OUT on Oct 6; cancellations are free until 3 days before, so seats may come back.",
+          "The Changdeokgung Moonlight Tour ends Oct 17 and its foreigner sessions ended Oct 11. The Suwon Hwaseong Cultural Festival (Oct 4-11), Suwon Media Art (to Oct 6), Gyeongbokgung regular night opening (to Oct 2) and Seoul Fireworks (Sep 5) all end before arrival.",
+          "JSA/Panmunjom is still closed to general and foreign civilian tours in 2026 (suspended since July 2023). Standard DMZ tours (Imjingak, 3rd Tunnel, Dora) run Tue-Sun for about 55,000-95,000 KRW, closed Mondays.",
+          "The Bukchon Hanok Village red zone (Bukchon-ro 11-gil) is open to sightseeing only 10:00-17:00, with fines up to 100,000 KRW, and tour buses have been banned on Bukchon-ro since 2026.",
+          "Jjimjilbangs: Dragon Hill Spa, Itaewon Land and Siloam at Seoul Station are all closed. SPAREX Dongdaemun/Dongmyo (24 h, about 14,000 KRW) is the central option.",
+          "The Namsan gondola promised for spring 2026 is NOT open: construction has been halted about 2 years, and Seoul lost on appeal in Sept 2026.",
+          "The Hangang Bus runs in 2026 (603k riders by Sept 2026, 3,000 KRW, Magok-Mangwon-Yeouido-Apgujeong-Oksu-Ttukseom-Jamsil), but its timetable keeps changing. One listing shows departures about 10:00-17:30; check hgbus.co.kr.",
+          "Closing days: Mon Oct 19 closes Changdeokgung, Changgyeonggung, Deoksugung, Leeum, the War Memorial and DMZ tours. Tue Oct 20 closes Gyeongbokgung and Jongmyo. The National Museum (from Mar 2026: 09:30-17:30, Wed/Sat to 21:00, free) is open Monday.",
+          "Foliage: 2026 forecasts put Bukhansan's first color around Oct 15-18 and peak around Oct 28-Nov 1, so Seoul palaces and parks will show early-to-mid color during Oct 17-24.",
+          "Palace fees stay at 3,000 KRW (Gyeongbokgung/Changdeokgung) and 1,000 KRW (Deoksugung/Changgyeonggung/Jongmyo) in Oct 2026, with an increase announced for Jan 2027. The Secret Garden totals 8,000 KRW, with online tickets released 6 days ahead at 10:00 KST. Hanbok gives free palace entry.",
+          "Airbnb: since 2026, unregistered listings can't be booked. Only foreign-tourist urban homestays (host on site), hanok-experience businesses and licensed lodging are legal; officetel rentals are illegal."
+        ],
+        "top_recommendations": [
+          {
+            "name": "Base in Jongno (Anguk/Insadong/Ikseon) with 1-2 nights at Rakkojae hanok",
+            "why": "Walkable to all the palaces, Bukchon, Jongmyo, Gwangjang, the Jongno-3ga tents and Euljiro bars. The hanok is the ryokan analog."
+          },
+          {
+            "name": "Somerset Palace Seoul or Fraser Place Central (2-bedroom serviced residences)",
+            "why": "Real space for 3 adults with kitchen and laundry at about 330k-620k KRW/night (estimate). Fraser is about 10 min from the Seoul Station AREX."
+          },
+          {
+            "name": "Changdeokgung Secret Garden plus a hanbok day",
+            "why": "The best autumn palace garden, the closest to Kamakura's temple gardens. Book 6 days ahead at 10:00 KST."
+          },
+          {
+            "name": "Haneul Park Silver Grass Festival at sunset (Oct 17-23)",
+            "why": "The autumn silver-grass highlight inside Seoul, free and lit until 21:00."
+          },
+          {
+            "name": "Noryangjin Fish Market sashimi dinner",
+            "why": "The best sushi-omakase analog. Autumn jeoneo (gizzard shad) and daeha (prawns) are in season. About 40k-60k KRW per person."
+          },
+          {
+            "name": "Inwangsan fortress-wall sunset hike, then Seochon dinner",
+            "why": "Kamakura-style hill trail with the best sunset view of Seoul. Sunset is about 17:50."
+          },
+          {
+            "name": "Hongdae/Yeonnam and Seongsu by day, Euljiro/Jongno-3ga by night; Seoul Sky at dusk",
+            "why": "The Shibuya/Shimokita/Golden Gai energy the travelers loved."
+          },
+          {
+            "name": "Bukhansan Baegundae hike (weekday)",
+            "why": "836 m granite peak reachable by subway and bus, with foliage coming on during the trip."
+          },
+          {
+            "name": "Suwon Hwaseong day trip (with Suwon galbi)",
+            "why": "A walkable UNESCO wall town about 1 h away by Line 1. The festival is over by then, so it will be calmer."
+          },
+          {
+            "name": "DMZ tour Tue-Sat (no JSA)",
+            "why": "The history counterweight. Pair it with the free War Memorial."
+          }
+        ],
+        "key_numbers": [
+          "Silver Grass Festival: Oct 17-23, 2026, 10:00-21:00, free",
+          "Gyeongbokgung Starlight Tour: 60,000 KRW; foreigner sessions Oct 21-24, 18:20/19:30, about 110 min (sold out Oct 6)",
+          "Palaces: Gyeongbokgung/Changdeokgung 3,000; Deoksugung/Changgyeonggung/Jongmyo 1,000; Secret Garden total 8,000 KRW",
+          "Bukchon red zone open to tourists 10:00-17:00; fine up to 100,000 KRW",
+          "National Museum: 09:30-17:30, Wed/Sat to 21:00, free; 'Our Dining Table' exhibition to Oct 25",
+          "Leeum: Tue-Sun 10:00-18:00, exhibitions up to about 20,000 KRW",
+          "Seoul Sky: 29,000 KRW adult (some listings say 31,000); Sun-Thu to 22:00, Fri-Sat to 23:00",
+          "N Seoul Tower observatory: 21,000 KRW adult",
+          "DMZ tour: 55,000-95,000 KRW per person, no tours Mondays",
+          "SPAREX jjimjilbang: about 14,000 KRW, 24 h",
+          "Hangang Bus: 3,000 KRW",
+          "AREX Express ICN to Seoul Station: about 11,000 KRW, 43 min (unverified 2026); subway base fare 1,550 KRW",
+          "Sunset in Seoul: about 17:55 (Oct 17) to 17:47 (Oct 24)",
+          "Bukhansan foliage: first color about Oct 15-18, peak about Oct 28-Nov 1 (2026 forecasts)",
+          "Lodging for 3 (estimates): hanok 180k-750k; Myeongdong hotel family/triple 200k-380k; 2-bedroom serviced residence 300k-750k KRW per night",
+          "October is Seoul's most expensive hotel month (HotelsCombined average about US$427)"
+        ],
+        "conflicts_or_uncertainties": [
+          "The web-search budget ran out partway through. Lodging prices are ESTIMATES built from 2-guest HotelsCombined/Trip.com snapshots (Oct 2026), not quotes for 3 adults.",
+          "JSA: one guide (seoultourism.org) says JSA tours run with periodic suspensions, but dmzinsidertour (Apr 2026), timetravelturtle (Aug 2026) and Korean news say general and foreigner tours have not resumed. I went with closed.",
+          "The Hangang Bus timetable is unclear: one snippet says departures 10:00-17:30, and a fetched article summary was garbled. Express and 15-min service are planned, not confirmed.",
+          "Namsan cable car fare conflicts (8,500 vs about 14,000-15,000 round trip). Seoul Sky price conflicts (29,000 vs 31,000).",
+          "From pre-2026 knowledge and not re-verified: AREX fare and first train, limousine bus fare, Climate Card prices, Nami Island and Garden of Morning Calm fees and hours, Suwon fortress fees, Banpo fountain schedule, Jogyesa chrysanthemum festival dates, Mingles and Onjium prices, Bugaksan trail hours.",
+          "Coordinates are from memory to 4 decimals and are approximate for some lodging (Chiwoonjung, Skypark Central, Mercure Hongdae) and restaurants.",
+          "Seoul Music Festival (Oct 24, Nodeul Island) and Mapo Naru Saeujeot Festival (Oct 16-18) come from aggregator listings only."
+        ]
+      },
+      {
+        "domain": "Busan and the southeast coast (seaside / Kamakura-like side of the trip)",
+        "file": "/private/tmp/claude-501/-Users-rsalik-Library-Application-Support-Claude-scratch-workspaces-e6677c92-2974-4907-a0da-c7ac9ddbdf8c-66f568e9-f8bd-4c52-a222-d71c84fbd621-scratch-2026-10-07-778f00/6608af47-2359-4a74-81a2-d027e855f615/scratchpad/research/busan.json",
+        "counts": {
+          "places": 28,
+          "lodging": 11,
+          "food": 9,
+          "transport": 10,
+          "events": 8
+        },
+        "headline_findings": [
+          "The official Blueline Park Sky Capsule fare is per capsule, one way, Mipo to Cheongsapo (about 30 min): 55,000 KRW for 3 riders (about 18,300 each). Blog prices of 30-45k are out of date or resident discounts.",
+          "Beach Train (Mipo to Songjeong, 4.8 km, 7 stops): 10,000 single from an end station, 8,000 from Cheongsapo, 16,000 for the all-stations pass. October hours are 09:00-19:30 for the train and 08:30-18:30 for the capsule.",
+          "Sky Capsule weekend slots sell out. Book on bluelinepark.com (may need Korean phone verification) or on Klook/KKday as soon as the date opens; weekdays are easiest.",
+          "Gwangalli drone show (about 1,100 drones, free) runs Saturdays at 19:00 and 21:00 in October. Oct 24 2026 is 'Forest's Melody' and is the only realistic date, which argues for putting Busan around Oct 21-24 and taking the KTX plus AREX to ICN on Sun Oct 25.",
+          "Hurshimchung (Dongnae hot springs, about 40 baths) reopened on 1 May 2026 after renovation: 15,000 weekday / 18,000 weekend, 05:30-22:00, open daily.",
+          "Spa Land Centum is still open in 2026, but hours changed on 1 Sep 2026 to 09:00-22:00, and the price is a flat 26,000 KRW with a 4-hour limit.",
+          "Haeundae Grand Hotel is closed (since 2018/19) and is being redeveloped. Remove it from the shortlist.",
+          "The most onsen-ryokan-like stays are Paradise Hotel Busan (Cimer outdoor sea-view hot spring; about 350-650k KRW per night for 3), Ananti Cove (Water House, clifftop; about 350-700k), and the budget option Hotel Nongshim (triple ondol room plus Hurshimchung, about 180-300k, no sea view).",
+          "Huinnyeoul Culture Village on Yeongdo plus the Sky Capsule/Cheongsapo stretch give the closest Kamakura/Enoden feel; Haedong Yonggungsa is the seaside-temple analog (free, go at sunrise).",
+          "Autumn: Busan mountain foliage peaks mid to late November, so late October is mostly green. Seunghaksan silver grass peaks mid-Oct to early Nov (good); Daejeo pink muhly is fading by Oct 20; Tongyeong oyster season opens in October.",
+          "Festivals: Dongnae Eupseong History Festival and Jeonpo Coffee Festival are Oct 16-18; Busan Folk Arts Festival is Oct 24-25; Jagalchi Festival 2026 dates are unconfirmed (2025 was Oct 23-26). BIFF (Oct 6-15) and the Busan Fireworks (Nov 7) fall outside the trip.",
+          "Songdo cable car (verified): 19,000 standard / 24,000 glass-floor round trip, 09:00-21:00 in October."
+        ],
+        "top_recommendations": [
+          {
+            "name": "Sky Capsule + Beach Train + Cheongsapo + Dalmaji-gil",
+            "why": "Closest analog to Kamakura's Enoden coastal train; one 55,000 KRW capsule fits all 3"
+          },
+          {
+            "name": "Huinnyeoul Culture Village + Taejongdae (Yeongdo)",
+            "why": "Cliffside lanes, cafes and sea views: the most Kamakura-like neighbourhood, plus rugged cliffs"
+          },
+          {
+            "name": "Haedong Yonggungsa at sunrise",
+            "why": "Seaside temple similar to Hase-dera; free; avoids tour-bus crowds"
+          },
+          {
+            "name": "Paradise Hotel Busan (or Ananti Cove)",
+            "why": "Sea-view hot-spring soaking that best recreates the Izu ryokan and onsen night"
+          },
+          {
+            "name": "Igidae coastal walk to Gwangalli + drone show Sat Oct 24",
+            "why": "Nature hike that ends in neon city energy; free drone show at 19:00 and 21:00"
+          },
+          {
+            "name": "Jagalchi Market hoe / Millak raw fish centre",
+            "why": "Freshest raw fish, the omakase-lover's fix; autumn gizzard shad and hairtail"
+          },
+          {
+            "name": "Hurshimchung (Dongnae)",
+            "why": "Onsen-town-style hot-spring bath for 15-18k KRW, freshly renovated in 2026"
+          },
+          {
+            "name": "Tongyeong overnight or day trip",
+            "why": "Harbour, cable car island views and start of oyster season; Stanford Hotel at about 140-280k for 3"
+          }
+        ],
+        "key_numbers": [
+          "Sky Capsule per capsule one way: 2 riders 50,000 / 3 riders 55,000 / 4 riders 60,000 KRW; Oct hours 08:30-18:30",
+          "Beach Train: 10,000 single (end stations), 8,000 (Cheongsapo), 14,000 two-ride, 16,000 all-stations; Oct 09:00-19:30",
+          "Drone show: Saturdays 19:00 and 21:00; Oct 24 'Forest's Melody'",
+          "Hurshimchung: 15,000 weekday / 18,000 weekend, 05:30-22:00",
+          "Spa Land Centum: 26,000 flat, 4 h, 09:00-22:00 (last entry 21:00)",
+          "Songdo cable car: 19,000 / 24,000 (Crystal) round trip, 09:00-21:00",
+          "Paradise Busan: from about 209k (2 people, Oct snapshot); about 350-650k for 3 in an ocean-view room",
+          "Ananti Cove: from about 182k (2 people); about 350-700k for 3",
+          "Hotel Nongshim: from about 138k; about 180-300k for a triple ondol room",
+          "Shilla Stay Haeundae: from about 136k; about 180-340k for a family twin",
+          "Hotel Aqua Palace Gwangalli: from about 80k; about 150-300k for 3 with a bridge view",
+          "KTX Seoul-Busan about 59,800 KRW, about 2.5 h",
+          "Busan per-person sketch (3 nights + activities + KTX): about 590k KRW, about US$410"
+        ],
+        "conflicts_or_uncertainties": [
+          "The session's web-search quota ran out partway through. Hours and admission for free or cheap sights (Yonggungsa, Taejongdae Danubi about 4,000, Oryukdo, X the Sky about 27,000, Tongyeong cable car about 17,000, Oedo) come from 2024-25 knowledge and are marked medium or low.",
+          "Hotel prices are aggregator snapshots for 2 people (mostly Oct 12-14 dates); prices for 3 adults are estimates. Signiel's only snapshot is from Oct 2024.",
+          "Sky Capsule fares on blogs conflict (30k-50k); official bluelinepark.com fare page used. The booking-open rule ('Tuesdays 07:00, 4 weeks ahead') is unverified.",
+          "Jagalchi Festival 2026 dates are unconfirmed (2025 was Oct 23-26).",
+          "Ananti Water House and Paradise Cimer 2026 fees, and whether guest rates include them, are not verified.",
+          "Hound Hotel Gwangalli could not be verified (aggregator page gone).",
+          "Jagalchi building 1st/3rd Tuesday closure (would hit Oct 20) is not verified for 2026.",
+          "LaLaLa Festival (Oct 23-25) venue and content are unknown."
+        ]
+      },
+      {
+        "domain": "Logistics, transport prices and practicalities",
+        "file": "/private/tmp/claude-501/-Users-rsalik-Library-Application-Support-Claude-scratch-workspaces-e6677c92-2974-4907-a0da-c7ac9ddbdf8c-66f568e9-f8bd-4c52-a222-d71c84fbd621-scratch-2026-10-07-778f00/6608af47-2359-4a74-81a2-d027e855f615/scratchpad/research/logistics.json",
+        "counts": {
+          "places": 3,
+          "lodging": 0,
+          "food": 0,
+          "transport": 18,
+          "events": 0
+        },
+        "headline_findings": [
+          "The exchange rate on Oct 6-7 2026 is about 1,340 KRW per USD, so US$1,000 per person is about 1,340,000 KRW and the US$3,000 group budget is about 4.02M KRW.",
+          "On Sep 1 2026 SRT merged into KTX. Fares on high-speed routes dropped about 10% (Seoul-Busan went from 59,800 to 54,400 KRW), all bookings moved to the Korail+ app (formerly Korail Talk), and the SRT app is gone.",
+          "Since Oct 1 2026, Korail tickets open 2 months ahead at 07:00, so every train for Oct 17-25 is already on sale. Book now, especially weekend trains and the Donghae Line, which runs only 3 trains a day.",
+          "October 2026 timetable fares per person: Seoul to Gyeongju (formerly Singyeongju) 44,500 KRW, about 2h. Gyeongju to Busan 10,100 KRW, about 30 min. Seoul to Gangneung 27,600 KRW, about 2h. Seoul to Jeonju 31,900 KRW. Cheongnyangni to Andong 27,700 KRW, 1h52.",
+          "East-coast KTX-Eum: Bujeon to Gangneung costs 46,800 KRW and takes 3h50, with only 3 trains a day (07:50/13:58/19:40). Gangneung to Gyeongju is 34,300 KRW, 2h50. Gangneung to Pohang is 28,700 KRW, 2h22. Bujeon to Gyeongju is 12,500 KRW, 1h07.",
+          "The Korail Pass is not worth it. A Seoul to Gyeongju to Busan to Seoul loop costs about 109,000 KRW per person, against 131,000-275,000 KRW for a pass. It is also officially unclear whether the pass covers former SRT trains.",
+          "Express and intercity bus fare caps rose 9% on Oct 1 2026. Seoul-Sokcho (about 21,000-26,000 KRW, 2h10-2h40) and Gangneung-Sokcho (about 8,500 KRW, 1h) are estimates.",
+          "Dawn arrival: the AREX Express first train leaves T1 at 05:23 (11,000-13,000 KRW, 43 min). For 3 people a taxi (about 65,000-80,000 KRW total) costs about the same and goes door to door. The safest plan is to book a room for the night of Oct 16.",
+          "Air Premia is believed to use ICN T1 (confirm). Air Premia is not among the Seoul Station City Airport Terminal check-in airlines, so the last day needs hotel bag storage or T-Luggage (stations 09:00-22:00; airport delivery 20,000 KRW weekday / 29,000 KRW weekend per bag).",
+          "Entry: US citizens are exempt from K-ETA through Dec 31 2026. Each traveler must file the free e-Arrival Card online within 3 days before arrival (it replaced paper cards on Jan 1 2026).",
+          "Payments: foreign Visa/MC work almost everywhere. For transit, use T-money or WOWPASS. Kakao T, k.ride and Uber work with foreign cards. Use Naver/Kakao Map rather than Google, and CatchTable Global for omakase bookings.",
+          "Overseas cards sometimes fail 3-D Secure on Korail+. Fall back to the korail.com English site, station counters, or resellers (Trip.com, Klook, LACHA)."
+        ],
+        "top_recommendations": [
+          {
+            "name": "Buy KTX tickets now on korail.com / Korail+",
+            "why": "Booking now opens 2 months ahead and fares are about 10% lower since Sep 2026. Weekend foliage trains and the 3-a-day Donghae KTX-Eum sell out."
+          },
+          {
+            "name": "Skip the Korail Pass",
+            "why": "Point-to-point fares for the likely 3-4 legs total about 109k-164k KRW per person, against 186k-275k KRW for a pass. Coverage of former SRT trains is also unclear."
+          },
+          {
+            "name": "Book the night of Oct 16 and take a taxi from ICN",
+            "why": "This guarantees a room at 7am after the 05:15 landing. For 3 people a taxi (about 70k KRW) costs about the same as AREX Express tickets plus a transfer."
+          },
+          {
+            "name": "File the e-Arrival Card online 1-3 days before Oct 17",
+            "why": "It is required in 2026 because paper cards are gone. K-ETA is not needed (US exemption runs to Dec 31 2026)."
+          },
+          {
+            "name": "T-money or WOWPASS plus Naver Map, Papago and CatchTable Global",
+            "why": "This covers transit nationwide, works with foreign cards, and is the only practical way to book omakase as foreigners."
+          },
+          {
+            "name": "Last day: hotel bag hold or T-Luggage, leave Seoul by 17:30",
+            "why": "Air Premia cannot check in at Seoul Station, so leave by 17:30 to reach T1 by about 19:00 for the 21:55 flight."
+          },
+          {
+            "name": "Do not rent a car",
+            "why": "You would need an IDP from AAA, and Seoul driving is hard. Rail covers all planned legs."
+          }
+        ],
+        "key_numbers": [
+          "USD/KRW about 1,340 (Oct 7 2026)",
+          "KTX Seoul-Busan 54,400 KRW (2h18-2h40; 66-69 trains/day, 05:13-22:28)",
+          "KTX Seoul-Gyeongju (Singyeongju) 44,500 KRW, about 2h",
+          "KTX Gyeongju-Busan 10,100 KRW, 27-35 min",
+          "KTX-Eum Bujeon-Gyeongju 12,500 KRW, 1h07 (ITX 10,100; Mugunghwa 6,800)",
+          "KTX Seoul-Gangneung 27,600 KRW, about 2h; Cheongnyangni-Gangneung 26,000 KRW",
+          "KTX Seoul-Jeonju 31,900 KRW, 1h42+",
+          "KTX-Eum Cheongnyangni-Andong 27,700 KRW, 1h52",
+          "KTX-Eum Bujeon-Gangneung 46,800 KRW, 3h50, 3 trains/day",
+          "KTX-Eum Gangneung-Gyeongju 34,300 KRW, 2h50; Gangneung-Pohang 28,700 KRW",
+          "Korail Pass about 131k (2-day) / 186k (3-day) / 234k (4-day) / 275k (5-day) KRW; saver about 10k-15k KRW less",
+          "Bus Seoul-Sokcho about 21k-26k KRW (estimate after Oct 1 9% cap rise); Gangneung-Sokcho about 8.5k KRW",
+          "AREX Express 11,000-13,000 KRW, first train T1 05:23 / T2 05:15; all-stop about 4,150-5,050 KRW",
+          "Airport limousine about 17,000-18,000 KRW; ICN taxi to Seoul about 65,000-80,000 KRW total",
+          "T-Luggage airport delivery 20,000 KRW weekday / 29,000 KRW weekend per bag; storage 6,000-13,000 KRW per large bag",
+          "Seoul subway 1,550 KRW; taxi base 4,800 KRW",
+          "K-ETA exemption for US citizens until Dec 31 2026; e-Arrival Card free, file within 3 days before arrival",
+          "Tax refund: instant for 15,000 to under 1,000,000 KRW per receipt",
+          "GMP-CJU / PUS-CJU about 30k-120k KRW one-way (typical range, unverified)"
+        ],
+        "conflicts_or_uncertainties": [
+          "Korail Pass prices differ by source: Shopback (Aug 2026) gives 131k/186k/234k/275k KRW, while koreaexperience gives a 213k 4-day and a 175k/225k consecutive pass.",
+          "AREX Express fare: Wikivoyage says 13,000 KRW, a Korean source says 11,000 KRW (discounted).",
+          "One source quoted Yongsan-Jeonju at 48,200 KRW, which looks wrong. The Oct 2026 timetable shows 31,900 KRW from Seoul Station.",
+          "Seoul-Gangneung is still 27,600 KRW, so the 10% cut apparently did not apply to the Gangneung, Jungang or Donghae lines.",
+          "Route-level bus fares after the Oct 1 2026 increase are not published, so the bus fares are estimates.",
+          "Air Premia's ICN terminal (assumed T1) was not confirmed by an official page. T-Luggage lists airport delivery to T2 only.",
+          "Darakhyu and Spa on Air prices are older snapshots; Spa on Air's 2026 status is unconfirmed.",
+          "Singyeongju appears renamed to Gyeongju Station (Wikipedia and timetables); the date of the change was not verified.",
+          "Korail Pass validity on former SRT (Suseo) trains after the merger has not been officially stated.",
+          "Limousine bus, taxi, eSIM, Climate Card and domestic flight prices are typical or near-2025 figures, not verified for 2026.",
+          "The web search budget ran out partway through, so the remaining facts came from fetching known pages directly."
+        ]
+      },
+      {
+        "domain": "Japan-to-Korea vibe matching, plus food and omakase",
+        "file": "/private/tmp/claude-501/-Users-rsalik-Library-Application-Support-Claude-scratch-workspaces-e6677c92-2974-4907-a0da-c7ac9ddbdf8c-66f568e9-f8bd-4c52-a222-d71c84fbd621-scratch-2026-10-07-778f00/6608af47-2359-4a74-81a2-d027e855f615/scratchpad/research/vibe.json",
+        "counts": {
+          "places": 19,
+          "lodging": 8,
+          "food": 40,
+          "events": 4,
+          "transport": 3
+        },
+        "headline_findings": [
+          "Best Kamakura analog: Busan's east coast. That means the Blueline Park Sky Capsule and Beach Train between Mipo, Cheongsapo and Songjeong, then Haedong Yonggungsa, Cheongsapo and Huinnyeoul. Yangyang Naksansa with Sokcho's Abai Village ranks 2nd, then Gangneung, Tongyeong, Yeosu and Seogwipo.",
+          "Official 2026 Blueline fares: a 3-person Sky Capsule costs KRW 55,000 one way (KRW 18,300 per person). The Beach Train is KRW 8,000-10,000 one way, or KRW 16,000 for a day pass. In October the Sky Capsule runs 08:30-18:30, about 30 minutes each way, and weekend slots sell out.",
+          "Best Shibuya analogs, in order: Hongdae/Yeonnam (street energy), Myeongdong with Euljiro Nogari Alley, Seongsu (more like Daikanyama), Gangnam Station (the literal big crossing), and Busan Seomyeon.",
+          "Korea has almost no all-in-one ryokans. The closest is Gyeongju Ragung, a hanok hotel with private outdoor stone baths, but its domain ragung.co.kr no longer resolves. Treat its operating status as unverified.",
+          "Practical ryokan substitute: an ocean-view hot-spring hotel (Paradise Hotel Busan's Cimer spa, or Ananti Cove's Water House) plus a kaiseki-like dinner. Mori in Busan, a 1-star Japanese kaiseki run by a Korean chef and his Japanese wife, is the closest match.",
+          "Michelin Seoul & Busan 2026 (announced Mar 5, 2026): 46 starred restaurants. Mingles is the only 3-star. Sosuheon is the only 2-star sushi counter (new). Sushi Matsumoto and Sushi Kanesaka (new) hold 1 star. Busan has 4 one-star restaurants, including Mori and Le DORER (new).",
+          "Sushi Kanesaka Seoul (InterContinental Parnas) official 2026 prices: lunch KRW 230,000-280,000, dinner KRW 330,000-380,000. It has 9 seats and books by phone at 02-559-7627.",
+          "Sosuheon: an 8-seat hanok counter with dinner around KRW 500,000. It books by phone only (+82 10-9694-3368).",
+          "Hanu omakase: Born and Bred in Majang-dong (No. 56 on Asia's 50 Best Restaurants 2026). Its chef's tasting costs KRW 380,000 and books on CatchTable 2-3 months ahead. The restaurant is closed Tuesdays.",
+          "Mingles raised its lunch to KRW 320,000 on Mar 1, 2026, and is closed Sun-Mon. Onjium serves Joseon court cuisine opposite Gyeongbokgung at lunch only, Tue-Fri (per Michelin). Michelin lists it as cash only.",
+          "October seafood: gizzard shad (jeoneo), daeha prawns and kkotge crab are in season. Oysters are just starting in Tongyeong, and Yangyang pine mushrooms run until about mid-October. Domestic snow crab (daegae) is NOT in season in October; what you see is imported or red snow crab.",
+          "Hoe (raw fish) markets: Jagalchi platters run about KRW 30,000-60,000 for two, plus about KRW 5,000 per person for the table. Millak, facing Gwangan Bridge, is the best night out. Noryangjin wholesale flatfish was KRW 22,800/kg in Aug 2026."
+        ],
+        "top_recommendations": [
+          {
+            "name": "Busan 'Kamakura day': Blueline Sky Capsule + Beach Train + Haedong Yonggungsa + Gijang hoe",
+            "why": "The closest Enoden-and-seaside-temple match. It costs about KRW 85,000 in total for 3 and fits easily in one day."
+          },
+          {
+            "name": "Naksansa + Abai Village gaetbae raft + Sokcho market (with Seoraksan foliage)",
+            "why": "The most atmospheric seaside temple in Korea, plus a fishing-village food crawl, at peak foliage in mid-late October."
+          },
+          {
+            "name": "Hongdae/Yeonnam nights + Euljiro Nogari Alley",
+            "why": "The best Shibuya and yokocho energy in Seoul."
+          },
+          {
+            "name": "Paradise Hotel Busan (Cimer ocean-view hot spring) or Ananti Cove",
+            "why": "The most 'Izu onsen by the sea' feel available. Ananti's Cabin S takes 3 adults with a KRW 50,000 extra bed."
+          },
+          {
+            "name": "Mori (Busan, 1 star, kaiseki ~KRW 250k)",
+            "why": "The best stand-in for a ryokan kaiseki dinner. Closed Mondays; book by phone at +82 51-731-9889."
+          },
+          {
+            "name": "Sushi Kanesaka Seoul lunch (KRW 230k-280k)",
+            "why": "A newly starred Edomae counter with official 2026 prices. The hotel concierge makes it the easiest high-end booking for foreigners."
+          },
+          {
+            "name": "Iwa Busan (Michelin Selected, aged-fish omakase, lunch ~KRW 80k)",
+            "why": "The best-value sushi omakase in Busan. Open daily."
+          },
+          {
+            "name": "Born and Bred hanu tasting (KRW 380k) or Geumdwaeji Sikdang (budget pork BBQ)",
+            "why": "Korean beef treated as omakase, versus the benchmark Korean BBQ."
+          },
+          {
+            "name": "Mingles lunch (KRW 320k) or Onjium lunch (~KRW 140k)",
+            "why": "Korean tasting menus at kaiseki level. Onjium is the most cultural, Mingles is the only 3-star."
+          },
+          {
+            "name": "Millak raw fish center at night, plus Jagalchi",
+            "why": "Hoe with the Gwangan Bridge view. The October catch includes jeoneo and daeha."
+          }
+        ],
+        "key_numbers": [
+          "Sky Capsule: KRW 55,000 per 3-person capsule one way; October hours 08:30-18:30; about 30 min",
+          "Beach Train: KRW 8,000-10,000 one way, KRW 14,000 for 2 rides, KRW 16,000 day pass",
+          "Sushi Kanesaka Seoul: lunch KRW 230k-280k, dinner KRW 330k-380k (valid for 2026)",
+          "Sosuheon (2 stars): dinner about KRW 500,000",
+          "Sushi Cho (Westin): dinner about KRW 340,000 (source date unclear)",
+          "Entry omakase: Sushi Chohi lunch KRW 45k / dinner KRW 110k; Sushi Nee (Busan) lunch KRW 60k / dinner KRW 110k; Iwa lunch about KRW 80k",
+          "Sushi Ima (Busan): dinner KRW 180,000",
+          "Mori (Busan): about KRW 250,000",
+          "Born and Bred chef's tasting: KRW 380,000",
+          "Mingles: lunch KRW 320,000 (since Mar 1, 2026)",
+          "Onjium: lunch about KRW 140k, dinner about KRW 260k (third-party, conflicts with Michelin's lunch-only hours)",
+          "Jagalchi hoe for 2: KRW 30k-60k, plus a table fee of about KRW 5k per person",
+          "Namdang-hang Daeha Festival: Sep 4 - Nov 8, 2026, free entry",
+          "Jagalchi Festival: 2025 ran Oct 23-26; 2026 dates not confirmed",
+          "Typical omakase tiers (dinner): entry KRW 70k-100k, mid 100k-200k, high 200k-500k"
+        ],
+        "conflicts_or_uncertainties": [
+          "The web search budget ran out partway through. Every lodging price (Ragung, Paradise, Ananti, Hotel Nongshim, Rakkojae, Seongyojang, Seorak) is an estimate from pre-2026 rates, and the JSON marks each one low or medium confidence.",
+          "Ragung's official domain does not resolve (checked Oct 6, 2026), so it may have closed or been rebranded.",
+          "Spaland Centum City's website was unreachable when checked. The Hurshimchung admission price was not verified for 2026.",
+          "Third-party sources conflict with the official Michelin list. One claims Mosu and La Yeon hold 3 stars and Mingles 2; another claims Kojima is a 2-star. The official 2026 list is: Mingles 3 stars, Sosuheon the only 2-star sushi counter.",
+          "Michelin pages for Mingles and Onjium show lunch-only hours, while other sources quote dinner prices. Confirm before booking.",
+          "Mori's address differs between Wikipedia (Haeundaehaebyeon-ro) and Michelin (21 Gunam-ro). Use the Michelin address.",
+          "Several sushi prices (Sushi Sora, Sushi Ito, Umok) come from lists dated 2024-25.",
+          "Coordinates for many food spots are approximate (about 4 decimal places, from memory rather than a map lookup). Some entries have null coordinates.",
+          "The 2026 Jagalchi Festival dates were not found. It may overlap Oct 22-25.",
+          "Gangneung Coffee Festival 2026 dates were not verified."
+        ]
+      }
+    ],
+    "critique": null,
+    "followups": []
+  },
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Research"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Critique"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "Fill gaps"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "research:foliage",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "ab7eb9673c6dc132b",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791340132499,
+      "queuedAt": 1791340132462,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Autumn nature and foliage timing for Oct 17-25 2026",
+      "promptPreview": "TRIP BRIEF (shared by all researchers)\n- Travelers: 3 adults flying from Newark, first trip to Korea. In Japan they loved: Kamakura (seaside temple town with charming streets and a little coastal train), Shibuya (bustling neon city), a ryokan stay with onsen on the Izu peninsula, and sushi omakase. They want Korean experiences with a similar vibe, not literal copies.\n- Goals: balance culture, hist…",
+      "promptFramed": true,
+      "lastProgressAt": 1791340703275,
+      "tokens": 130136,
+      "toolCalls": 57,
+      "durationMs": 570748,
+      "resultPreview": "{\"domain\":\"Autumn nature and foliage timing for Oct 17-25 2026\",\"file\":\"/private/tmp/claude-501/-Users-rsalik-Library-Application-Support-Claude-scratch-workspaces-e6677c92-2974-4907-a0da-c7ac9ddbdf8c-66f568e9-f8bd-4c52-a222-d71c84fbd621-scratch-2026-10-07-778f00/6608af47-2359-4a74-81a2-d027e855f615/scratchpad/research/foliage.json\",\"headline_findings\":[\"Korea Forest Service 2026 map (released Sep…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "research:events",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "a5f8235454a49e39a",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791340132503,
+      "queuedAt": 1791340132462,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Festivals, events, special openings and closures in Korea, …",
+      "promptPreview": "TRIP BRIEF (shared by all researchers)\n- Travelers: 3 adults flying from Newark, first trip to Korea. In Japan they loved: Kamakura (seaside temple town with charming streets and a little coastal train), Shibuya (bustling neon city), a ryokan stay with onsen on the Izu peninsula, and sushi omakase. They want Korean experiences with a similar vibe, not literal copies.\n- Goals: balance culture, hist…",
+      "promptFramed": true,
+      "lastProgressAt": 1791340806392,
+      "tokens": 151530,
+      "toolCalls": 90,
+      "durationMs": 673158,
+      "resultPreview": "{\"domain\":\"Festivals, events, special openings and closures in Korea, Oct 16-25 2026\",\"file\":\"/private/tmp/claude-501/-Users-rsalik-Library-Application-Support-Claude-scratch-workspaces-e6677c92-2974-4907-a0da-c7ac9ddbdf8c-66f568e9-f8bd-4c52-a222-d71c84fbd621-scratch-2026-10-07-778f00/6608af47-2359-4a74-81a2-d027e855f615/scratchpad/research/events.json\",\"counts\":{\"events\":35,\"places\":11,\"lodging\":…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "research:seoul",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "aa7ec90ccc1352ba7",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791340132506,
+      "queuedAt": 1791340132462,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Seoul in depth (neighborhoods, culture/history, markets, ex…",
+      "promptPreview": "TRIP BRIEF (shared by all researchers)\n- Travelers: 3 adults flying from Newark, first trip to Korea. In Japan they loved: Kamakura (seaside temple town with charming streets and a little coastal train), Shibuya (bustling neon city), a ryokan stay with onsen on the Izu peninsula, and sushi omakase. They want Korean experiences with a similar vibe, not literal copies.\n- Goals: balance culture, hist…",
+      "promptFramed": true,
+      "lastProgressAt": 1791340870994,
+      "tokens": 166420,
+      "toolCalls": 78,
+      "durationMs": 737759,
+      "resultPreview": "{\"domain\":\"Seoul in depth (neighborhoods, culture/history, markets, experiences, lodging) plus Seoul-based day trips\",\"file\":\"/private/tmp/claude-501/-Users-rsalik-Library-Application-Support-Claude-scratch-workspaces-e6677c92-2974-4907-a0da-c7ac9ddbdf8c-66f568e9-f8bd-4c52-a222-d71c84fbd621-scratch-2026-10-07-778f00/6608af47-2359-4a74-81a2-d027e855f615/scratchpad/research/seoul.json\",\"counts\":{\"pl…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "research:busan",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "aeeb5ab965a1290ef",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791340132510,
+      "queuedAt": 1791340132462,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Busan and the southeast coast (seaside / Kamakura-like side…",
+      "promptPreview": "TRIP BRIEF (shared by all researchers)\n- Travelers: 3 adults flying from Newark, first trip to Korea. In Japan they loved: Kamakura (seaside temple town with charming streets and a little coastal train), Shibuya (bustling neon city), a ryokan stay with onsen on the Izu peninsula, and sushi omakase. They want Korean experiences with a similar vibe, not literal copies.\n- Goals: balance culture, hist…",
+      "promptFramed": true,
+      "lastProgressAt": 1791340812299,
+      "tokens": 139682,
+      "toolCalls": 73,
+      "durationMs": 679064,
+      "resultPreview": "{\"domain\":\"Busan and the southeast coast (seaside / Kamakura-like side of the trip)\",\"file\":\"/private/tmp/claude-501/-Users-rsalik-Library-Application-Support-Claude-scratch-workspaces-e6677c92-2974-4907-a0da-c7ac9ddbdf8c-66f568e9-f8bd-4c52-a222-d71c84fbd621-scratch-2026-10-07-778f00/6608af47-2359-4a74-81a2-d027e855f615/scratchpad/research/busan.json\",\"counts\":{\"places\":28,\"lodging\":11,\"food\":9,\"t…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "research:heritage",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "aa2438f1dc27ee724",
+      "model": "claude-opus-5-5",
+      "state": "error",
+      "startedAt": 1791340132512,
+      "queuedAt": 1791340132462,
+      "attempt": 1,
+      "lastToolName": "Write",
+      "lastToolSummary": "/private/tmp/claude-501/-Users-rsalik-Library-Application-S…",
+      "promptPreview": "TRIP BRIEF (shared by all researchers)\n- Travelers: 3 adults flying from Newark, first trip to Korea. In Japan they loved: Kamakura (seaside temple town with charming streets and a little coastal train), Shibuya (bustling neon city), a ryokan stay with onsen on the Izu peninsula, and sushi omakase. They want Korean experiences with a similar vibe, not literal copies.\n- Goals: balance culture, hist…",
+      "promptFramed": true,
+      "lastProgressAt": 1791341021885,
+      "error": "You've hit your session limit · resets 3:20am (America/New_York)",
+      "tokens": 115343,
+      "toolCalls": 70,
+      "durationMs": 888650
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "research:gangwon",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "a6c267b11135a7f50",
+      "model": "claude-opus-5-5",
+      "state": "error",
+      "startedAt": 1791340132515,
+      "queuedAt": 1791340132462,
+      "attempt": 1,
+      "lastToolName": "Write",
+      "lastToolSummary": "/private/tmp/claude-501/-Users-rsalik-Library-Application-S…",
+      "promptPreview": "TRIP BRIEF (shared by all researchers)\n- Travelers: 3 adults flying from Newark, first trip to Korea. In Japan they loved: Kamakura (seaside temple town with charming streets and a little coastal train), Shibuya (bustling neon city), a ryokan stay with onsen on the Izu peninsula, and sushi omakase. They want Korean experiences with a similar vibe, not literal copies.\n- Goals: balance culture, hist…",
+      "promptFramed": true,
+      "lastProgressAt": 1791340877892,
+      "error": "You've hit your session limit · resets 3:20am (America/New_York)",
+      "tokens": 99645,
+      "toolCalls": 56,
+      "durationMs": 744656
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "research:jeju",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "aca2b65bb8e91d7be",
+      "model": "claude-opus-5-5",
+      "state": "error",
+      "startedAt": 1791340132520,
+      "queuedAt": 1791340132463,
+      "attempt": 1,
+      "lastToolName": "Write",
+      "lastToolSummary": "/private/tmp/claude-501/-Users-rsalik-Library-Application-S…",
+      "promptPreview": "TRIP BRIEF (shared by all researchers)\n- Travelers: 3 adults flying from Newark, first trip to Korea. In Japan they loved: Kamakura (seaside temple town with charming streets and a little coastal train), Shibuya (bustling neon city), a ryokan stay with onsen on the Izu peninsula, and sushi omakase. They want Korean experiences with a similar vibe, not literal copies.\n- Goals: balance culture, hist…",
+      "promptFramed": true,
+      "lastProgressAt": 1791340941405,
+      "error": "You've hit your session limit · resets 3:20am (America/New_York)",
+      "tokens": 136798,
+      "toolCalls": 83,
+      "durationMs": 808168
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "research:logistics",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "ac09d34e1529a90d1",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791340132521,
+      "queuedAt": 1791340132463,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Logistics, transport prices and practicalities",
+      "promptPreview": "TRIP BRIEF (shared by all researchers)\n- Travelers: 3 adults flying from Newark, first trip to Korea. In Japan they loved: Kamakura (seaside temple town with charming streets and a little coastal train), Shibuya (bustling neon city), a ryokan stay with onsen on the Izu peninsula, and sushi omakase. They want Korean experiences with a similar vibe, not literal copies.\n- Goals: balance culture, hist…",
+      "promptFramed": true,
+      "lastProgressAt": 1791340635151,
+      "tokens": 127832,
+      "toolCalls": 85,
+      "durationMs": 501912,
+      "resultPreview": "{\"domain\":\"Logistics, transport prices and practicalities\",\"file\":\"/private/tmp/claude-501/-Users-rsalik-Library-Application-Support-Claude-scratch-workspaces-e6677c92-2974-4907-a0da-c7ac9ddbdf8c-66f568e9-f8bd-4c52-a222-d71c84fbd621-scratch-2026-10-07-778f00/6608af47-2359-4a74-81a2-d027e855f615/scratchpad/research/logistics.json\",\"counts\":{\"places\":3,\"lodging\":0,\"food\":0,\"transport\":18,\"events\":0}…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "research:vibe",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "acf317d684c9452d6",
+      "model": "claude-opus-5-5",
+      "state": "done",
+      "startedAt": 1791340132524,
+      "queuedAt": 1791340132463,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "Japan-to-Korea vibe matching, plus food and omakase",
+      "promptPreview": "TRIP BRIEF (shared by all researchers)\n- Travelers: 3 adults flying from Newark, first trip to Korea. In Japan they loved: Kamakura (seaside temple town with charming streets and a little coastal train), Shibuya (bustling neon city), a ryokan stay with onsen on the Izu peninsula, and sushi omakase. They want Korean experiences with a similar vibe, not literal copies.\n- Goals: balance culture, hist…",
+      "promptFramed": true,
+      "lastProgressAt": 1791340801371,
+      "tokens": 150022,
+      "toolCalls": 71,
+      "durationMs": 668134,
+      "resultPreview": "{\"domain\":\"Japan-to-Korea vibe matching, plus food and omakase\",\"file\":\"/private/tmp/claude-501/-Users-rsalik-Library-Application-Support-Claude-scratch-workspaces-e6677c92-2974-4907-a0da-c7ac9ddbdf8c-66f568e9-f8bd-4c52-a222-d71c84fbd621-scratch-2026-10-07-778f00/6608af47-2359-4a74-81a2-d027e855f615/scratchpad/research/vibe.json\",\"counts\":{\"places\":19,\"lodging\":8,\"food\":40,\"events\":4,\"transport\":3…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "critic",
+      "phaseIndex": 2,
+      "phaseTitle": "Critique",
+      "agentId": "a9c44f64c4a7e3160",
+      "model": "claude-opus-5-5",
+      "state": "error",
+      "startedAt": 1791341021930,
+      "queuedAt": 1791341021890,
+      "attempt": 1,
+      "promptPreview": "TRIP BRIEF (shared by all researchers)\n- Travelers: 3 adults flying from Newark, first trip to Korea. In Japan they loved: Kamakura (seaside temple town with charming streets and a little coastal train), Shibuya (bustling neon city), a ryokan stay with onsen on the Izu peninsula, and sushi omakase. They want Korean experiences with a similar vibe, not literal copies.\n- Goals: balance culture, hist…",
+      "promptFramed": true,
+      "lastProgressAt": 1791341022192,
+      "error": "You've hit your session limit · resets 3:20am (America/New_York)",
+      "tokens": 0,
+      "toolCalls": 0,
+      "durationMs": 262
+    }
+  ],
+  "totalTokens": 1217408,
+  "totalToolCalls": 663
+}

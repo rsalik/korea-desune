@@ -1,0 +1,895 @@
+{
+  "domain": "Festivals, events, special openings and closures in Korea, Oct 16-25 2026",
+  "as_of": "2026-10-06",
+  "events": [
+    {
+      "name": "Gyeongbokgung Starlight Night Walk (foreigner-only sessions)",
+      "name_ko": "경복궁 별빛야행 (외국인 전용 회차)",
+      "city": "Seoul",
+      "dates": "Program runs Sep 2 - Oct 24 2026 (Wed-Sun, paused Sep 30 - Oct 4). Oct 21 (Wed), 22 (Thu), 23 (Fri), 24 (Sat) are FOREIGN VISITORS ONLY.",
+      "times": "Two sessions nightly: 18:30 and 19:40 (approx. 2 hours). Route: Sojubang royal kitchen (royal-style dosirak meal), Jibokjae, Hyangwonjeong pavilion, with traditional music/performance.",
+      "cost": "Not confirmed for 2026. 2024-2025 price was KRW 60,000 pp including the royal meal; assume about KRW 60,000.",
+      "booking": "Korean sessions were a lottery (Aug 14-20 2026) run by the Korea Heritage Agency (kh.or.kr). The foreigner-session booking channel for 2026 is unconfirmed. In past years foreigner sessions were sold first-come through Interpark's global site (now NOL World). Check kh.or.kr and NOL World now; seats are tiny in number and may already be gone.",
+      "notes": "This is the best palace night program during the trip, and its foreigner dates fall exactly inside it. It is the closest thing to a ryokan-style kaiseki evening in a historic setting. The Gyeongbokgung general night opening (Sep 2 - Oct 2) and the Changdeokgung Moonlight Tour foreigner nights (last one Oct 11) are both over before the trip.",
+      "lat": 37.5796,
+      "lon": 126.977,
+      "sources": [
+        "https://royal.khs.go.kr/ROYAL/contents/R201000000.do?selDate=2026-10-17",
+        "https://royal.khs.go.kr/ROYAL/contents/R201000000.do?selDate=2026-10-18",
+        "https://www.kh.or.kr/"
+      ],
+      "confidence": "high (dates and foreigner-only nights from the official royal palace calendar); low (price and foreigner booking channel)"
+    },
+    {
+      "name": "Changgyeonggung 'Mulbit Yeonhwa' night media-art (autumn)",
+      "name_ko": "2026년 하반기 창경궁 물빛연화",
+      "city": "Seoul",
+      "dates": "Oct 7 - Nov 1 2026 (palace closed Mondays)",
+      "times": "Evening, around Chundangji pond (exact session times not captured; palace is open until 21:00)",
+      "cost": "Not confirmed. Expect palace admission KRW 1,000 plus possibly a program fee.",
+      "booking": "Reservation opened Sep 11 2026 at 11:00 (Korea Heritage Agency/NOL Ticket). Foreigner access unconfirmed; check for remaining or cancelled slots.",
+      "notes": "Media-art light show reflected in Chundangji pond and the glasshouse (Daeonsil). It pairs well with an evening at Changgyeonggung, which is open to 21:00 anyway.",
+      "lat": 37.583,
+      "lon": 126.9936,
+      "sources": [
+        "https://www.kh.or.kr/",
+        "https://royal.khs.go.kr/ROYAL/contents/R201000000.do?selDate=2026-10-22"
+      ],
+      "confidence": "high (dates); low (price/booking)"
+    },
+    {
+      "name": "Gyeongbokgung Saenggwabang royal tea & dessert program (autumn)",
+      "name_ko": "경복궁 생과방 (하반기)",
+      "city": "Seoul",
+      "dates": "Sep 2 - Oct 26 2026, daily except Tuesdays (palace closure day)",
+      "times": "10:00, 11:40, 14:00, 15:40 (about 70 min)",
+      "cost": "2025 price was about KRW 15,000 pp (2026 not confirmed)",
+      "booking": "Lottery Aug 13-20 2026, then remaining or cancelled seats on NOL Ticket. Foreigners can try NOL Ticket for leftover seats.",
+      "notes": "Royal-court teas and traditional sweets inside Gyeongbokgung. A daytime analog of a Japanese tea-house experience.",
+      "lat": 37.5784,
+      "lon": 126.9768,
+      "sources": [
+        "https://www.kh.or.kr/",
+        "https://royal.khs.go.kr/ROYAL/contents/R201000000.do?selDate=2026-10-18"
+      ],
+      "confidence": "high (dates/times); low (price)"
+    },
+    {
+      "name": "Deoksugung 'Night at Seokjojeon' (autumn)",
+      "name_ko": "덕수궁 밤의 석조전 (하반기)",
+      "city": "Seoul",
+      "dates": "Sep 9 - Oct 18 2026, Wed-Sun. Only Sat Oct 17 and Sun Oct 18 fall in the trip.",
+      "times": "18:00, 18:40, 19:15",
+      "cost": "Not confirmed for 2026 (about KRW 30,000-50,000 in past years)",
+      "booking": "Lottery Aug 19-25 2026; essentially sold out. Korean-language program.",
+      "notes": "Low priority: the travelers land Oct 17 at 05:15 and this is Korean-language and pre-sold.",
+      "lat": 37.5654,
+      "lon": 126.9747,
+      "sources": [
+        "https://royal.khs.go.kr/ROYAL/contents/R201000000.do?selDate=2026-10-17",
+        "https://www.kh.or.kr/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Changdeokgung Moonlight Tour (autumn) - effectively unavailable",
+      "name_ko": "창덕궁 달빛기행 (하반기)",
+      "city": "Seoul",
+      "dates": "Sep 10 - Oct 17 2026 (Thu-Sun). Foreigner-language sessions were only Sep 20, Sep 27, Oct 4 and Oct 11. The last Korean-language night is Sat Oct 17 (arrival day).",
+      "times": "19:10/19:15/19:20 and 20:00/20:05/20:10, about 100 min",
+      "cost": "KRW 30,000 pp",
+      "booking": "Foreigners: Creatrip only (opened Aug 28 09:00, first-come). Korean sessions: lottery on NOL Ticket (Aug 21-26), then first-come from Sep 3.",
+      "notes": "Not doable for this trip. Substitute: the Gyeongbokgung Starlight Night Walk foreigner nights (Oct 21-24), or a daytime Huwon (Secret Garden) tour for foliage.",
+      "lat": 37.5794,
+      "lon": 126.991,
+      "sources": [
+        "https://biz.heraldcorp.com/article/10843816",
+        "https://blog.namanecard.com/en/changdeokgung-moonlight-tour-2026-foreigner-sessions/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Gyeongbokgung autumn night viewing - ENDED before trip",
+      "name_ko": "2026년 하반기 경복궁 야간관람",
+      "city": "Seoul",
+      "dates": "Sep 2 - Oct 2 2026 (closed Mon/Tue)",
+      "times": "19:00-21:30 (last entry 20:30)",
+      "cost": "KRW 3,000 (free in hanbok)",
+      "booking": "NOL Ticket (Interpark), 3,000/day online and 300 on-site for foreigners",
+      "notes": "Over before the trip. Listed so the planner does not schedule it.",
+      "lat": 37.5796,
+      "lon": 126.977,
+      "sources": [
+        "https://royal.khs.go.kr/ROYAL/contents/R403000000.do?id=20260818101010114410&amp=&schBcid=notice01&amp=&schM=view",
+        "https://biz.heraldcorp.com/article/10843522"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Royal Culture Festival (autumn) - ENDED before trip",
+      "name_ko": "2026 가을 궁중문화축전",
+      "city": "Seoul",
+      "dates": "Oct 7 - 11 2026 (Gyeongbokgung, Changdeokgung, Deoksugung, Changgyeonggung, Jongmyo)",
+      "times": "Day and night programs",
+      "cost": "Mostly free or low-cost, with reservations",
+      "booking": "Korea Heritage Agency/NOL Ticket",
+      "notes": "Ends 6 days before arrival.",
+      "lat": 37.5796,
+      "lon": 126.977,
+      "sources": [
+        "https://www.insight.co.kr/news/572275",
+        "https://www.elle.co.kr/article/1900686"
+      ],
+      "confidence": "medium-high"
+    },
+    {
+      "name": "25th Seoul Eulalia (Silver Grass) Festival",
+      "name_ko": "제25회 서울억새축제",
+      "city": "Seoul (Mapo)",
+      "dates": "Sat Oct 17 - Fri Oct 23 2026",
+      "times": "10:00-21:00 (park normally closes around sunset; extended hours during the festival)",
+      "cost": "Free. Optional 'Maengkkong' electric shuttle from the Nanjicheon parking lot up to the park (about KRW 2,000 one-way / 3,000 round trip in 2025).",
+      "booking": "None",
+      "notes": "Theme '억새, 자연이 건네는 위로'. Haneul Park sits on a former landfill hill with silver grass, city and Han River views; best at golden hour. Access: Line 6 World Cup Stadium Stn (exit 1), then about 20 min walk to the 291 'haneul gyedan' stairs, or the shuttle. Pair with the Mapo Naru Shrimp Festival next door (Oct 16-18). Contact 02-300-5574.",
+      "lat": 37.5684,
+      "lon": 126.8851,
+      "sources": [
+        "https://news.seoul.go.kr/env/?p=570795",
+        "https://kr.trip.com/blog/korea-nationwide-october-festivals/"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "19th Mapo Naru Saeujeot (Salted Shrimp) Festival",
+      "name_ko": "제19회 마포나루 새우젓 축제",
+      "city": "Seoul (Mapo)",
+      "dates": "Oct 16 - 18 2026",
+      "times": "Daytime into evening (exact hours not captured)",
+      "cost": "Free entry; food stalls extra",
+      "booking": "None",
+      "notes": "Held at World Cup Park Peace Plaza, at the foot of Haneul Park, so it combines easily with the Eulalia Festival on Sat Oct 17 or Sun Oct 18. Food market with kimjang-season shrimp jeot, local food stalls and performances.",
+      "lat": 37.5661,
+      "lon": 126.8975,
+      "sources": [
+        "https://festivalhub.kr/region-seoul.html",
+        "https://foxcg.com/october-festivals-2026"
+      ],
+      "confidence": "medium (aggregator listings)"
+    },
+    {
+      "name": "Hangang Festival - Autumn",
+      "name_ko": "2026 한강페스티벌_가을",
+      "city": "Seoul (Han River parks: Jamwon, Ttukseom, Gangseo, etc.)",
+      "dates": "Oct 17 - 25 2026",
+      "times": "Varies by program",
+      "cost": "Mostly free",
+      "booking": "Some programs via Seoul Hangang Parks site",
+      "notes": "Riverside programs across Han River parks. Combine with the Banpo Moonlight Rainbow Fountain, which is in season to Oct 31.",
+      "lat": 37.5167,
+      "lon": 127.0119,
+      "sources": [
+        "https://foxcg.com/october-festivals-2026",
+        "https://chukjemoa.co.kr/2026-10/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Banpo Bridge Moonlight Rainbow Fountain (season runs through Oct 31)",
+      "name_ko": "반포대교 달빛무지개분수",
+      "city": "Seoul (Seocho, Banpo Hangang Park)",
+      "dates": "Daily through Oct 31 2026 (season ends Oct 31)",
+      "times": "Apr-Jun and Sep-Oct: 12:00, 19:30, 20:00, 20:30, 21:00; about 20 min each",
+      "cost": "Free",
+      "booking": "None",
+      "notes": "Cancelled without notice for rain, strong wind or high river levels. Best view is from the Banpo Hangang Park steps / Sebitseom (floating islands). The night shows are the ones with lighting.",
+      "lat": 37.5124,
+      "lon": 126.9959,
+      "sources": [
+        "https://travel-stained.com/banpo-bridge-rainbow-fountain-seoul/",
+        "https://hangang.seoul.go.kr/www/contents/856.do?mid=505"
+      ],
+      "confidence": "high (season end); medium (exact show times, from 2026 summary pages)"
+    },
+    {
+      "name": "Car-free Jamsu Bridge Festival (Sundays)",
+      "name_ko": "차 없는 잠수교 뚜벅뚜벅 축제",
+      "city": "Seoul",
+      "dates": "Sundays Sep 6 - Oct 25 2026, so Sun Oct 18 and Sun Oct 25 fall in the trip",
+      "times": "Daytime to evening (approx. 12:00-21:00 in past years)",
+      "cost": "Free",
+      "booking": "None",
+      "notes": "Pedestrianised lower-deck bridge under Banpo Bridge with markets, buskers and food trucks; walk it and stay for the fountain at 19:30.",
+      "lat": 37.5146,
+      "lon": 126.9962,
+      "sources": [
+        "https://kr.trip.com/events/13792858-2026-seoul-collection/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Han River Drone Light Show (Ttukseom)",
+      "name_ko": "한강 드론 라이트쇼",
+      "city": "Seoul",
+      "dates": "Listed Sep 12 - Oct 31 2026 on select nights (in 2025 these were Saturdays)",
+      "times": "Evening (about 20:00-21:00 in 2025)",
+      "cost": "Free",
+      "booking": "None",
+      "notes": "1,500-2,000 drones. Exact 2026 nights not confirmed; check the Seoul Hangang Parks site. Weather-dependent.",
+      "lat": 37.5294,
+      "lon": 127.0699,
+      "sources": [
+        "https://kr.trip.com/events/13792858-2026-seoul-collection/"
+      ],
+      "confidence": "low"
+    },
+    {
+      "name": "Hanseong Baekje Culture Festival",
+      "name_ko": "한성백제문화제",
+      "city": "Seoul (Songpa, Olympic Park)",
+      "dates": "Oct 23 - 25 2026",
+      "times": "Daytime and evening (parade and stage shows)",
+      "cost": "Free",
+      "booking": "None",
+      "notes": "History festival on the Baekje-era earthen fortress (Mongchontoseong) inside Olympic Park, with costume parade and boat/lantern events in past years. Good for Sat Oct 24.",
+      "lat": 37.5206,
+      "lon": 127.1214,
+      "sources": [
+        "https://foxcg.com/october-festivals-2026"
+      ],
+      "confidence": "medium (aggregator; no official 2026 page reached)"
+    },
+    {
+      "name": "Seoul Design Week 2026",
+      "name_ko": "2026 서울디자인위크",
+      "city": "Seoul (DDP, Euljiro 281)",
+      "dates": "Oct 14 - 25 2026",
+      "times": "Daytime and evening",
+      "cost": "Mostly free",
+      "booking": "None/varies",
+      "notes": "At Dongdaemun Design Plaza. Fits the 'Shibuya energy' Seoul days; DDP also has nightly facade media art.",
+      "lat": 37.5665,
+      "lon": 127.0092,
+      "sources": [
+        "https://festivalhub.kr/region-seoul.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Jeongdong Culture Festival",
+      "name_ko": "정동문화축제",
+      "city": "Seoul (Jung-gu, Jeongdong-gil by Deoksugung)",
+      "dates": "Oct 16 - 17 2026",
+      "times": "Daytime/evening",
+      "cost": "Free",
+      "booking": "None",
+      "notes": "Street festival along the Deoksugung stone-wall road; easy add-on on arrival day Sat Oct 17.",
+      "lat": 37.5661,
+      "lon": 126.972,
+      "sources": [
+        "https://festivalhub.kr/region-seoul.html",
+        "https://chukjemoa.co.kr/2026-10/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Seoul Wow Book Festival",
+      "name_ko": "서울와우북페스티벌",
+      "city": "Seoul (Mapo, Hongdae/Seogyo-dong)",
+      "dates": "Oct 16 - 18 2026",
+      "times": "Daytime",
+      "cost": "Free",
+      "booking": "None",
+      "notes": "Indie book fair in the Hongdae area. Minor.",
+      "lat": 37.5527,
+      "lon": 126.9224,
+      "sources": [
+        "https://festivalhub.kr/region-seoul.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "KBO Semi-Playoff (postseason baseball)",
+      "name_ko": "2026 KBO 준플레이오프",
+      "city": "Gwangju (KIA Champions Field) and Seoul (Jamsil) if LG or Doosan advances",
+      "dates": "Oct 17 - 23 2026 (best of 5). Wild Card Oct 14-15; Playoff Oct 25-31 (Daegu, Samsung home); Korean Series Nov 2-10, AFTER the trip.",
+      "times": "Usually 14:00 on weekends, 18:30 on weekdays (confirm)",
+      "cost": "Postseason seats roughly KRW 20,000-80,000+ (2026 not confirmed)",
+      "booking": "Postseason tickets historically sold on NOL Ticket (Interpark) about 3-5 days before each game; Korean phone verification is often required, so foreigners usually need NOL World (global) if offered, a reseller/tour, or a friend. Sell out in minutes.",
+      "notes": "Wikipedia shows KT 1st, Samsung 2nd, KIA 3rd, LG 4th, Doosan 5th with the regular season ending Oct 12, so seeds may still change. The 3rd seed hosts games 1-2 (and 5); the wild-card winner hosts games 3-4. If LG or Doosan wins the wild card, games 3-4 (about Oct 20-21) are at Jamsil. 2026 is billed as the old Jamsil Stadium's farewell season ('Goodbye Jamsil'). Unverified schedule detail; treat as optional.",
+      "lat": 37.5121,
+      "lon": 127.0719,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_KBO_League_season",
+        "https://wikidocs.net/blog/@Insight_Lab/21267/"
+      ],
+      "confidence": "medium (round dates); low (game-by-game venues and ticketing)"
+    },
+    {
+      "name": "K-pop weekly music show recordings",
+      "name_ko": "음악방송 사전녹화/생방송 (엠카운트다운, 뮤직뱅크, 쇼!음악중심, 인기가요)",
+      "city": "Seoul",
+      "dates": "Weekly: M Countdown Thu (CJ ENM Center, Sangam), Music Bank Fri (KBS, Yeouido), Show! Music Core Sat (MBC, Sangam), Inkigayo Sun (SBS Prism Tower, Sangam)",
+      "times": "Pre-recordings start early morning; live broadcasts afternoon",
+      "cost": "Free but access is by fan-club lists",
+      "booking": "Seats go mostly to official fan-club members of performing groups. Some tour operators sell 'audience' packages; availability is unpredictable.",
+      "notes": "Comebacks in the window: NMIXX 'Strange Muse' and Jeonghan X Joshua 'Dreamscape' (Oct 19), NCT Wish, Meovv, Plave (Oct 12); IVE and ILLIT on Oct 26 (after). No major award shows or stadium K-pop concerts found for Oct 16-25. Lee Seung-gi concert Oct 24-25 at Blue Square (ballad singer, Korean-language).",
+      "lat": 37.5794,
+      "lon": 126.8899,
+      "sources": [
+        "https://en.wikipedia.org/wiki/2026_in_South_Korean_music",
+        "https://kr.trip.com/events/13792858-2026-seoul-collection/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Gwangalli M Drone Light Show",
+      "name_ko": "광안리 M 드론라이트쇼",
+      "city": "Busan",
+      "dates": "Every Saturday: Oct 17 and Oct 24 2026",
+      "times": "October-February schedule: 19:00 and 21:00 (about 12-15 min each)",
+      "cost": "Free",
+      "booking": "None",
+      "notes": "Best viewed from Gwangalli Beach facing Gwangan Bridge. Cancelled for rain, wind or typhoon (notice the day before or same day on gwangallimdrone.co.kr). The Busan Shibuya-energy night out; pair with seafood at Millak raw-fish center.",
+      "lat": 35.1532,
+      "lon": 129.1186,
+      "sources": [
+        "https://www.busan.go.kr/eng/bsnews01/1752366",
+        "https://www.gwangallimdrone.co.kr/en/home"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Busan Jagalchi Festival",
+      "name_ko": "부산자갈치축제",
+      "city": "Busan (Jung-gu, Nampo)",
+      "dates": "Oct 15 - 18 2026",
+      "times": "Daytime-evening",
+      "cost": "Free; seafood extra",
+      "booking": "None",
+      "notes": "Seafood festival at Korea's biggest fish market. The closest Busan analog to a Tsukiji-style seafood morning. Overlaps only if they are in Busan Oct 17-18.",
+      "lat": 35.0966,
+      "lon": 129.0306,
+      "sources": [
+        "https://festivalhub.kr/region-busan.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Dongnae Eupseong History Festival / Geumjeong Sanseong Festival / Jeonpo Coffee Festival",
+      "name_ko": "동래읍성역사축제 / 금정산성축제 / 전포커피축제",
+      "city": "Busan",
+      "dates": "Dongnae Oct 16-18; Geumjeong Sanseong Oct 16-18; Jeonpo Coffee Oct 17-18 (2026)",
+      "times": "Daytime",
+      "cost": "Free",
+      "booking": "None",
+      "notes": "Smaller local festivals; only relevant if the Busan leg is Oct 17-18.",
+      "lat": 35.2048,
+      "lon": 129.0833,
+      "sources": [
+        "https://festivalhub.kr/region-busan.html",
+        "https://foxcg.com/october-festivals-2026"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Busan International Fireworks Festival - AFTER trip",
+      "name_ko": "2026 부산불꽃축제",
+      "city": "Busan",
+      "dates": "Sat Nov 7 2026",
+      "times": "Evening",
+      "cost": "Free; paid seats R KRW 100,000 / S KRW 70,000",
+      "booking": "NOL Ticket, BNK Busan Bank",
+      "notes": "Outside the trip window.",
+      "lat": 35.1532,
+      "lon": 129.1186,
+      "sources": [
+        "https://thinknection.idelighter.com/2026/09/2026-busan-fireworks.html"
+      ],
+      "confidence": "medium (blog citing Busan city)"
+    },
+    {
+      "name": "18th Gangneung Coffee Festival",
+      "name_ko": "제18회 강릉커피축제",
+      "city": "Gangneung (Gangwon)",
+      "dates": "Wed Oct 21 - Sun Oct 25 2026",
+      "times": "10:00-21:00",
+      "cost": "Free entry; some paid programs (classes, tastings)",
+      "booking": "Programs via coffeefestival.net",
+      "notes": "Main venue Anmok Beach Coffee Street (창해로14번길 20-1), expanded citywide in 2026 (Jumunjin, Jungang Market, Ojukheon, Okgye). Stamp rally across cafes; seaside fireworks reported. Theme 'Coffeeful Gangneung'. The coastal-town vibe is the Kamakura/Enoshima analog. Contact 033-647-6802.",
+      "lat": 37.772,
+      "lon": 128.9475,
+      "sources": [
+        "https://www.coffeefestival.net/",
+        "https://www.yugacrew.com/crewletter/gangwon-october-festival-2026"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Yangyang Pine Mushroom & Salmon Festival",
+      "name_ko": "양양송이연어축제",
+      "city": "Yangyang (near Sokcho/Seoraksan)",
+      "dates": "Oct 16 - 18 2026",
+      "times": "Daytime",
+      "cost": "Free entry; songi (pine mushroom) dishes and salmon catching extra",
+      "booking": "None",
+      "notes": "Seasonal-food festival (autumn songi is Korea's matsutake) at Namdaecheon stream. Only relevant if they head to the east coast Oct 17-18.",
+      "lat": 38.0703,
+      "lon": 128.6236,
+      "sources": [
+        "https://festivalhub.kr/region-gangwon.html",
+        "https://foxcg.com/october-festivals-2026"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Gangneung Noodle Festival / K-Drone Festival",
+      "name_ko": "강릉 국수 축제 / K-Drone Festival",
+      "city": "Gangneung",
+      "dates": "Noodle Oct 15-18; K-Drone Oct 19-23 (2026)",
+      "times": "Daytime",
+      "cost": "Free",
+      "booking": "None",
+      "notes": "Minor local events.",
+      "lat": 37.7556,
+      "lon": 128.8961,
+      "sources": [
+        "https://festivalhub.kr/region-gangwon.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Sokcho Seorak Culture Festival - ENDED",
+      "name_ko": "설악문화제",
+      "city": "Sokcho",
+      "dates": "Oct 2 - 4 2026",
+      "times": "",
+      "cost": "Free",
+      "booking": "None",
+      "notes": "Over before the trip. Seoraksan foliage itself (usually peaks mid/late Oct) is the draw, not a festival.",
+      "lat": 38.207,
+      "lon": 128.5918,
+      "sources": [
+        "https://www.yugacrew.com/crewletter/gangwon-october-festival-2026"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Jinju Namgang Yudeung (Lantern) Festival - last 2 nights overlap",
+      "name_ko": "2026 진주남강유등축제",
+      "city": "Jinju (Gyeongnam)",
+      "dates": "Oct 3 - 18 2026 (only Sat Oct 17 and Sun Oct 18 overlap the trip)",
+      "times": "Lanterns lit 18:00-24:00",
+      "cost": "Free in recent years (paid entry was abolished); lantern tunnel/boat extras",
+      "booking": "None",
+      "notes": "Spectacular floating lanterns, but Jinju is about 3.5-4 h from Seoul. Only practical if Busan is reached by Oct 18 (Busan Seobu terminal to Jinju about 1.5 h). Gaecheon Arts Festival and Korea Drama Festival run Oct 9-18 in Jinju too.",
+      "lat": 35.1899,
+      "lon": 128.0815,
+      "sources": [
+        "https://v.daum.net/v/20260730120506711"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Silla Culture Festival - ENDED",
+      "name_ko": "제53회 신라문화제",
+      "city": "Gyeongju",
+      "dates": "Oct 9 - 11 2026 (Bonghwangdae and Woljeonggyo bridge)",
+      "times": "15:00-24:00",
+      "cost": "Free",
+      "booking": "None",
+      "notes": "Over before the trip. Gyeongju's night views (Woljeonggyo, Donggung & Wolji) are still lit every night.",
+      "lat": 35.8297,
+      "lon": 129.2178,
+      "sources": [
+        "https://www.gyeongju.go.kr/sillafestival/index.do"
+      ],
+      "confidence": "high"
+    },
+    {
+      "name": "Gyeongju World 'EX Pumpkin Night' (Halloween)",
+      "name_ko": "EX펌킨나잇 (경주월드)",
+      "city": "Gyeongju (Bomun)",
+      "dates": "Sep 24 - Oct 24 2026",
+      "times": "Evening",
+      "cost": "Theme park ticket (about KRW 40,000-50,000)",
+      "booking": "Gyeongju World site / NOL",
+      "notes": "Theme-park Halloween; not a cultural priority.",
+      "lat": 35.8364,
+      "lon": 129.2817,
+      "sources": [
+        "https://festivalhub.kr/region-gyeongbuk.html"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Andong International Maskdance Festival - ENDED",
+      "name_ko": "2026 안동국제탈춤페스티벌",
+      "city": "Andong",
+      "dates": "Sep 24 - Oct 4 2026; Hahoe Seonyu Julbul Nori fire-rope show only Sep 19 and Oct 4",
+      "times": "",
+      "cost": "Performance seats KRW 6,000-8,000",
+      "booking": "maskdance.com",
+      "notes": "Over before the trip. Hahoe Village still has regular weekend afternoon Hahoe Byeolsingut Talnori performances (historically 14:00, Wed-Sun Mar-Dec; 2026 schedule unconfirmed).",
+      "lat": 36.5389,
+      "lon": 128.5181,
+      "sources": [
+        "https://travelmapjourney.com/andong-mask-dance-festival-2026-hahoe-night-overlap/"
+      ],
+      "confidence": "high (festival dates); low (Hahoe regular performance)"
+    },
+    {
+      "name": "Tamla Culture Festival",
+      "name_ko": "탐라문화제",
+      "city": "Jeju City",
+      "dates": "Oct 17 - 21 2026",
+      "times": "Daytime-evening",
+      "cost": "Free",
+      "booking": "None",
+      "notes": "Jeju's biggest traditional culture festival (parades, folk performances). Aggregator dates; verify on the Jeju Arts Council site.",
+      "lat": 33.489,
+      "lon": 126.4986,
+      "sources": [
+        "https://foxcg.com/october-festivals-2026"
+      ],
+      "confidence": "low-medium"
+    },
+    {
+      "name": "Seogwipo Chilsimni Festival / Art Festa in Jeju / ART & JEOJI",
+      "name_ko": "서귀포칠십리축제 / 아트페스타인제주 / ART & JEOJI 2026",
+      "city": "Jeju",
+      "dates": "Chilsimni Oct 23-25; Art Festa in Jeju Oct 15-25; ART & JEOJI Oct 16-25 (2026)",
+      "times": "Daytime-evening",
+      "cost": "Free",
+      "booking": "None",
+      "notes": "Jeju Olle Walking Festival (Nov 5-7) and tangerine festivals (Nov-Dec) fall after the trip; tangerine picking farms open from about late Oct.",
+      "lat": 33.2469,
+      "lon": 126.5594,
+      "sources": [
+        "https://festivalhub.kr/region-jeju.html",
+        "https://foxcg.com/october-festivals-2026"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Hwangmaesan Silver Grass Festival",
+      "name_ko": "제5회 황매산억새축제",
+      "city": "Hapcheon (Gyeongnam)",
+      "dates": "Oct 17 - 25 2026",
+      "times": "Daytime",
+      "cost": "Free (parking fee)",
+      "booking": "None",
+      "notes": "Big mountain-top silver-grass meadow, but remote (no rail; car needed). Mention only as an alternative to Haneul Park.",
+      "lat": 35.487,
+      "lon": 127.981,
+      "sources": [
+        "https://chukjemoa.co.kr/2026-10/"
+      ],
+      "confidence": "medium"
+    },
+    {
+      "name": "Seoul events that moved or ended (do NOT schedule)",
+      "name_ko": "서울 일정 외 행사",
+      "city": "Seoul",
+      "dates": "Seoul Drum Festival May 16-17 2026; Hi Seoul is now the Seoul Spring Festival (Apr 10 - May 5); Seoul Lantern Festival (Cheonggyecheon) is a winter event (Dec - Jan); Seoul Fashion Week 2027 S/S was Sep 1-6 2026; Seoul International Fireworks (Yeouido) Sep 5 2026; Seoul Light Hangang (Yeouido) Oct 2-11; Seoul kimjang/kimchi festival usually November (2026 date not announced; 2025 Korea Kimjang festival was Nov 22).",
+      "times": "",
+      "cost": "",
+      "booking": "",
+      "notes": "None of these fall in Oct 16-25 2026.",
+      "lat": 37.5665,
+      "lon": 126.978,
+      "sources": [
+        "https://news.seoul.go.kr/culture/?p=531375",
+        "https://mediahub.seoul.go.kr/archives/2019265",
+        "https://www.segye.com/newsView/20260904506458",
+        "https://travelmapjourney.com/seoul-cheonggyecheon-light-festival-2025-2026/"
+      ],
+      "confidence": "high"
+    }
+  ],
+  "places": [
+    {
+      "id": "gyeongbokgung",
+      "name": "Gyeongbokgung Palace",
+      "name_ko": "경복궁",
+      "region": "Seoul",
+      "area": "Jongno",
+      "category": "palace",
+      "lat": 37.5796,
+      "lon": 126.977,
+      "summary": "Main Joseon palace with Geunjeongjeon throne hall, Gyeonghoeru pavilion and Hyangwonjeong.",
+      "why": "Anchor historic site. Hanbok rental makes entry free and is a fun group activity.",
+      "autumn_note": "Ginkgo and maple around Hyangwonjeong and behind the National Folk Museum turn late Oct.",
+      "time_needed": "2-3 h",
+      "hours": "Sep-Oct 09:00-18:00 (last entry 17:00). Royal guard changing at Gwanghwamun 10:00 and 14:00 (not Tue). Sumunjang patrol ceremony Saturdays 15:00 (Mar-Nov, not Jun-Aug).",
+      "closed": "TUESDAYS. Oct 2026 note: Geunjeongjeon courtyard/foundation access restricted Sep 2 - Oct 31 (works); Jibokjae small library open to Oct 31 (closed Mon-Tue).",
+      "cost_krw": 3000,
+      "cost_note": "Free in hanbok. Integrated palace pass KRW 10,000 (Gyeongbokgung, Changdeokgung + Huwon, Changgyeonggung, Deoksugung, Jongmyo; valid 3 months).",
+      "booking": "Walk-up",
+      "tips": "Starlight Night Walk foreigner-only sessions Oct 21-24 (see events). Saenggwabang tea program through Oct 26.",
+      "sources": [
+        "https://royal.khs.go.kr/ROYAL/contents/R403000000.do?schBcid=notice01",
+        "https://royal.khs.go.kr/ROYAL/contents/R201000000.do?selDate=2026-10-24"
+      ],
+      "confidence": "high",
+      "image_query": "Gyeongbokgung Geunjeongjeon autumn"
+    },
+    {
+      "id": "changdeokgung-huwon",
+      "name": "Changdeokgung Palace & Huwon (Secret Garden)",
+      "name_ko": "창덕궁 · 후원",
+      "region": "Seoul",
+      "area": "Jongno",
+      "category": "palace",
+      "lat": 37.5794,
+      "lon": 126.991,
+      "summary": "UNESCO palace with a wooded rear garden (Buyongji pond, Aeryeonji, Ongnyucheon).",
+      "why": "The Secret Garden in autumn is Seoul's closest thing to a Kyoto/Kamakura temple garden.",
+      "autumn_note": "Huwon foliage usually peaks late Oct - early Nov.",
+      "time_needed": "2.5 h incl. Huwon tour",
+      "hours": "Sep-Oct 09:00-18:00 (last entry 17:00)",
+      "closed": "MONDAYS",
+      "cost_krw": 8000,
+      "cost_note": "Palace KRW 3,000 + Huwon guided tour KRW 5,000 (or integrated pass KRW 10,000).",
+      "booking": "Huwon tours: online booking opens about 6 days ahead (sells out in autumn), plus limited on-site tickets. English tours run at set times daily.",
+      "tips": "Book Huwon the moment the window opens for the chosen date. Seongjeonggak 'crown prince' program Sundays (Korean, 10 pax).",
+      "sources": [
+        "https://royal.khs.go.kr/ROYAL/contents/R201000000.do?selDate=2026-10-22"
+      ],
+      "confidence": "medium",
+      "image_query": "Changdeokgung Huwon Buyongji autumn"
+    },
+    {
+      "id": "changgyeonggung",
+      "name": "Changgyeonggung Palace",
+      "name_ko": "창경궁",
+      "region": "Seoul",
+      "area": "Jongno",
+      "category": "palace",
+      "lat": 37.5787,
+      "lon": 126.9949,
+      "summary": "Quieter palace with Chundangji pond and a 1909 glass botanical house.",
+      "why": "Evening palace option (open to 21:00) with the Mulbit Yeonhwa media-art show Oct 7 - Nov 1.",
+      "autumn_note": "Chundangji pond maples are among the best palace foliage spots.",
+      "time_needed": "1-1.5 h",
+      "hours": "09:00-21:00 (last entry 20:00)",
+      "closed": "MONDAYS",
+      "cost_krw": 1000,
+      "cost_note": "A royal-palace notice indicates free admission on Wednesdays under 'Culture Day' in 2026 (unverified).",
+      "booking": "Walk-up; Mulbit Yeonhwa by reservation",
+      "tips": "Connected on foot to Changdeokgung and Jongmyo.",
+      "sources": [
+        "https://royal.khs.go.kr/ROYAL/contents/R403000000.do?schBcid=notice01"
+      ],
+      "confidence": "medium",
+      "image_query": "Changgyeonggung Chundangji pond"
+    },
+    {
+      "id": "deoksugung",
+      "name": "Deoksugung Palace",
+      "name_ko": "덕수궁",
+      "region": "Seoul",
+      "area": "Jung-gu, City Hall",
+      "category": "palace",
+      "lat": 37.5658,
+      "lon": 126.9752,
+      "summary": "Palace mixing Joseon halls and the neoclassical Seokjojeon; famous stone-wall road.",
+      "why": "Easy evening stroll (open to 21:00); the stone-wall road turns gold with ginkgo.",
+      "autumn_note": "Deoksugung-gil ginkgo peaks late Oct - early Nov.",
+      "time_needed": "1 h",
+      "hours": "09:00-21:00 (last entry 20:00). Royal guard changing at Daehanmun 11:00, 14:00, 15:30 (not Mon).",
+      "closed": "MONDAYS. Seokjojeon viewing times adjusted Oct 8 and 14.",
+      "cost_krw": 1000,
+      "cost_note": "",
+      "booking": "Walk-up",
+      "tips": "Jeongdong Culture Festival Oct 16-17 outside the walls.",
+      "sources": [
+        "https://royal.khs.go.kr/ROYAL/contents/R403000000.do?schBcid=notice01"
+      ],
+      "confidence": "medium",
+      "image_query": "Deoksugung Daehanmun guard ceremony"
+    },
+    {
+      "id": "jongmyo",
+      "name": "Jongmyo Shrine",
+      "name_ko": "종묘",
+      "region": "Seoul",
+      "area": "Jongno",
+      "category": "palace",
+      "lat": 37.5744,
+      "lon": 126.9941,
+      "summary": "UNESCO royal ancestral shrine; Jeongjeon hall reopened in 2025 after a 5-year restoration.",
+      "why": "Solemn, minimalist; a counterpoint to the palaces.",
+      "autumn_note": "Forest paths colour late Oct.",
+      "time_needed": "1 h",
+      "hours": "Feb-May & Sep-Oct 09:00-18:00. Weekdays by guided tour only (English tours at set times); free-roaming on Saturdays and the last Wednesday of the month.",
+      "closed": "TUESDAYS",
+      "cost_krw": 1000,
+      "cost_note": "",
+      "booking": "Walk-up for tours",
+      "tips": "Saturday Oct 24 allows free self-guided wandering.",
+      "sources": [
+        "https://royal.khs.go.kr/ROYAL/contents/R403000000.do?schBcid=notice01"
+      ],
+      "confidence": "medium",
+      "image_query": "Jongmyo Jeongjeon"
+    },
+    {
+      "id": "national-museum-of-korea",
+      "name": "National Museum of Korea",
+      "name_ko": "국립중앙박물관",
+      "region": "Seoul",
+      "area": "Yongsan",
+      "category": "museum",
+      "lat": 37.5239,
+      "lon": 126.9803,
+      "summary": "Korea's flagship museum (Silla gold, Goryeo celadon, the 'Room of Quiet Contemplation' with two pensive Buddhas).",
+      "why": "Best context-setter before Gyeongju. Free.",
+      "autumn_note": "Mirror pond garden and outdoor stone pagoda garden.",
+      "time_needed": "2-3 h",
+      "hours": "Mon/Tue/Thu/Fri/Sun 09:30-17:30; Wed & Sat 09:30-21:00; outdoor garden 07:00-22:00",
+      "closed": "Open Mondays. Closed only Jan 1, Seollal, Chuseok, and the first Monday of Mar/Jun/Sep/Dec. No closure in the trip window.",
+      "cost_krw": 0,
+      "cost_note": "Permanent galleries free; special exhibitions paid.",
+      "booking": "Walk-up",
+      "tips": "Very crowded on weekends since 2025; go Wed or Sat evening.",
+      "sources": [
+        "https://www.museum.go.kr/MUSEUM/contents/M0101000000.do"
+      ],
+      "confidence": "high",
+      "image_query": "National Museum of Korea pensive bodhisattva room"
+    },
+    {
+      "id": "leeum",
+      "name": "Leeum Museum of Art",
+      "name_ko": "리움미술관",
+      "region": "Seoul",
+      "area": "Hannam-dong",
+      "category": "museum",
+      "lat": 37.5384,
+      "lon": 126.999,
+      "summary": "Samsung's museum: Korean classical art plus contemporary.",
+      "why": "Design-forward architecture (Botta, Nouvel, Koolhaas); pairs with Hannam/Itaewon.",
+      "autumn_note": "Oct 2026 shows: Koo Jeong-A 'Usmose' (to Dec 27), 'Inside Other Spaces: Environments by Women Artists 1956-1976' (to Nov 29), Gabriel Orozco garden.",
+      "time_needed": "2 h",
+      "hours": "10:00-18:00",
+      "closed": "MONDAYS",
+      "cost_krw": null,
+      "cost_note": "Permanent collection by free timed reservation (in recent years); special exhibitions paid (about KRW 12,000-18,000). Verify.",
+      "booking": "Online timed entry at leeumhoam.org",
+      "tips": "",
+      "sources": [
+        "https://www.leeumhoam.org/leeum"
+      ],
+      "confidence": "medium",
+      "image_query": "Leeum Museum of Art Seoul"
+    },
+    {
+      "id": "haneul-park",
+      "name": "Haneul Park (Sky Park)",
+      "name_ko": "하늘공원",
+      "region": "Seoul",
+      "area": "Mapo, World Cup Park",
+      "category": "nature",
+      "lat": 37.5684,
+      "lon": 126.8851,
+      "summary": "Hilltop silver-grass meadow over the Han River.",
+      "why": "Peak-autumn Seoul nature without leaving the city; festival Oct 17-23.",
+      "autumn_note": "Eulalia festival Oct 17-23, 10:00-21:00.",
+      "time_needed": "2 h",
+      "hours": "Festival 10:00-21:00",
+      "closed": "",
+      "cost_krw": 0,
+      "cost_note": "Shuttle about KRW 2,000-3,000",
+      "booking": "None",
+      "tips": "Go for sunset; weekday crowds are lighter.",
+      "sources": [
+        "https://news.seoul.go.kr/env/?p=570795"
+      ],
+      "confidence": "high",
+      "image_query": "Haneul Park silver grass Seoul"
+    },
+    {
+      "id": "bukchon-hanok-village",
+      "name": "Bukchon Hanok Village",
+      "name_ko": "북촌한옥마을",
+      "region": "Seoul",
+      "area": "Jongno",
+      "category": "neighborhood",
+      "lat": 37.5826,
+      "lon": 126.9831,
+      "summary": "Lived-in hanok lanes between Gyeongbokgung and Changdeokgung.",
+      "why": "Charming lanes, the Kamakura-backstreets feel.",
+      "autumn_note": "",
+      "time_needed": "1-1.5 h",
+      "hours": "Red-zone lanes (Bukchon-ro 11-gil) open to tourists only 10:00-17:00",
+      "closed": "Tourist curfew 17:00-10:00 in the red zone since Mar 2025; fines about KRW 100,000.",
+      "cost_krw": 0,
+      "cost_note": "",
+      "booking": "None",
+      "tips": "Visit mid-morning; keep quiet (residential).",
+      "sources": [],
+      "confidence": "medium",
+      "image_query": "Bukchon Hanok Village alley"
+    },
+    {
+      "id": "jagalchi-market",
+      "name": "Jagalchi Fish Market",
+      "name_ko": "자갈치시장",
+      "region": "Busan",
+      "area": "Nampo",
+      "category": "market",
+      "lat": 35.0966,
+      "lon": 129.0306,
+      "summary": "Korea's largest seafood market; buy fish downstairs, eat upstairs.",
+      "why": "Seafood-lover analog to Tsukiji; festival Oct 15-18.",
+      "autumn_note": "Jagalchi Festival Oct 15-18 2026.",
+      "time_needed": "1.5 h",
+      "hours": "About 05:00-22:00 (stalls vary)",
+      "closed": "Many stalls close the 1st and 3rd Tuesday of each month (Oct 20 is the 3rd Tuesday).",
+      "cost_krw": null,
+      "cost_note": "Raw fish sets about KRW 30,000-60,000 pp",
+      "booking": "None",
+      "tips": "",
+      "sources": [
+        "https://festivalhub.kr/region-busan.html"
+      ],
+      "confidence": "medium",
+      "image_query": "Jagalchi Market Busan"
+    },
+    {
+      "id": "gyeongju-night-heritage",
+      "name": "Donggung Palace & Wolji Pond + Woljeonggyo",
+      "name_ko": "동궁과 월지 · 월정교",
+      "region": "Gyeongju",
+      "area": "Central historic zone",
+      "category": "palace",
+      "lat": 35.8347,
+      "lon": 129.2266,
+      "summary": "Silla palace pond and a reconstructed covered bridge, both lit at night.",
+      "why": "Gyeongju is the Kamakura/Nara analog; the night-lit pond is its showpiece.",
+      "autumn_note": "Silla Culture Festival was Oct 9-11 (missed), but the lighting is nightly.",
+      "time_needed": "1-1.5 h",
+      "hours": "Donggung & Wolji 09:00-22:00 (last entry 21:30); Woljeonggyo lit nightly",
+      "closed": "Open daily",
+      "cost_krw": 3000,
+      "cost_note": "Wolji KRW 3,000; Woljeonggyo free. Bulguksa/Seokguram admission free since May 2023 (national heritage fees abolished).",
+      "booking": "None",
+      "tips": "Gyeongju National Museum open daily (closed Jan 1, Seollal, Chuseok), free.",
+      "sources": [],
+      "confidence": "medium",
+      "image_query": "Donggung Palace and Wolji Pond night"
+    }
+  ],
+  "tips": [
+    "No Korean public holidays fall in Oct 16-25 2026. Nearby holidays: Chuseok Sep 24-26 (substitute Mon Sep 28), National Foundation Day Sat Oct 3 (substitute Mon Oct 5), Hangul Day Fri Oct 9. Expect normal weekday crowds and weekend peaks on Oct 17-18 and 24-25.",
+    "Weekly closures to plan around: Gyeongbokgung TUE (Oct 20); Jongmyo TUE (Oct 20); Changdeokgung, Changgyeonggung, Deoksugung MON (Oct 19); Leeum MON; National Museum of Korea open every day in the window (late nights Wed and Sat to 21:00). Good Monday plan: Gyeongbokgung + Bukchon + NMK. Good Tuesday plan: Changdeokgung Huwon + Changgyeonggung + Deoksugung.",
+    "Best special program in the window: Gyeongbokgung Starlight Night Walk foreigner-only nights Wed Oct 21 - Sat Oct 24 (18:30 / 19:40). Check booking immediately.",
+    "Seoul Eulalia Festival (Haneul Park) Oct 17-23 and Mapo Naru Shrimp Festival (Oct 16-18) are next to each other; Sun Oct 18 is the ideal combo day (jet-lag friendly, outdoors, free).",
+    "Wear hanbok for free entry to all palaces and Jongmyo.",
+    "Gwangalli drone show is Saturdays only: Oct 17 or Oct 24, at 19:00 and 21:00. Plan the Busan leg to include a Saturday night if possible.",
+    "Gangneung Coffee Festival Oct 21-25 is the event to anchor a Gangwon coast leg (Gangneung is about 2 h by KTX from Seoul Station; Sokcho/Seoraksan about 1 h north by bus).",
+    "Banpo Moonlight Rainbow Fountain runs until Oct 31 (12:00, 19:30, 20:00, 20:30, 21:00). Sunday Oct 18/25 adds the car-free Jamsu Bridge festival underneath.",
+    "Hahoe Village and Andong are quiet after the Maskdance Festival (ended Oct 4). Andong is still worth it for the village and Byeongsan Seowon, not for events."
+  ],
+  "warnings": [
+    "ENDED before arrival: Gyeongbokgung night opening (Sep 2 - Oct 2), Royal Culture Festival autumn (Oct 7-11), Silla Culture Festival (Oct 9-11), Andong Maskdance (Sep 24 - Oct 4), Sokcho Seorak Culture Festival (Oct 2-4), Seoul Fireworks (Sep 5), Seoul Fashion Week (Sep 1-6), Seoul Light Hangang (Oct 2-11), Changdeokgung Moonlight Tour foreigner nights (last Oct 11).",
+    "AFTER departure: Busan Fireworks (Nov 7), KBO Korean Series (Nov 2-10), Jeju Olle Walking Festival (Nov 5-7), Jeju tangerine festivals (Nov+), Seoul kimjang festival (usually Nov).",
+    "Moved to other seasons: Seoul Drum Festival (May), Hi Seoul (now Seoul Spring Festival, Apr-May), Seoul Lantern Festival (Dec-Jan).",
+    "Changdeokgung Moonlight Tour: last night is Sat Oct 17 (Korean-language only, sold out). Not realistic.",
+    "Gyeongbokgung Geunjeongjeon foundation area restricted Sep 2 - Oct 31 2026 (the hall is still viewable from the courtyard).",
+    "Bukchon red-zone tourist curfew 17:00-10:00.",
+    "Outdoor shows (drone shows, fountain) cancel for rain or wind with little notice.",
+    "KBO postseason tickets sell out in minutes and usually need Korean identity verification; do not plan around them."
+  ],
+  "open_questions": [
+    "Foreigner booking channel and price for the Gyeongbokgung Starlight Night Walk Oct 21-24 sessions (kh.or.kr event page was down during research; past years used Interpark Global/NOL World; price about KRW 60,000).",
+    "Changgyeonggung Mulbit Yeonhwa session times, price and whether foreigners can book.",
+    "Whether 2026 'Culture Day' really makes palaces free every Wednesday (one royal-palace notice suggests so for Changgyeonggung).",
+    "Exact KBO semi-playoff game dates and venues (depends on wild-card result Oct 14-15) and the ticket vendor.",
+    "Exact nights for the 2026 Han River (Ttukseom) drone light show.",
+    "Busan One Asia Festival 2026: no dates found; likely not in the window.",
+    "Jeonju: no major festival found Oct 16-25 (Hanji Culture Festival Oct 8-10, Street Puppet Festival Oct 10-11; Bibimbap and Sori festival 2026 dates not found).",
+    "Tamla Culture Festival (Jeju) Oct 17-21 is from one aggregator only.",
+    "Web search budget was exhausted mid-research. Hanseong Baekje Festival, Mapo Naru Shrimp Festival and Hangang Festival dates come from aggregator calendars (festivalhub.kr, foxcg.com, chukjemoa.co.kr) and were not checked against official pages."
+  ]
+}
