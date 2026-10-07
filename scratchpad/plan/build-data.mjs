@@ -22,9 +22,10 @@ const walk = (o) => {
   }
 };
 walk(options);
+const inPlans = new Set(referenced);
 walk(guideFile);
 
-// Near-duplicate catalog entries from overlapping research files; hidden from the "All places" grid unless referenced.
+// Near-duplicate catalog entries from overlapping research files; hidden from the "All places" grid unless a day plan uses them.
 const ALIASES = new Set([
   "haeundae-blueline-park", "huinnyeoul-village", "gamcheon-village", "spaland-centum", "national-museum-korea",
   "seoul-haneul-park-eulalia", "haneul-park", "bukchon-hanok-village", "gyeongju-night-heritage", "woljeongsa-fir-forest",
@@ -53,7 +54,7 @@ for (const p of Object.values(catalog.places)) {
     summary: str(p.summary), why: str(p.why), autumn_note: str(p.autumn_note), hours: str(p.hours), closed: str(p.closed),
     cost_krw: typeof p.cost_krw === "number" ? p.cost_krw : null, cost_note: str(p.cost_note), booking: str(p.booking),
     tips: Array.isArray(p.tips) ? p.tips : p.tips ? [String(p.tips)] : [],
-    image: null, hidden: ALIASES.has(p.id) && !referenced.has(p.id),
+    image: null, hidden: ALIASES.has(p.id) && !inPlans.has(p.id),
   };
 }
 

@@ -62,6 +62,7 @@
   const NUM = new Intl.NumberFormat('en-US');
   const FX = (T.meta && T.meta.fx) || 1340;
   const TRAVELERS = (T.meta && T.meta.travelers) || 3;
+  const PLACES_PREVIEW = 24;
   const BUDGET_USD = (T.meta && T.meta.budget_usd_pp) || 1000;
   const fxOf = (opt) => (opt && opt.budget && opt.budget.fx) || FX;
   const won = (n) => '₩' + NUM.format(Math.round(n));
@@ -228,7 +229,7 @@
         <h3 class="opt-name"><button type="button" class="opt-btn" id="pick-${o.id}" data-opt="${o.id}" aria-pressed="false">${o.name}</button></h3>
         <p class="opt-tag">${o.tagline}</p>
         <div class="rstrip" role="img" aria-label="Route: ${routeText}">
-          ${(o.route || []).map((r) => html`<div class="rseg" style="--n:${r.nights}"><b>${r.base}</b><span>${r.nights}</span></div>`)}
+          ${(o.route || []).map((r) => html`<div class="rseg" style="--n:${r.nights}"><b title="${r.base}">${String(r.base).replace('Sokcho / Seoraksan', 'Seorak')}</b><span>${r.nights}</span></div>`)}
         </div>
         <div class="chips">
           ${o.recommended ? html`<span class="chip chip--cel">Recommended</span>` : ''}
@@ -863,7 +864,9 @@
         </div>
       </div>
       <div class="pl-grid" id="pl-grid">${list.map(placeCard)}</div>
-      <p class="pl-empty" id="pl-empty" hidden>No places match those filters.</p>`);
+      <p class="pl-empty" id="pl-empty" hidden>No places match those filters.</p>
+      <p class="pl-morewrap"><button type="button" class="linkbtn" id="pl-more-btn" hidden></button></p>`);
+    $('#pl-more-btn').addEventListener('click', () => { state.placesAll = true; applyPlaceFilter(); });
     $$('#pl-grid .pl').forEach((el, i) => { placeItems[i].el = el; });
   }
 
@@ -906,17 +909,24 @@
 
   function applyPlaceFilter() {
     const q = state.q.trim().toLowerCase();
-    let n = 0;
+    // Unfiltered, the grid shows the first PLACES_PREVIEW cards with a "Show all" button; any filter shows every match.
+    const filtered = !!q || state.zone !== 'all' || state.cat !== 'all' || state.inplan;
+    const cap = filtered || state.placesAll ? Infinity : PLACES_PREVIEW;
+    let n = 0, shown = 0;
     for (const it of placeItems) {
       const ok = (state.zone === 'all' || (it.p.zone || 'Elsewhere') === state.zone)
         && (state.cat === 'all' || it.p.category === state.cat)
         && (!q || it.q.includes(q))
         && (!state.inplan || planDays.has(it.p.id));
-      it.el.hidden = !ok;
       if (ok) n++;
+      const show = ok && shown < cap;
+      if (show) shown++;
+      it.el.hidden = !show;
     }
     const c = $('#place-count');
-    if (c) c.textContent = `Showing ${n} of ${placeItems.length} places`;
+    if (c) c.textContent = shown < n ? `Showing ${shown} of ${n} places` : `Showing ${n} of ${placeItems.length} places`;
+    const more = $('#pl-more-btn');
+    if (more) { more.hidden = shown >= n; more.textContent = `Show all ${n} places`; }
     const e = $('#pl-empty');
     if (e) e.hidden = n > 0;
   }

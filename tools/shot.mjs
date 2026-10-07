@@ -10,13 +10,13 @@ const require = createRequire(import.meta.url);
 const { chromium } = require("/opt/node22/lib/node_modules/playwright");
 
 const args = process.argv.slice(2);
-const flags = Object.fromEntries(args.filter((a) => a.startsWith("--")).map((a) => a.slice(2).split("=")));
+const flags = Object.fromEntries(args.filter((a) => a.startsWith("--")).map((a) => { const [k, v] = a.slice(2).split("="); return [k, v ?? true]; }));
 const [page = "index.html", outDir = "/tmp/shots"] = args.filter((a) => !a.startsWith("--"));
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), "../site");
 const D3 = process.env.D3_PATH || "/tmp/claude-0/-home-user-korea-desune/ac38e876-0218-53c8-90f9-8471a9d36099/scratchpad/vendor/package/dist/d3.min.js";
 fs.mkdirSync(outDir, { recursive: true });
 
-const types = { ".html": "text/html", ".js": "text/javascript", ".css": "text/css", ".json": "application/json", ".webp": "image/webp", ".jpg": "image/jpeg", ".png": "image/png", ".svg": "image/svg+xml" };
+const types = { ".html": "text/html; charset=utf-8", ".js": "text/javascript; charset=utf-8", ".css": "text/css; charset=utf-8", ".json": "application/json", ".webp": "image/webp", ".jpg": "image/jpeg", ".png": "image/png", ".svg": "image/svg+xml" };
 const server = http.createServer((req, res) => {
   const p = path.join(root, decodeURIComponent(req.url.split("?")[0]));
   if (!p.startsWith(root) || !fs.existsSync(p) || fs.statSync(p).isDirectory()) { res.writeHead(404); return res.end(); }

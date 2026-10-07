@@ -1,5 +1,4 @@
 <title>Korea Autumn 2026</title>
-<meta charset="utf-8">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;700;800&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 :root{
@@ -156,10 +155,10 @@ a.chip:hover{border-color:var(--celadon)}
 .opt-state{font:500 .8rem var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .opt.is-selected .opt-state{color:var(--link)}
 .rstrip{display:flex;align-items:flex-start;padding-top:.5rem;margin-right:.5rem;min-width:0}
-.rseg{position:relative;flex:var(--n,1) 1 0;min-width:4.1rem;margin-top:.35rem;padding:.7rem .3rem 0 0;border-top:4px solid var(--celadon)}
+.rseg{position:relative;flex:var(--n,1) 1 auto;min-width:2.6rem;margin-top:.35rem;padding:.7rem .6rem 0 0;border-top:4px solid var(--celadon)}
 .rseg::before{content:"";position:absolute;left:0;top:-10px;width:14px;height:14px;border-radius:50%;background:var(--card);border:3px solid var(--celadon)}
 .rseg:last-child::after{content:"";position:absolute;right:-6px;top:-8px;width:12px;height:12px;border-radius:50%;background:var(--celadon)}
-.rseg b{display:block;font-size:.8rem;line-height:1.25;font-weight:600;overflow-wrap:break-word}
+.rseg b{display:block;font-size:.78rem;line-height:1.25;font-weight:600;white-space:nowrap}
 .rseg span{font:400 .8rem var(--font-mono);color:var(--muted)}
 .cost{display:grid;gap:.4rem;margin-top:auto}
 .cost-nums{font:500 1rem var(--font-mono)}
@@ -432,6 +431,7 @@ fieldset.choices{margin:0;padding:0;border:0;min-width:0}
 .chipbtn{cursor:pointer}
 .chipbtn[aria-pressed="true"]{background:var(--celadon);border-color:var(--celadon);color:var(--paper)}
 .pl-count{font:400 .9rem var(--font-mono);color:var(--muted)}
+.pl-morewrap{margin-top:1rem}
 .pl-grid{display:grid;gap:.75rem;grid-template-columns:repeat(auto-fill,minmax(min(100%,21rem),1fr))}
 .pl{display:grid;grid-template-columns:5.2rem minmax(0,1fr);gap:.4rem .8rem;padding:.7rem;align-content:start;min-width:0}
 .pl[hidden]{display:none}
