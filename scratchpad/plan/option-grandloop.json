@@ -1,0 +1,1833 @@
+{
+ "id": "grandloop",
+ "name": "Seoul · Seorak · Coast Train · Gyeongju · Busan",
+ "tagline": "Everything in nine days: peak foliage in the mountains, a coast-line train, the Silla capital's one hot-spring night, and Busan.",
+ "recommended": false,
+ "summary": "The greatest hits at speed. Two Seoul days, two at Seoraksan for the peak foliage and hot springs, the new Donghae coast train down to Gyeongju for one evening and a private hot-spring bath, then three days in Busan. It has the most variety of any option and the most packing and unpacking: five hotels in eight nights. It suits travelers with light bags who would rather see more than linger.",
+ "design_notes": [
+  "Seoul days 17-18 match the foliage option (Jongmyo on Saturday's free-roaming day, Secret Garden and the car-free Jamsu Bridge on Sunday). Gyeongbokgung, Hongdae and the Haneul Park silver grass don't fit.",
+  "Mon 19 evening uses Cheoksan's hot spring and the crab dinner, so Tuesday can add Naksansa after the mountain and end at Waterpia's night spa.",
+  "Wed 21 takes the intercity bus Sokcho → Gangneung (there's no rail to Sokcho) to catch KTX-Eum 752 at 09:36, one of only three daily trains on the new coast line.",
+  "Gyeongju is a single night because Ragung, the private hot-spring hanok, only has rooms on Wed Oct 21.",
+  "Thu 22 uses the 14:16 KTX-Eum so Bulguksa and Seokguram fit in the morning; the Sky Capsule ride moves to sunset.",
+  "The omakase moves to Saturday lunch at Iwa in Haeundae, between Igidae and Hurshimchung. Busan days and stays otherwise match the classic option."
+ ],
+ "route": [
+  {
+   "base": "Seoul",
+   "nights": 2,
+   "from": "2026-10-17",
+   "to": "2026-10-19",
+   "lat": 37.5745,
+   "lon": 126.9925
+  },
+  {
+   "base": "Sokcho / Seoraksan",
+   "nights": 2,
+   "from": "2026-10-19",
+   "to": "2026-10-21",
+   "lat": 38.1965,
+   "lon": 128.539
+  },
+  {
+   "base": "Gyeongju",
+   "nights": 1,
+   "from": "2026-10-21",
+   "to": "2026-10-22",
+   "lat": 35.8287,
+   "lon": 129.2853
+  },
+  {
+   "base": "Busan",
+   "nights": 3,
+   "from": "2026-10-22",
+   "to": "2026-10-25",
+   "lat": 35.1545,
+   "lon": 129.1183
+  }
+ ],
+ "pace": "packed",
+ "hotel_changes": 4,
+ "scores": {
+  "culture": 5,
+  "history": 4,
+  "nature": 5,
+  "city": 3,
+  "food": 5,
+  "autumn": 5,
+  "ease": 2
+ },
+ "japan_matches": [
+  {
+   "japan": "Kamakura",
+   "korea": "Two coasts in three days: Naksansa's cliff pavilions over the East Sea at golden hour, the KTX-Eum down the new Donghae line with the sea out the left window, then Busan's Haedong Yonggungsa and the Sky Capsule along the old shore railway.",
+   "date": "2026-10-21",
+   "honest_note": "The coast train is a fast intercity KTX-Eum, not a little Enoden, and the sea views come in stretches between tunnels."
+  },
+  {
+   "japan": "Shibuya",
+   "korea": "Gwangjang Market and Jongno's tent bars on night one, then Busan's Gwangalli on Saturday night: the lit bridge, the drone show and the bars along the beach.",
+   "date": "2026-10-24",
+   "honest_note": "Only two Seoul nights, both in old Jongno, so Hongdae and Gangnam's neon are skipped. This is the weakest Shibuya match of the four options."
+  },
+  {
+   "japan": "Izu ryokan",
+   "korea": "Ragung's hanok suite with a private outdoor hot-spring bath (Wed 21), plus Cheoksan's outdoor bath in the pines, Waterpia, Paradise's Cimer (sweet tier) and Hurshimchung.",
+   "date": "2026-10-21",
+   "honest_note": "Ragung serves no meals, and you arrive after dark and leave after breakfast-time sightseeing; it's one short night."
+  },
+  {
+   "japan": "Sushi omakase",
+   "korea": "Iwa's aged-fish omakase lunch in Haeundae, plus red snow crab in Sokcho and Jagalchi's pick-your-fish raw fish.",
+   "date": "2026-10-24",
+   "honest_note": "Iwa is Japanese-style sushi by Korean chefs; the crab and market meals are louder, cheaper and more Korean."
+  }
+ ],
+ "highlights": [
+  "Seoraksan at its peak on a weekday: first cable car up, then the Biseondae valley",
+  "Naksansa's sea-cliff pavilions in the late-afternoon light",
+  "The new Donghae coast line from Gangneung to Gyeongju, sea out the window",
+  "Wolji Pond at dusk, then a private outdoor hot-spring bath at Ragung",
+  "Bulguksa at 09:00, Haedong Yonggungsa and the Sky Capsule the same afternoon",
+  "Hot springs four ways: Cheoksan, Waterpia, Ragung, Hurshimchung",
+  "Jagalchi, Gamcheon and the Saturday drone show from your hotel's beach"
+ ],
+ "tradeoffs": [
+  "Five hotels in eight nights, with check-ins Mon, Wed, Thu and Fri. Pack carry-on size; three big suitcases need a large taxi for every hop.",
+  "Only two Seoul days, both in old Jongno: no Gyeongbokgung, Hongdae or Haneul Park silver grass.",
+  "Gyeongju gets one afternoon and one morning; the museum, Yangdong village and a slow Gyochon are skipped.",
+  "Wednesday is a long transfer day (taxi, bus, 3 h train, then sights), and the Gangwon days depend on the weather."
+ ],
+ "days": [
+  {
+   "date": "2026-10-17",
+   "dow": "Sat",
+   "base": "Seoul",
+   "title": "Dawn landing, the royal shrine, a lantern-lit palace pond",
+   "summary": "Taxi straight to a room that is already yours (booked from Oct 16) and sleep until lunch. Then stay within ten minutes of the hotel: Jongmyo on its one free-roaming day of the week, Gwangjang Market for dinner, and the Mulbit Yeonhwa light show on Changgyeonggung's pond.",
+   "autumn_note": "Jongmyo's old zelkovas and Changgyeonggung's Chundangji pond are starting to color. The Seoul Eulalia Festival opens today, but this plan saves it for its last evening (Fri 23). Sunset about 17:55.",
+   "items": [
+    {
+     "time": "05:15",
+     "end": "06:30",
+     "kind": "transport",
+     "title": "Land at Incheon T1, immigration and bags",
+     "place_id": "incheon-airport-t1",
+     "detail": "With the e-Arrival Card filed in advance, immigration is quick at this hour. Buy a T-money card at a convenience store in arrivals and load ₩30,000 cash each; switch on your eSIM.",
+     "cost_krw_pp": 0,
+     "lat": 37.4492,
+     "lon": 126.4508
+    },
+    {
+     "time": "06:30",
+     "end": "07:40",
+     "kind": "transport",
+     "title": "Taxi to 4rest Stay Jongno",
+     "place_id": null,
+     "detail": "Regular taxi from the arrivals rank or Kakao T, about ₩65,000-80,000 for the car with tolls. Show the driver the hotel's Korean address.",
+     "cost_krw_pp": 25000,
+     "cost_note": "car fare split 3 ways",
+     "lat": 37.5745,
+     "lon": 126.9925
+    },
+    {
+     "time": "07:40",
+     "end": "11:45",
+     "kind": "rest",
+     "title": "Check in and sleep",
+     "place_id": "4rest-stay-jongno",
+     "detail": "The room is booked from the night of Oct 16, so it is ready when you land. Sleep 3-4 hours, shower, and get outside by noon: daylight is the fastest jet-lag fix.",
+     "cost_krw_pp": 0,
+     "lat": 37.5745,
+     "lon": 126.9925
+    },
+    {
+     "time": "12:00",
+     "end": "13:15",
+     "kind": "food",
+     "title": "Lunch in the Ikseon-dong hanok alleys",
+     "place_id": "ikseon-dong",
+     "detail": "A tight grid of 1920s hanok turned into cafés and small restaurants, 3 minutes from the hotel.",
+     "cost_krw_pp": 0,
+     "lat": 37.5743,
+     "lon": 126.9897
+    },
+    {
+     "time": "13:30",
+     "end": "15:15",
+     "kind": "sight",
+     "title": "Jongmyo, the royal ancestral shrine",
+     "place_id": "jongmyo",
+     "detail": "Jongmyo's main hall (101 m of red columns on a stone platform) is one of the most moving buildings in Korea. Weekdays are guided tours only; on Saturdays you can wander at your own pace.",
+     "cost_krw_pp": 1000,
+     "tip": "The raised center of the stone paths is the 'spirit road'; walk on either side.",
+     "lat": 37.5744,
+     "lon": 126.9941
+    },
+    {
+     "time": "15:30",
+     "end": "17:30",
+     "kind": "rest",
+     "title": "Hotel break",
+     "place_id": null,
+     "detail": "Nap or shower before the evening. Jet lag hits hardest around 16:00 on day one.",
+     "cost_krw_pp": 0,
+     "lat": 37.5745,
+     "lon": 126.9925
+    },
+    {
+     "time": "17:30",
+     "end": "18:50",
+     "kind": "food",
+     "title": "Gwangjang Market food alley",
+     "place_id": "gwangjang-market",
+     "detail": "Seoul's oldest covered market: sit at a stall counter for mung-bean pancakes fried in front of you, beef tartare and 'addictive' mini gimbap.",
+     "cost_krw_pp": 0,
+     "lat": 37.57,
+     "lon": 126.9996
+    },
+    {
+     "time": "19:00",
+     "end": "20:30",
+     "kind": "night",
+     "title": "Changgyeonggung Mulbit Yeonhwa night show",
+     "place_id": "changgyeonggung",
+     "detail": "The palace stays open to 21:00. Walk the lit grounds to Chundangji pond for the 16-minute media-art show projected over the water (19:00, 19:30 or 20:00), and the white Victorian greenhouse.",
+     "cost_krw_pp": 1000,
+     "cost_note": "show ticket includes palace entry",
+     "booking": "Ticketlink or Creatrip, up to 4 per person; walk-up palace entry if the show is sold out",
+     "lat": 37.5787,
+     "lon": 126.9949
+    },
+    {
+     "time": "20:45",
+     "end": "22:00",
+     "kind": "night",
+     "title": "Jongno 3-ga tent bars (optional)",
+     "place_id": "jongno3ga-pojangmacha",
+     "detail": "Orange tents along the street with soju and grilled skewers, a 5-minute walk from the hotel.",
+     "cost_krw_pp": 0,
+     "lat": 37.5711,
+     "lon": 126.9917
+    }
+   ],
+   "food": [
+    {
+     "meal": "lunch",
+     "name": "Changhwadang (Ikseon-dong)",
+     "name_ko": "창화당 익선동",
+     "food_id": null,
+     "price_krw_pp": 12000,
+     "note": "Crisp tteokgalbi dumplings and spicy rice cakes in a hanok; expect a short queue.",
+     "lat": 37.5741,
+     "lon": 126.9901
+    },
+    {
+     "meal": "dinner",
+     "name": "Gwangjang Market crawl: Soonhee-ne bindaetteok + Buchon Yukhoe",
+     "name_ko": "광장시장 순희네빈대떡 · 부촌육회",
+     "food_id": "gwangjang-crawl",
+     "price_krw_pp": 25000,
+     "note": "Share a bindaetteok, a plate of yukhoe and a roll of mayak gimbap.",
+     "lat": 37.57,
+     "lon": 126.9996
+    },
+    {
+     "meal": "drinks",
+     "name": "Jongno 3-ga pojangmacha",
+     "name_ko": "종로3가 포장마차",
+     "food_id": "jongno-tents",
+     "price_krw_pp": 20000,
+     "note": "Soju, eomuk soup and skewers; most tents take cards.",
+     "lat": 37.5711,
+     "lon": 126.9917
+    }
+   ],
+   "rainy_swap": "Jongmyo's halls have deep eaves, but in heavy rain swap it for the National Museum of Korea (free, open to 21:00 on Saturdays). Gwangjang Market is covered. Mulbit Yeonhwa may be cancelled in rain; the lit palace is still open.",
+   "stay_stop": "seoul-1"
+  },
+  {
+   "date": "2026-10-18",
+   "dow": "Sun",
+   "base": "Seoul",
+   "title": "The Secret Garden, hanok rooftops, a car-free bridge at dusk",
+   "summary": "The royal Secret Garden tour in the morning, Bukchon's lanes and Samcheong-dong in the afternoon, then south to the Han River for the car-free Jamsu Bridge festival and the Banpo rainbow fountain.",
+   "autumn_note": "Huwon's maples are just starting (peak late Oct to early Nov). The car-free Jamsu Bridge festival runs today, about 12:00-21:00. Sunset about 17:54.",
+   "items": [
+    {
+     "time": "09:30",
+     "end": "12:15",
+     "kind": "sight",
+     "title": "Changdeokgung + Huwon (Secret Garden) tour",
+     "place_id": "changdeokgung-huwon",
+     "detail": "The most graceful of the five palaces, built to follow the hills. The 90-minute Huwon tour winds past ponds and pavilions the kings used for study, poetry and boating.",
+     "cost_krw_pp": 8000,
+     "booking": "Huwon tickets open Mon Oct 12 at 10:00 KST (Sun Oct 11, 21:00 New York time) on the official site; aim for a 10:00-11:00 slot. A few on-site tickets go on sale at 09:00.",
+     "lat": 37.5794,
+     "lon": 126.991
+    },
+    {
+     "time": "12:30",
+     "end": "13:30",
+     "kind": "food",
+     "title": "Lunch in Samcheong-dong",
+     "place_id": null,
+     "detail": "A 10-minute walk west from the palace into the lanes below the Blue House hills.",
+     "cost_krw_pp": 0,
+     "lat": 37.5856,
+     "lon": 126.9822
+    },
+    {
+     "time": "13:30",
+     "end": "15:30",
+     "kind": "walk",
+     "title": "Bukchon hanok lanes",
+     "place_id": "bukchon",
+     "detail": "Climb Bukchon-ro 11-gil for the view over tiled roofs toward downtown, then wander down through Gahoe-dong. It is a lived-in neighborhood: keep voices down.",
+     "cost_krw_pp": 0,
+     "tip": "Tourists are allowed in the red-zone lanes only 10:00-17:00 (fines up to ₩100,000).",
+     "lat": 37.5826,
+     "lon": 126.985
+    },
+    {
+     "time": "15:30",
+     "end": "16:45",
+     "kind": "rest",
+     "title": "Hotel break",
+     "place_id": null,
+     "detail": "Rest your legs before the evening by the river.",
+     "cost_krw_pp": 0,
+     "lat": 37.5745,
+     "lon": 126.9925
+    },
+    {
+     "time": "17:00",
+     "end": "19:15",
+     "kind": "walk",
+     "title": "Jamsu Bridge car-free festival",
+     "place_id": "han-river-parks",
+     "detail": "Line 3 from Jongno 3-ga to Express Bus Terminal (20 min), then 10 minutes on foot to Banpo Hangang Park. The low-level Jamsu Bridge is closed to cars on these Sundays, with food trucks and buskers over the water as the sun sets.",
+     "cost_krw_pp": 0,
+     "lat": 37.5106,
+     "lon": 126.9958
+    },
+    {
+     "time": "19:30",
+     "end": "20:30",
+     "kind": "night",
+     "title": "Banpo Moonlight Rainbow Fountain",
+     "place_id": null,
+     "detail": "Sit on the riverbank steps for the 20-minute show (19:30, 20:00, 20:30, 21:00): 10,000 nozzles along the Banpo Bridge deck, lit in color.",
+     "cost_krw_pp": 0,
+     "lat": 37.5113,
+     "lon": 126.996
+    }
+   ],
+   "food": [
+    {
+     "meal": "lunch",
+     "name": "Samcheong-dong Sujebi",
+     "name_ko": "삼청동수제비",
+     "food_id": null,
+     "price_krw_pp": 11000,
+     "note": "Hand-torn dough soup and potato pancakes in an old house; a Samcheong-dong institution.",
+     "lat": 37.5856,
+     "lon": 126.9822
+    },
+    {
+     "meal": "dinner",
+     "name": "Chimaek picnic on the Han River",
+     "name_ko": "한강 치맥",
+     "food_id": "chimaek-hangang",
+     "price_krw_pp": 12000,
+     "note": "Fried chicken and beer on the riverbank is a Seoul ritual. Buy from the park's convenience stores or the festival food trucks.",
+     "lat": 37.5106,
+     "lon": 126.9958
+    }
+   ],
+   "rainy_swap": "Huwon tours run in light rain. If it pours, swap the river evening for the Starfield COEX Library and Bongeunsa temple across the street, or a long soak at SPAREX Dongdaemun (24 h jjimjilbang).",
+   "stay_stop": "seoul-1"
+  },
+  {
+   "date": "2026-10-19",
+   "dow": "Mon",
+   "base": "Sokcho / Seoraksan",
+   "title": "Over the mountains to the sea: a refugee village and a hot-spring night",
+   "summary": "A Monday-morning bus across the Taebaek range (weekends can take twice as long), lunch in Abai Village, the hand-pulled raft across the harbor to Sokcho's market, then the Seorak gate, an outdoor hot-spring soak at Cheoksan and red snow crab by the harbor. Your bags travel with you from here on.",
+   "autumn_note": "The bus crosses the mountains through Inje: your first look at peak color from the window. Red snow crab and Yangyang pine mushrooms are in season. Sunset about 17:40.",
+   "items": [
+    {
+     "time": "07:30",
+     "end": "07:55",
+     "kind": "transport",
+     "title": "Taxi to Dong Seoul Bus Terminal",
+     "place_id": null,
+     "detail": "Bring everything: this loop doesn't come back to Seoul until the last afternoon. With three large suitcases, book a Kakao T 'Venti' or large taxi. Or subway: Line 5 to Dongdaemun History & Culture Park, then Line 2 to Gangbyeon, about 35 min.",
+     "cost_krw_pp": 5000,
+     "cost_note": "car fare split 3 ways; counted in local transit",
+     "lat": 37.5349,
+     "lon": 127.0947
+    },
+    {
+     "time": "08:20",
+     "end": "10:36",
+     "kind": "transport",
+     "title": "Deluxe bus, Dong Seoul → Sokcho",
+     "place_id": null,
+     "detail": "Express bus to Sokcho Express Bus Terminal by Cheongchoho lake, about 2 h 15 min on a weekday. Sit on the right for the mountain views after Inje.",
+     "cost_krw_pp": 22800,
+     "booking": "kobus.co.kr or the T-money Bus app; foreign Visa/Mastercard accepted",
+     "lat": 38.1918,
+     "lon": 128.5995
+    },
+    {
+     "time": "10:45",
+     "end": "12:45",
+     "kind": "walk",
+     "title": "Abai Village and the gaetbae raft",
+     "place_id": "abai-village-gaetbae",
+     "detail": "Settled by refugees from North Korea's Hamgyeong province after 1950, the sandbar village still cooks their dishes: squid stuffed with rice (ojingeo sundae) and Hamheung-style cold noodles. After lunch, cross the harbor channel on the gaetbae, a flat raft you pull yourselves along a cable.",
+     "cost_krw_pp": 1000,
+     "cost_note": "₩500 each way, cash",
+     "lat": 38.2016,
+     "lon": 128.5946
+    },
+    {
+     "time": "12:45",
+     "end": "14:15",
+     "kind": "shop",
+     "title": "Sokcho Jungang Market",
+     "place_id": "sokcho-jungang-market",
+     "detail": "Pick up a box of Manseok dakgangjeong (crisp sweet-spicy fried chicken, the town's famous snack) for tonight, and look at the basement fish floor. Coffee at Chilseong Shipyard, a café in a 1952 wooden-boat yard on the lake.",
+     "cost_krw_pp": 0,
+     "tip": "Mon Oct 19 is the 3rd Monday, when some stalls close; Manseok is usually open.",
+     "lat": 38.2047,
+     "lon": 128.5906
+    },
+    {
+     "time": "14:20",
+     "end": "14:40",
+     "kind": "transport",
+     "title": "Taxi to Hanwha Resort Seorak Sorano",
+     "place_id": "hanwha-resort-seorak-sorano",
+     "detail": "About ₩15,000 for the car to the resort at the Seorak entrance.",
+     "cost_krw_pp": 5000,
+     "cost_note": "counted in local transit",
+     "lat": 38.1965,
+     "lon": 128.539
+    },
+    {
+     "time": "14:45",
+     "end": "16:15",
+     "kind": "rest",
+     "title": "Check in, slow afternoon",
+     "place_id": null,
+     "detail": "The condo has a kitchen and a balcony toward the ridge. Rest after the early start.",
+     "cost_krw_pp": 0,
+     "lat": 38.1965,
+     "lon": 128.539
+    },
+    {
+     "time": "16:30",
+     "end": "18:00",
+     "kind": "spa",
+     "title": "Cheoksan Hot Spring",
+     "place_id": "cheoksan-hot-spring",
+     "detail": "A 53°C alkaline spring piped to single-sex baths with an outdoor pool in the pines: the most onsen-like soak in Gangwon. Nude, as in Japan; towels provided. 5 minutes by taxi from Sorano.",
+     "cost_krw_pp": 11000,
+     "lat": 38.1901,
+     "lon": 128.553
+    },
+    {
+     "time": "18:30",
+     "end": "20:00",
+     "kind": "food",
+     "title": "Red snow crab at Dongmyeong Port",
+     "place_id": null,
+     "detail": "Pick red snow crab (hongge) from the tanks; they steam it and finish with fried rice in the shell.",
+     "cost_krw_pp": 0,
+     "lat": 38.2125,
+     "lon": 128.5985
+    },
+    {
+     "time": "20:00",
+     "end": "20:30",
+     "kind": "walk",
+     "title": "Yeonggeumjeong rock pavilion",
+     "place_id": "yeonggeumjeong-lighthouse",
+     "detail": "A footbridge pavilion over the surf rocks next to the crab restaurants, lit at night. Taxi back to Sorano after.",
+     "cost_krw_pp": 0,
+     "lat": 38.2134,
+     "lon": 128.6008
+    }
+   ],
+   "food": [
+    {
+     "meal": "lunch",
+     "name": "Dancheon Sikdang (Abai Village)",
+     "name_ko": "단천식당",
+     "food_id": "dancheon-sikdang",
+     "price_krw_pp": 15000,
+     "note": "Ojingeo sundae and Abai sundae, the refugee village's own recipes.",
+     "lat": 38.2059,
+     "lon": 128.5928
+    },
+    {
+     "meal": "snack",
+     "name": "Manseok Dakgangjeong",
+     "name_ko": "만석닭강정",
+     "food_id": "manseok-dakgangjeong",
+     "price_krw_pp": 8000,
+     "note": "Buy a box for Tuesday night too: it is famously good cold.",
+     "lat": 38.2047,
+     "lon": 128.5906
+    },
+    {
+     "meal": "dinner",
+     "name": "Red snow crab, Dongmyeong Port",
+     "name_ko": "동명항 홍게",
+     "food_id": "dongmyeong-red-crab",
+     "price_krw_pp": 40000,
+     "note": "Autumn crab season; agree the price by weight before they cook it.",
+     "lat": 38.2125,
+     "lon": 128.5985
+    }
+   ],
+   "rainy_swap": "The bus and Abai Village work in drizzle (the raft runs in rain). Hot springs are even better in the rain.",
+   "stay_stop": "sokcho"
+  },
+  {
+   "date": "2026-10-20",
+   "dow": "Tue",
+   "base": "Sokcho / Seoraksan",
+   "title": "Seoraksan at peak, then a sea-cliff temple at golden hour",
+   "summary": "The first cable car up to Gwongeumseong and the near-flat Biseondae valley under peak foliage, Sinheungsa's bronze Buddha, then down to the coast for Naksansa's cliff pavilions in late-afternoon light, and Waterpia's outdoor hot-spring pools to finish.",
+   "autumn_note": "Seoraksan's valleys are forecast at peak Oct 20-27 (Korea Forest Service whole-mountain peak: Oct 20). Sunset over the East Sea side is early (about 17:40), so Naksansa's light is best from 16:00.",
+   "items": [
+    {
+     "time": "07:30",
+     "end": "07:45",
+     "kind": "transport",
+     "title": "Taxi to Sogongwon (park entrance)",
+     "place_id": "seoraksan-sogongwon-sinheungsa",
+     "detail": "Ask the front desk to book it the night before.",
+     "cost_krw_pp": 3500,
+     "cost_note": "counted in local transit",
+     "lat": 38.1716,
+     "lon": 128.4878
+    },
+    {
+     "time": "07:50",
+     "end": "10:00",
+     "kind": "sight",
+     "title": "Seorak cable car to Gwongeumseong",
+     "place_id": "seorak-cable-car",
+     "detail": "Tickets are same-day only and printed with a boarding time, so be at the office as it opens (about 08:00-08:30; check sorakcablecar.co.kr). Walk 10 minutes from the top station to the bare-rock fortress summit with Ulsanbawi and the Dinosaur Ridge around you.",
+     "cost_krw_pp": 16000,
+     "tip": "If your boarding time is hours away, walk to Biseondae first.",
+     "lat": 38.1729,
+     "lon": 128.4891
+    },
+    {
+     "time": "10:15",
+     "end": "13:00",
+     "kind": "walk",
+     "title": "Sogongwon → Biseondae valley walk",
+     "place_id": "biseondae-geumganggul",
+     "detail": "A near-flat 3 km riverside path to Biseondae's sheer granite walls under the maples. Strong walkers can add the steep stairs to Geumganggul cave (about 1 h return).",
+     "cost_krw_pp": 0,
+     "lat": 38.1645,
+     "lon": 128.4618
+    },
+    {
+     "time": "13:00",
+     "end": "13:45",
+     "kind": "food",
+     "title": "Lunch at the Sogongwon restaurant row",
+     "place_id": null,
+     "detail": "Mountain-vegetable bibimbap and potato pancakes by the park entrance.",
+     "cost_krw_pp": 0,
+     "lat": 38.1735,
+     "lon": 128.4905
+    },
+    {
+     "time": "13:45",
+     "end": "14:20",
+     "kind": "sight",
+     "title": "Sinheungsa and the bronze Buddha",
+     "place_id": "seoraksan-sogongwon-sinheungsa",
+     "detail": "A temple founded in 652 at the trailhead, with a 14.6 m bronze 'Unification Buddha'.",
+     "cost_krw_pp": 0,
+     "lat": 38.1716,
+     "lon": 128.4878
+    },
+    {
+     "time": "14:30",
+     "end": "15:05",
+     "kind": "transport",
+     "title": "Taxi to Naksansa",
+     "place_id": null,
+     "detail": "About ₩25,000 for the car.",
+     "cost_krw_pp": 8400,
+     "lat": 38.1246,
+     "lon": 128.6281
+    },
+    {
+     "time": "15:05",
+     "end": "17:15",
+     "kind": "sight",
+     "title": "Naksansa: Uisangdae and Hongnyeonam",
+     "place_id": "naksansa",
+     "detail": "A temple founded in 671 on a headland. Walk out to Uisangdae, a six-sided pavilion on a pine cliff over the sea, and down to Hongnyeonam, a hermitage built over a sea cave where a hole in the floor shows the waves. Much was rebuilt after a 2005 wildfire; the setting is the point.",
+     "cost_krw_pp": 0,
+     "lat": 38.1246,
+     "lon": 128.6281
+    },
+    {
+     "time": "17:20",
+     "end": "17:50",
+     "kind": "transport",
+     "title": "Taxi back to Sorano",
+     "place_id": null,
+     "detail": "About ₩25,000 for the car.",
+     "cost_krw_pp": 8400,
+     "lat": 38.1965,
+     "lon": 128.539
+    },
+    {
+     "time": "18:00",
+     "end": "20:30",
+     "kind": "spa",
+     "title": "Seorak Waterpia night spa",
+     "place_id": "seorak-waterpia",
+     "detail": "Outdoor hot-spring pools under the ridge after a long day on your feet. Swimsuits on. Night spa 18:00-20:30, last entry 20:00.",
+     "cost_krw_pp": 27000,
+     "cost_note": "included in the sweet-tier ALL INCLUSIVE rate",
+     "lat": 38.1965,
+     "lon": 128.539
+    },
+    {
+     "time": "20:40",
+     "end": "21:30",
+     "kind": "food",
+     "title": "Dakgangjeong and beer in the condo",
+     "place_id": null,
+     "detail": "Yesterday's market chicken, cold, with convenience-store beer.",
+     "cost_krw_pp": 0,
+     "lat": 38.1965,
+     "lon": 128.539
+    }
+   ],
+   "food": [
+    {
+     "meal": "lunch",
+     "name": "Seorak-dong sanchae bibimbap",
+     "name_ko": "설악동 산채비빔밥",
+     "food_id": null,
+     "price_krw_pp": 15000,
+     "note": "Mountain greens over rice, plus a pajeon to share.",
+     "lat": 38.1735,
+     "lon": 128.4905
+    },
+    {
+     "meal": "dinner",
+     "name": "Manseok Dakgangjeong (bought Monday)",
+     "name_ko": "만석닭강정",
+     "food_id": "manseok-dakgangjeong",
+     "price_krw_pp": 0,
+     "note": "Already paid for; add ramyeon from the convenience store.",
+     "lat": 38.2047,
+     "lon": 128.5906
+    }
+   ],
+   "rainy_swap": "Wind stops the cable car and cloud hides the ridges. If Tuesday is a washout, do Naksansa and Abai Village in the rain and keep Waterpia; Wednesday's early bus means Seorak can't move, so accept the loss or ride the cable car on Wednesday at opening and take the 14:56 coast train instead (then Gyeongju is night sights only).",
+   "stay_stop": "sokcho"
+  },
+  {
+   "date": "2026-10-21",
+   "dow": "Wed",
+   "base": "Gyeongju",
+   "title": "Down the new coast line to the Silla capital, a private hot-spring night",
+   "summary": "An early bus to Gangneung, then KTX-Eum 752 south on the new Donghae line with the East Sea out the left window. Bags to Ragung, an afternoon among Gyeongju's royal tombs and Gyochon's lanes, Wolji Pond as its pavilions light up, then your own outdoor hot-spring bath.",
+   "autumn_note": "Gyeongju's tomb mounds turn golden and the silver grass at Cheomseongdae is out; tree color is early (Gyeongju peaks in early Nov). Sunset about 17:45.",
+   "items": [
+    {
+     "time": "07:00",
+     "end": "07:20",
+     "kind": "transport",
+     "title": "Check out, taxi to Sokcho Intercity Bus Terminal",
+     "place_id": null,
+     "detail": "Downtown terminal by the market (not the express terminal you arrived at).",
+     "cost_krw_pp": 5000,
+     "cost_note": "counted in local transit",
+     "lat": 38.2097,
+     "lon": 128.5917
+    },
+    {
+     "time": "07:30",
+     "end": "08:30",
+     "kind": "transport",
+     "title": "Intercity bus Sokcho → Gangneung",
+     "place_id": null,
+     "detail": "Frequent coastal buses, about 1 hour.",
+     "cost_krw_pp": 8400,
+     "booking": "Buy at the terminal or on the T-money Bus app",
+     "lat": 37.7647,
+     "lon": 128.8835
+    },
+    {
+     "time": "08:40",
+     "end": "09:00",
+     "kind": "transport",
+     "title": "Taxi to Gangneung Station",
+     "place_id": null,
+     "detail": "Short hop. Buy coffee and gimbap for the train.",
+     "cost_krw_pp": 1500,
+     "cost_note": "counted in local transit",
+     "lat": 37.7642,
+     "lon": 128.8996
+    },
+    {
+     "time": "09:36",
+     "end": "12:30",
+     "kind": "transport",
+     "title": "KTX-Eum 752 Gangneung → Gyeongju",
+     "place_id": null,
+     "detail": "One of only three trains a day on the new Donghae coast line. Sit on the left (east) side: the sea runs alongside between Jeongdongjin and Samcheok.",
+     "cost_krw_pp": 34300,
+     "booking": "Korail+ app or korail.com; book now (the 3-a-day trains sell out)",
+     "lat": 35.7983,
+     "lon": 129.1389
+    },
+    {
+     "time": "12:30",
+     "end": "13:00",
+     "kind": "transport",
+     "title": "Taxi to Ragung, drop bags",
+     "place_id": "ragung",
+     "detail": "About 25 minutes across town; Ragung holds bags before check-in.",
+     "cost_krw_pp": 8400,
+     "cost_note": "counted in local transit",
+     "lat": 35.8287,
+     "lon": 129.2853
+    },
+    {
+     "time": "13:15",
+     "end": "14:00",
+     "kind": "food",
+     "title": "Late lunch in Gyochon",
+     "place_id": "woljeonggyo-gyochon",
+     "detail": "Egg-strand gimbap at Gyori Gimbap, by the Choi family house.",
+     "cost_krw_pp": 0,
+     "lat": 35.8296,
+     "lon": 129.2183
+    },
+    {
+     "time": "14:00",
+     "end": "15:30",
+     "kind": "walk",
+     "title": "Gyochon, Woljeonggyo bridge and Gyerim grove",
+     "place_id": "woljeonggyo-gyochon",
+     "detail": "The rebuilt Silla-era covered bridge over the river, the hanok lanes of the Choi clan's village, and the ancient woods of Gyerim.",
+     "cost_krw_pp": 0,
+     "lat": 35.8296,
+     "lon": 129.2183
+    },
+    {
+     "time": "15:30",
+     "end": "16:45",
+     "kind": "sight",
+     "title": "Cheomseongdae and Daereungwon tombs",
+     "place_id": "daereungwon-cheonmachong",
+     "detail": "Asia's oldest surviving observatory, then a walk among the 23 grassy royal mounds; Cheonmachong is the one you can enter, with replicas of the gold crown found inside.",
+     "cost_krw_pp": 3000,
+     "cost_note": "admission may now be free; check at the gate",
+     "lat": 35.8381,
+     "lon": 129.2112
+    },
+    {
+     "time": "16:45",
+     "end": "17:15",
+     "kind": "food",
+     "title": "Hwangnam bread and coffee on Hwangridan-gil",
+     "place_id": "hwangridan-gil",
+     "detail": "Buy a box of Hwangnam-ppang for tomorrow's breakfast: Ragung serves none.",
+     "cost_krw_pp": 0,
+     "lat": 35.8378,
+     "lon": 129.2095
+    },
+    {
+     "time": "17:15",
+     "end": "18:30",
+     "kind": "night",
+     "title": "Donggung Palace & Wolji Pond at dusk",
+     "place_id": "donggung-wolji",
+     "detail": "The Silla crown prince's palace and pond; the pavilions light up around sunset and reflect perfectly in still water.",
+     "cost_krw_pp": 3000,
+     "lat": 35.8349,
+     "lon": 129.2266
+    },
+    {
+     "time": "18:45",
+     "end": "19:45",
+     "kind": "food",
+     "title": "Ssambap dinner",
+     "place_id": null,
+     "detail": "Lettuce-wrap sets with 20-plus side dishes on the street south of Daereungwon.",
+     "cost_krw_pp": 0,
+     "lat": 35.836,
+     "lon": 129.2125
+    },
+    {
+     "time": "20:00",
+     "end": "22:00",
+     "kind": "spa",
+     "title": "Ragung: your own outdoor hot-spring bath",
+     "place_id": "ragung",
+     "detail": "Check in to a hanok suite around a walled courtyard and soak in your private outdoor hot-spring tub under the night sky. This is the trip's Izu-ryokan night.",
+     "cost_krw_pp": 0,
+     "lat": 35.8287,
+     "lon": 129.2853
+    }
+   ],
+   "food": [
+    {
+     "meal": "lunch",
+     "name": "Gyori Gimbap",
+     "name_ko": "교리김밥",
+     "food_id": "gyori-gimbap",
+     "price_krw_pp": 6000,
+     "note": "Gimbap packed with thin-sliced egg; a Gyeongju classic.",
+     "lat": 35.8297,
+     "lon": 129.2152
+    },
+    {
+     "meal": "snack",
+     "name": "Hwangnam Bread (main shop)",
+     "name_ko": "황남빵 본점",
+     "food_id": "hwangnam-bread",
+     "price_krw_pp": 5000,
+     "note": "Thin pastry, lots of red bean; buy extra for breakfast.",
+     "lat": 35.8371,
+     "lon": 129.2133
+    },
+    {
+     "meal": "dinner",
+     "name": "Ssambap Street (Daereungwon south)",
+     "name_ko": "쌈밥거리",
+     "food_id": "gyeongju-ssambap",
+     "price_krw_pp": 18000,
+     "note": "Pick any busy shop; it's a set menu for the table.",
+     "lat": 35.836,
+     "lon": 129.2125
+    }
+   ],
+   "rainy_swap": "The train and the bath don't care about rain. Swap the tomb walk for the Gyeongju National Museum (free, indoors) and keep Wolji: wet stone reflects the lights even better.",
+   "stay_stop": "gyeongju"
+  },
+  {
+   "date": "2026-10-22",
+   "dow": "Thu",
+   "base": "Busan",
+   "title": "Bulguksa at nine, the Busan coast by sunset",
+   "summary": "A dawn soak, then Bulguksa before the school groups and the Seokguram stone Buddha. An afternoon train drops you on Busan's Haeundae side for Haedong Yonggungsa on its sea rocks and the pastel Sky Capsule along the old shore railway at sunset.",
+   "autumn_note": "Bulguksa's maples by the stone bridges show partial color (forecast peak late Oct to early Nov). Busan stays green; the draw is the clear sea air. Sunset about 17:45.",
+   "items": [
+    {
+     "time": "07:00",
+     "end": "08:15",
+     "kind": "spa",
+     "title": "Dawn bath at Ragung",
+     "place_id": "ragung",
+     "detail": "One more soak, with Hwangnam bread and drip coffee in the room.",
+     "cost_krw_pp": 0,
+     "lat": 35.8287,
+     "lon": 129.2853
+    },
+    {
+     "time": "08:30",
+     "end": "08:45",
+     "kind": "transport",
+     "title": "Taxi to Bulguksa (bags stay at Ragung)",
+     "place_id": null,
+     "detail": "About ₩12,000 for the car.",
+     "cost_krw_pp": 0,
+     "lat": 35.7903,
+     "lon": 129.332
+    },
+    {
+     "time": "08:45",
+     "end": "10:15",
+     "kind": "sight",
+     "title": "Bulguksa",
+     "place_id": "bulguksa",
+     "detail": "Korea's best-known temple (UNESCO): stone bridges called Blue Cloud and White Cloud, and the twin pagodas Dabotap and Seokgatap in the main courtyard. Arrive before the school buses.",
+     "cost_krw_pp": 0,
+     "lat": 35.7903,
+     "lon": 129.332
+    },
+    {
+     "time": "10:25",
+     "end": "11:30",
+     "kind": "sight",
+     "title": "Seokguram Grotto",
+     "place_id": "seokguram",
+     "detail": "An 8th-century granite Buddha in an artificial cave temple, seen through glass. Shuttle bus 12 from Bulguksa or a 15-minute taxi up the mountain road.",
+     "cost_krw_pp": 0,
+     "lat": 35.7951,
+     "lon": 129.3492
+    },
+    {
+     "time": "11:30",
+     "end": "12:15",
+     "kind": "transport",
+     "title": "Taxi to Ragung, collect bags",
+     "place_id": null,
+     "detail": "About 20 minutes back down.",
+     "cost_krw_pp": 0,
+     "lat": 35.8287,
+     "lon": 129.2853
+    },
+    {
+     "time": "12:15",
+     "end": "13:15",
+     "kind": "food",
+     "title": "Lunch in Bomun",
+     "place_id": null,
+     "detail": "Hanu beef gukbap or a Korean set meal near the lake.",
+     "cost_krw_pp": 0,
+     "lat": 35.8365,
+     "lon": 129.2848
+    },
+    {
+     "time": "13:30",
+     "end": "14:00",
+     "kind": "transport",
+     "title": "Taxi to Gyeongju Station",
+     "place_id": null,
+     "detail": "About 25 minutes.",
+     "cost_krw_pp": 0,
+     "lat": 35.7983,
+     "lon": 129.1389
+    },
+    {
+     "time": "14:16",
+     "end": "15:10",
+     "kind": "transport",
+     "title": "KTX-Eum 707 Gyeongju → Sinhaeundae",
+     "place_id": null,
+     "detail": "Lands on the Haeundae side of Busan.",
+     "cost_krw_pp": 10900,
+     "booking": "Korail+ / korail.com (Oct 7-13 timetable; confirm)",
+     "lat": 35.181,
+     "lon": 129.177
+    },
+    {
+     "time": "15:10",
+     "end": "15:40",
+     "kind": "transport",
+     "title": "Taxi to the hotel, drop bags",
+     "place_id": null,
+     "detail": "Paradise (Haeundae) for the sweet tier, Aqua Palace (Gwangalli) for value.",
+     "cost_krw_pp": 0,
+     "lat": 35.1597,
+     "lon": 129.164
+    },
+    {
+     "time": "15:50",
+     "end": "16:50",
+     "kind": "sight",
+     "title": "Haedong Yonggungsa seaside temple",
+     "place_id": "haedong-yonggungsa",
+     "detail": "A temple built onto the sea rocks, reached down 108 steps, with waves breaking under the halls.",
+     "cost_krw_pp": 0,
+     "lat": 35.1883,
+     "lon": 129.2233
+    },
+    {
+     "time": "17:00",
+     "end": "17:20",
+     "kind": "walk",
+     "title": "Cheongsapo twin lighthouses",
+     "place_id": "cheongsapo",
+     "detail": "The red and white lighthouses at the end of the breakwater in the golden hour.",
+     "cost_krw_pp": 0,
+     "lat": 35.1601,
+     "lon": 129.1919
+    },
+    {
+     "time": "17:25",
+     "end": "18:00",
+     "kind": "sight",
+     "title": "Sky Capsule Cheongsapo → Mipo at sunset",
+     "place_id": "blueline-park-sky-capsule",
+     "detail": "Your own pastel pod creeps along the old coastal railway, 7-10 m above the shore, for 30 minutes into Haeundae.",
+     "cost_krw_pp": 18334,
+     "cost_note": "₩55,000 per 3-person capsule",
+     "booking": "Blueline Park site or Klook; book a late slot",
+     "lat": 35.1587,
+     "lon": 129.1717
+    },
+    {
+     "time": "18:15",
+     "end": "21:30",
+     "kind": "spa",
+     "title": "Haeundae evening and hot spring",
+     "place_id": "paradise-hotel-busan",
+     "detail": "Bokguk dinner, then Paradise's Cimer sea-view hot spring (sweet and splurge tiers). Value tier: Spa Land Centum (₩26,000, 4 h) instead.",
+     "cost_krw_pp": 0,
+     "lat": 35.1597,
+     "lon": 129.164
+    }
+   ],
+   "food": [
+    {
+     "meal": "lunch",
+     "name": "Bomun hanu gukbap",
+     "name_ko": "보문 한우국밥",
+     "food_id": null,
+     "price_krw_pp": 12000,
+     "note": "Beef and radish soup with rice; quick before the train.",
+     "lat": 35.8365,
+     "lon": 129.2848
+    },
+    {
+     "meal": "dinner",
+     "name": "Geumsu Bokguk (Haeundae flagship)",
+     "name_ko": "금수복국 해운대본점",
+     "food_id": "geumsu-bokguk",
+     "price_krw_pp": 18000,
+     "note": "Clear pufferfish soup, a Busan hangover classic since 1970.",
+     "lat": 35.1606,
+     "lon": 129.1616
+    }
+   ],
+   "rainy_swap": "Bulguksa and Seokguram are fine in drizzle. In Busan the capsule runs in normal rain; in a storm swap it for Spa Land Centum and keep Haedong Yonggungsa if the sea is safe.",
+   "stay_stop": "busan-1"
+  },
+  {
+   "date": "2026-10-23",
+   "dow": "Fri",
+   "base": "Busan",
+   "title": "Old harbor Busan: painted hills, fish market, white cliffs",
+   "summary": "Move to the Gwangalli hotel, then west Busan: Gamcheon's pastel hillside early, lunch upstairs at Jagalchi on live-picked hoe, and Huinnyeoul's white cliff village for sunset over the anchored ships. Dinner back east: Haeundae's legendary beef galbi, or the Mori kaiseki splurge.",
+   "autumn_note": "Jeon-eo (gizzard shad) and galchi are autumn favorites at Jagalchi. Sunset ~17:46.",
+   "items": [
+    {
+     "time": "09:00",
+     "end": "09:30",
+     "kind": "transport",
+     "title": "Move bags to Gwangalli-Planet16",
+     "place_id": "gwangalli-planet16",
+     "detail": "Value tier: walk ~200 m from Aqua Palace. Sweet/splurge: taxi ~15 min from Paradise (an early Cimer soak first). Leave bags at Planet16 until check-in.",
+     "cost_krw_pp": 0,
+     "lat": 35.1545,
+     "lon": 129.1183
+    },
+    {
+     "time": "09:45",
+     "end": "11:45",
+     "kind": "walk",
+     "title": "Gamcheon Culture Village",
+     "place_id": "gamcheon-culture-village",
+     "detail": "Taxi ~35 min (~25k per car) to the top and walk down through the pastel refugee-era houses, art installations and the Little Prince lookout before the tour groups.",
+     "cost_krw_pp": 0,
+     "lat": 35.0975,
+     "lon": 129.0106
+    },
+    {
+     "time": "12:00",
+     "end": "13:45",
+     "kind": "food",
+     "title": "Jagalchi Fish Market: pick it, eat it upstairs",
+     "place_id": "jagalchi-market",
+     "detail": "Taxi ~15 min. Choose live fish on the ground floor, have it sliced and eat on 2F with a view of the harbor; finish with a spicy maeuntang from the bones.",
+     "cost_krw_pp": 0,
+     "tip": "Agree the price per kg and weight before the knife goes in.",
+     "lat": 35.0967,
+     "lon": 129.0305
+    },
+    {
+     "time": "13:45",
+     "end": "14:45",
+     "kind": "walk",
+     "title": "BIFF Square and Gukje Market",
+     "place_id": "biff-square-gukje-market",
+     "detail": "Seed-stuffed ssiat hotteok from the BIFF stalls, then the postwar Gukje Market alleys. Coffee break nearby.",
+     "cost_krw_pp": 0,
+     "lat": 35.0988,
+     "lon": 129.028
+    },
+    {
+     "time": "15:15",
+     "end": "18:00",
+     "kind": "walk",
+     "title": "Huinnyeoul village and Jeollyeong coastal walk",
+     "place_id": "huinnyeoul-culture-village",
+     "detail": "Taxi ~15 min to Yeongdo, stop at Samjin Eomuk's flagship, then walk the white cliffside lanes and the seaside path below, ending at a cliff cafe for sunset over dozens of anchored ships.",
+     "cost_krw_pp": 0,
+     "tip": "Have legs left? Swap Gukje Market for Taejongdae's cliff loop (Danubi road train ~4,000).",
+     "lat": 35.0781,
+     "lon": 129.0447
+    },
+    {
+     "time": "18:15",
+     "end": "21:00",
+     "kind": "food",
+     "title": "Dinner in Haeundae, back to Gwangalli",
+     "place_id": null,
+     "detail": "Taxi ~35 min to Haeundae Amso Galbi (or Mori for a 19:00 kaiseki seating), then 15 min to Gwangalli to check in and see Gwangan Bridge lit up.",
+     "cost_krw_pp": 0,
+     "lat": 35.163,
+     "lon": 129.1617
+    }
+   ],
+   "food": [
+    {
+     "meal": "lunch",
+     "name": "Jagalchi Market hoe (2F restaurants)",
+     "name_ko": "자갈치시장 활어회",
+     "food_id": "jagalchi",
+     "price_krw_pp": 35000,
+     "note": "Platter for 3 ~60-120k plus ~5,000 pp table fee. The freshest raw fish of the trip.",
+     "lat": 35.0966,
+     "lon": 129.0306
+    },
+    {
+     "meal": "snack",
+     "name": "Samjin Eomuk (Yeongdo flagship)",
+     "name_ko": "삼진어묵 영도본점",
+     "food_id": "samjin-eomuk",
+     "price_krw_pp": 8000,
+     "note": "Busan's fish-cake institution since 1953; try the croquette-style eomuk.",
+     "lat": 35.0905,
+     "lon": 129.042
+    },
+    {
+     "meal": "dinner",
+     "name": "Haeundae Amso Galbi (or Mori kaiseki)",
+     "name_ko": "해운대암소갈비집 / 모리",
+     "food_id": "haeundae-amso-galbi",
+     "price_krw_pp": 55000,
+     "note": "Decades-old marinated cow-beef galbi; queues, so add your name and walk the beach. Splurge: Mori, Japanese-style kaiseki with Busan seafood (~250k pp, Fri seating 19:00, closed Mon; phone +82 51-731-9889 or CatchTable).",
+     "lat": 35.163,
+     "lon": 129.1617
+    }
+   ],
+   "rainy_swap": "Gukje Market and Jagalchi are covered; replace Gamcheon and Huinnyeoul with Spa Land Centum or the Busan Museum of Modern History, then dinner as planned.",
+   "stay_stop": "busan-2"
+  },
+  {
+   "date": "2026-10-24",
+   "dow": "Sat",
+   "base": "Busan",
+   "title": "Cliff walk, Dongnae hot spring, drones over the bridge",
+   "summary": "The Igidae cliff boardwalk in the cool morning, an omakase lunch in Haeundae, an afternoon soak in Korea's largest hot-spring bathhouse, then raw fish facing Gwangan Bridge and the Saturday drone show from the beach outside your hotel.",
+   "autumn_note": "October is the best month for Igidae; silver grass on the Oryukdo headland. Drone show theme Oct 24: 'Forest's Melody'.",
+   "items": [
+    {
+     "time": "09:00",
+     "end": "09:45",
+     "kind": "sight",
+     "title": "Oryukdo Skywalk",
+     "place_id": "oryukdo-skywalk",
+     "detail": "Taxi ~20 min (~12k per car) to the glass horseshoe over the cliffs where the East Sea meets the South Sea.",
+     "cost_krw_pp": 0,
+     "lat": 35.1004,
+     "lon": 129.1243
+    },
+    {
+     "time": "09:45",
+     "end": "12:15",
+     "kind": "walk",
+     "title": "Igidae coastal walk (Galmaet-gil 2)",
+     "place_id": "igidae-coastal-walk",
+     "detail": "About 4.7 km of cliffside boardwalks, suspension bridges and coves heading north, with Gwangan Bridge and the Haeundae skyline ahead the whole way.",
+     "cost_krw_pp": 0,
+     "tip": "Many stairs; proper shoes. Sections close after storms.",
+     "lat": 35.122,
+     "lon": 129.123
+    },
+    {
+     "time": "12:00",
+     "end": "13:30",
+     "kind": "food",
+     "title": "Omakase lunch at Iwa, Haeundae",
+     "place_id": null,
+     "detail": "Aged-fish sushi omakase by a Michelin-selected counter: the trip's sushi moment. 20 minutes by taxi from Igidae, then 30 minutes on to Dongnae.",
+     "cost_krw_pp": 0,
+     "booking": "Phone +82 10-8543-3356; ask your hotel to call. Book now.",
+     "lat": 35.1606,
+     "lon": 129.163
+    },
+    {
+     "time": "14:15",
+     "end": "16:45",
+     "kind": "spa",
+     "title": "Hurshimchung hot spring (Dongnae)",
+     "place_id": "hurshimchung",
+     "detail": "Metro or taxi (~30 min) to Oncheonjang: about 40 baths under a glass dome fed by the 1,300-year-old Dongnae spring, including open-air and cypress tubs. Reopened May 2026 after renovation.",
+     "cost_krw_pp": 18000,
+     "cost_note": "weekend rate",
+     "tip": "Bathing is nude and gender-separated; tattoos are generally tolerated.",
+     "lat": 35.2205,
+     "lon": 129.0817
+    },
+    {
+     "time": "17:30",
+     "end": "18:45",
+     "kind": "food",
+     "title": "Millak hoe facing Gwangan Bridge",
+     "place_id": "gwangalli-beach",
+     "detail": "Buy fish on 1F of the Millak fishermen's market and eat upstairs as the bridge lights come on.",
+     "cost_krw_pp": 0,
+     "lat": 35.1545,
+     "lon": 129.1335
+    },
+    {
+     "time": "19:00",
+     "end": "21:15",
+     "kind": "night",
+     "title": "Gwangalli M Drone Light Show",
+     "place_id": "gwangalli-drone-show",
+     "detail": "About 1,100 drones over the bridge for ~12 minutes at 19:00 and again at 21:00. Watch the first from the sand in front of the hotel, then a beach bar, and catch the quieter 21:00 show.",
+     "cost_krw_pp": 0,
+     "tip": "Arrive 30 min early for a central spot. Cancelled for wind or rain with little notice.",
+     "lat": 35.1532,
+     "lon": 129.1186
+    }
+   ],
+   "food": [
+    {
+     "meal": "dinner",
+     "name": "Millak Fishermen's Live Fish Market",
+     "name_ko": "민락어민활어직판장",
+     "food_id": "millak-raw-fish-center",
+     "price_krw_pp": 35000,
+     "note": "Flatfish ~30k/kg, setting fee ~6,000 pp; ask for a window table. Go by 17:30: the drone show fills every seat.",
+     "lat": 35.1545,
+     "lon": 129.1335
+    },
+    {
+     "meal": "lunch",
+     "name": "Iwa (sushi omakase)",
+     "name_ko": "이와",
+     "food_id": "iwa-busan",
+     "price_krw_pp": 80000,
+     "note": "Aged-fish nigiri, lunch course; confirm the closed day when booking.",
+     "lat": 35.1606,
+     "lon": 129.163
+    }
+   ],
+   "rainy_swap": "Skip Igidae; spend longer at Hurshimchung or Spa Land Centum. If the drone show is cancelled, watch the bridge lights from a Gwangalli bar instead.",
+   "stay_stop": "busan-2"
+  },
+  {
+   "date": "2026-10-25",
+   "dow": "Sun",
+   "base": "Busan → ICN",
+   "title": "Slow beach morning, KTX north, fly home",
+   "summary": "A lazy Gwangalli morning, milmyeon by Busan Station, then the KTX to Seoul and the AREX straight to the airport with time to spare.",
+   "autumn_note": "",
+   "items": [
+    {
+     "time": "08:30",
+     "end": "10:30",
+     "kind": "walk",
+     "title": "Gwangalli beach morning",
+     "place_id": "gwangalli-beach",
+     "detail": "Coffee and a beach walk; Millak Waterfront Park at the north end for one last bridge view.",
+     "cost_krw_pp": 0,
+     "lat": 35.1532,
+     "lon": 129.1186
+    },
+    {
+     "time": "11:00",
+     "end": "11:35",
+     "kind": "transport",
+     "title": "Check out, taxi to Busan Station",
+     "place_id": null,
+     "detail": "~30 min (~20k per car).",
+     "cost_krw_pp": 0,
+     "lat": 35.1151,
+     "lon": 129.0422
+    },
+    {
+     "time": "11:45",
+     "end": "12:40",
+     "kind": "food",
+     "title": "Milmyeon lunch by the station",
+     "place_id": null,
+     "detail": "Choryang's wartime-refugee cold wheat noodles, a 5-minute walk from Busan Station.",
+     "cost_krw_pp": 0,
+     "lat": 35.1186,
+     "lon": 129.0405
+    },
+    {
+     "time": "13:03",
+     "end": "15:47",
+     "kind": "transport",
+     "title": "KTX Busan → Seoul",
+     "place_id": null,
+     "detail": "KTX-Sancheon 38.",
+     "cost_krw_pp": 54400,
+     "booking": "Korail+ / korail.com, book now (Sunday northbound sells out).",
+     "lat": 35.1151,
+     "lon": 129.0422
+    },
+    {
+     "time": "16:10",
+     "end": "16:53",
+     "kind": "transport",
+     "title": "AREX Express to Incheon T1",
+     "place_id": "seoul-station",
+     "detail": "Non-stop 43 min. At the airport ~17:00 for the 21:55 flight; eat and shop airside.",
+     "cost_krw_pp": 13000,
+     "lat": 37.5547,
+     "lon": 126.9707
+    },
+    {
+     "time": "21:55",
+     "end": null,
+     "kind": "transport",
+     "title": "Air Premia departs ICN",
+     "place_id": "incheon-airport-t1",
+     "detail": "Confirm the terminal (T1 assumed) the day before.",
+     "cost_krw_pp": 0,
+     "lat": 37.4492,
+     "lon": 126.4508
+    }
+   ],
+   "food": [
+    {
+     "meal": "breakfast",
+     "name": "Gwangalli beachfront cafe",
+     "name_ko": "광안리 카페",
+     "food_id": null,
+     "price_krw_pp": 12000,
+     "note": "Any bridge-view cafe on Gwanganhaebyeon-ro.",
+     "lat": 35.1532,
+     "lon": 129.1186
+    },
+    {
+     "meal": "lunch",
+     "name": "Choryang Milmyeon",
+     "name_ko": "초량밀면",
+     "food_id": "milmyeon",
+     "price_krw_pp": 10000,
+     "note": "Busan-only cold noodles; mul (broth) or bibim (spicy).",
+     "lat": 35.1186,
+     "lon": 129.0405
+    }
+   ],
+   "rainy_swap": "Nothing changes; spend the morning at a cafe or Spa Land Centum (lockers for bags) before the train.",
+   "stay_stop": "busan-2"
+  }
+ ],
+ "stays": [
+  {
+   "stop": "seoul-1",
+   "base": "Seoul",
+   "area": "Jongno 3-ga / Ikseon-dong",
+   "check_in": "2026-10-16",
+   "check_out": "2026-10-19",
+   "nights": 3,
+   "includes_oct16": true,
+   "why_area": "Walking distance to Jongmyo, Changdeokgung, Ikseon-dong and Gwangjang Market, with Line 5 to Dong Seoul for Monday's bus.",
+   "choices": [
+    {
+     "tier": "value",
+     "lodging_id": "4rest-stay-jongno",
+     "name": "4rest Stay Jongno",
+     "room": "Deluxe Suite (1 twin + 1 full bed, max 3), breakfast included",
+     "price_krw_per_night": 400441,
+     "price_basis": "Live Booking.com Oct 6 2026 (US time), Oct 16-19, 3 adults: 1,092,112 + 10% tax = 1,201,323 for 3 nights, non-refundable",
+     "availability": "available (live Oct 6) - only 1 Deluxe Suite left",
+     "total_krw": 1201323,
+     "why": "Cheapest live room that sleeps 3 adults with a real bed each, breakfast included, and 3 minutes from Jongmyo."
+    },
+    {
+     "tier": "sweet",
+     "lodging_id": "4rest-stay-jongno",
+     "name": "4rest Stay Jongno (refundable rate)",
+     "room": "Same Deluxe Suite, breakfast included",
+     "price_krw_per_night": 421517,
+     "price_basis": "Live Booking.com Oct 6 2026: 1,149,592 + 10% = 1,264,551 for 3 nights, free cancellation before Oct 9",
+     "availability": "available (live Oct 6) - only 1 Deluxe Suite left",
+     "total_krw": 1264551,
+     "why": "Same suite for about 21k a night more, but you can cancel until Oct 9. Seoul has nothing better for 3 at this price this weekend."
+    },
+    {
+     "tier": "splurge",
+     "lodging_id": "the-prima-jongno",
+     "name": "The Prima Hotel Jongno Insadong",
+     "room": "Deluxe Twin 23 m2 (1 twin + 1 full, recommended for 3), buffet breakfast",
+     "price_krw_per_night": 569296,
+     "price_basis": "Live Booking.com Oct 6 2026: 1,552,626 + 10% = 1,707,889 for 3 nights, free cancellation before Oct 13, pay at hotel",
+     "availability": "available (live Oct 6)",
+     "total_krw": 1707889,
+     "why": "A full-service hotel by Jogyesa with more room and flexible cancellation."
+    }
+   ]
+  },
+  {
+   "stop": "sokcho",
+   "base": "Sokcho / Seoraksan",
+   "area": "Nohak-dong (Seorak entrance road), next to Seorak Waterpia",
+   "check_in": "2026-10-19",
+   "check_out": "2026-10-21",
+   "nights": 2,
+   "includes_oct16": false,
+   "why_area": "Taxi 10-12 min to the Seorak cable car and Biseondae at dawn, 5 min to Cheoksan Hot Spring, Waterpia hot-spring park next door, and 25 min to Naksansa for the move south.",
+   "choices": [
+    {
+     "tier": "value",
+     "lodging_id": "hanwha-resort-seorak-sorano",
+     "name": "Hanwha Resort Seorak Sorano",
+     "room": "Deluxe FAM family condo (sleeps 4 as standard, kitchen), room only",
+     "price_krw_per_night": 192000,
+     "price_basis": "Live on Korean OTAs (mom-mom/Webtour, yeogi) Oct 6 2026, Mon-Tue weekday rate",
+     "availability": "available (live Oct 6)",
+     "total_krw": 384000,
+     "why": "A big condo with kitchen at the park gate for under 65k per person per night."
+    },
+    {
+     "tier": "sweet",
+     "lodging_id": "hanwha-resort-seorak-sorano",
+     "name": "Hanwha Resort Seorak Sorano, '[10월] 추캉스 ALL INCLUSIVE' rate",
+     "room": "Same family condo, plus Waterpia hot-spring passes and breakfast buffet for 2 adults; 3rd adult's Waterpia pass +49,000 (included in the total)",
+     "price_krw_per_night": 251500,
+     "price_basis": "Live on Korean OTAs Oct 6 2026: 227,000 x 2 weekday nights + 49,000 for the 3rd Waterpia pass = 503,000 (3rd breakfast about 30,000 extra on site, not included)",
+     "availability": "available (live Oct 6)",
+     "total_krw": 503000,
+     "why": "Only 35k a night more than room-only, and it adds the hot-spring park and breakfast: the best deal in Seorak."
+    },
+    {
+     "tier": "splurge",
+     "lodging_id": "lotte-resort-sokcho",
+     "name": "Lotte Resort Sokcho",
+     "room": "Hotel Deluxe Family Twin (3/3), sea view",
+     "price_krw_per_night": 341000,
+     "price_basis": "Live on mom-mom (Webtour) Oct 6 2026, Mon/Tue rate",
+     "availability": "available (live Oct 6)",
+     "total_krw": 682000,
+     "why": "Beachfront at Oeongchi with a sea-view infinity pool, 15 min from Seorak; the hot-spring nights then use Cheoksan."
+    }
+   ]
+  },
+  {
+   "stop": "gyeongju",
+   "base": "Gyeongju",
+   "area": "Bomun (Silla Millennium Park)",
+   "check_in": "2026-10-21",
+   "check_out": "2026-10-22",
+   "nights": 1,
+   "includes_oct16": false,
+   "why_area": "Ragung is the trip's ryokan night: hanok suites around walled courtyards, each with its own outdoor hot-spring bath. Wed Oct 21 is the only night it has rooms.",
+   "choices": [
+    {
+     "tier": "value",
+     "lodging_id": "ragung",
+     "name": "Ragung (Silla Millennium Park hanok hotel)",
+     "room": "Madang or Numaru suite: 1 double bed + 1 floor futon, private outdoor hot-spring bath. 3rd adult +30,000 on site.",
+     "price_krw_per_night": 200000,
+     "price_basis": "Live Yanolja / NOL World Oct 6: 170,000 + 30,000 for the 3rd adult. Free cancellation until Oct 14, 17:00.",
+     "availability": "available (live Oct 6) · 2 left of each suite type, Wed only",
+     "why": "The closest thing in Korea to the Izu ryokan, for under US$50 each.",
+     "total_krw": 200000
+    },
+    {
+     "tier": "sweet",
+     "lodging_id": "ragung",
+     "name": "Ragung, suite + extra bedding",
+     "room": "Same suite with a second futon set (+25,000, subject to stock), so nobody shares the double bed",
+     "price_krw_per_night": 225000,
+     "price_basis": "Live Yanolja Oct 6: 170,000 + 30,000 + 25,000",
+     "availability": "available (live Oct 6) · Wed only",
+     "why": "Worth the 25k so three adults each get their own bedding.",
+     "total_krw": 225000
+    },
+    {
+     "tier": "splurge",
+     "lodging_id": "ragung",
+     "name": "Ragung, two suites",
+     "room": "One Madang + one Numaru suite (2 + 1), so two private hot-spring baths and real beds",
+     "price_krw_per_night": 340000,
+     "price_basis": "Live Yanolja Oct 6: 2 × 170,000, no 3rd-adult fee",
+     "availability": "available (live Oct 6) · Wed only",
+     "why": "Privacy and two outdoor baths; still cheaper than one night at most Busan hotels.",
+     "total_krw": 340000
+    }
+   ]
+  },
+  {
+   "stop": "busan-1",
+   "base": "Busan",
+   "area": "Haeundae (sweet, splurge) or Gwangalli (value)",
+   "check_in": "2026-10-22",
+   "check_out": "2026-10-23",
+   "nights": 1,
+   "includes_oct16": false,
+   "why_area": "Paradise's Special Deal includes unlimited Cimer, its sea-view hot spring, but Paradise is sold out on Sat 24. The value pick is in Gwangalli across the street from Friday's hotel, so Friday's move is a walk.",
+   "choices": [
+    {
+     "tier": "value",
+     "lodging_id": "hotel-aqua-palace",
+     "name": "Hotel Aqua Palace (Gwangalli)",
+     "room": "Family Ondol or Deluxe Twin (no view), sleeps 3",
+     "price_krw_per_night": 207000,
+     "price_basis": "Live Booking.com Oct 6: 188,182 + 10% tax; free cancellation before Oct 19",
+     "availability": "available (live Oct 6) · Thu only",
+     "why": "Cheap, on the beach, and 100 m from Planet16 for Fri-Sat. Use Spa Land Centum (26,000) for the hot-spring evening.",
+     "total_krw": 207000
+    },
+    {
+     "tier": "sweet",
+     "lodging_id": "paradise-hotel-busan",
+     "name": "Paradise Hotel Busan (Special Deal)",
+     "room": "Deluxe City (main building) + 3rd adult; unlimited Cimer sea-view hot spring and ocean spa pool for all 3",
+     "price_krw_per_night": 532400,
+     "price_basis": "Live official site Oct 6: 459,800 + 72,600 for the 3rd adult, tax and service included. Free cancellation until 18:00 five days before.",
+     "availability": "available (live Oct 6) · Thu-Fri only, sold out Sat",
+     "why": "Haeundae beachfront with Busan's best hot spring included: the second ryokan-style evening.",
+     "total_krw": 532400
+    },
+    {
+     "tier": "splurge",
+     "lodging_id": "paradise-hotel-busan",
+     "name": "Paradise Hotel Busan, ocean-view wing",
+     "room": "Deluxe Ocean (new wing, side sea view) + 3rd adult, Cimer included",
+     "price_krw_per_night": 592900,
+     "price_basis": "Live official site Oct 6: 520,300 + 72,600",
+     "availability": "available (live Oct 6)",
+     "why": "The same package with the sea outside the window.",
+     "total_krw": 592900
+    }
+   ]
+  },
+  {
+   "stop": "busan-2",
+   "base": "Busan",
+   "area": "Gwangalli Beach",
+   "check_in": "2026-10-23",
+   "check_out": "2026-10-25",
+   "nights": 2,
+   "includes_oct16": false,
+   "why_area": "On the beach facing Gwangan Bridge: the Saturday drone show is outside the door, and Millak's raw-fish market is a 10-minute walk.",
+   "choices": [
+    {
+     "tier": "value",
+     "lodging_id": "gwangalli-planet16",
+     "name": "Gwangalli-Planet16",
+     "room": "Deluxe Triple Sea View: twin + full, 1 room",
+     "price_krw_per_night": 201717,
+     "total_krw": 403434,
+     "price_basis": "Live Booking.com Oct 6: 403,434 with tax for Fri-Sat (2-night minimum); free cancellation before Oct 20",
+     "availability": "available (live Oct 6)",
+     "why": "The only live 2-night room on the drone-show beach, at a good price."
+    },
+    {
+     "tier": "splurge",
+     "lodging_id": "ananti-busan-cove",
+     "name": "Ananti at Busan Cove",
+     "room": "Cabin S Forest View (70 m², max 3) + extra guest and extra bed",
+     "price_krw_per_night": 645000,
+     "total_krw": 1290000,
+     "price_basis": "Live official site Oct 6: Fri about 441,000 + Sat 661,000 + 94,000 a night for the 3rd adult",
+     "availability": "available (live Oct 6)",
+     "why": "A destination resort on the Gijang cliffs, but 30-40 min by taxi from the drone show and well over budget."
+    }
+   ]
+  }
+ ],
+ "transport": [
+  {
+   "date": "2026-10-17",
+   "from": "Incheon Airport T1",
+   "to": "4rest Stay Jongno",
+   "mode": "taxi",
+   "dep": "06:30",
+   "arr": "07:40",
+   "duration": "1h10",
+   "cost_krw_pp": 25000,
+   "booking": "Taxi rank outside arrivals, or Kakao T",
+   "note": "About ₩65,000-80,000 for the car including tolls, split 3 ways."
+  },
+  {
+   "date": "2026-10-19",
+   "from": "Dong Seoul Bus Terminal",
+   "to": "Sokcho Express Bus Terminal",
+   "mode": "bus",
+   "dep": "08:20",
+   "arr": "10:36",
+   "duration": "2h16",
+   "cost_krw_pp": 22800,
+   "booking": "kobus.co.kr or the T-money Bus app (foreign Visa/Mastercard accepted); a few days ahead",
+   "note": "Deluxe after the Oct 1 2026 fare rise. Weekday departures avoid the weekend foliage jams. Suitcases go in the hold."
+  },
+  {
+   "date": "2026-10-20",
+   "from": "Sinheungsa (Seorak)",
+   "to": "Naksansa",
+   "mode": "taxi",
+   "dep": "14:30",
+   "arr": "15:05",
+   "duration": "35 min",
+   "cost_krw_pp": 8400,
+   "booking": "Kakao T",
+   "note": "About ₩25,000 for the car."
+  },
+  {
+   "date": "2026-10-20",
+   "from": "Naksansa",
+   "to": "Hanwha Resort Seorak Sorano",
+   "mode": "taxi",
+   "dep": "17:20",
+   "arr": "17:50",
+   "duration": "30 min",
+   "cost_krw_pp": 8400,
+   "booking": "Kakao T",
+   "note": "About ₩25,000 for the car."
+  },
+  {
+   "date": "2026-10-21",
+   "from": "Sokcho Intercity Bus Terminal",
+   "to": "Gangneung Bus Terminal",
+   "mode": "bus",
+   "dep": "07:30",
+   "arr": "08:30",
+   "duration": "about 1h",
+   "cost_krw_pp": 8400,
+   "booking": "Terminal counter or T-money Bus app",
+   "note": "Frequent departures; any bus before about 08:00 makes the 09:36 train."
+  },
+  {
+   "date": "2026-10-21",
+   "from": "Gangneung Station",
+   "to": "Gyeongju Station",
+   "mode": "KTX-Eum",
+   "dep": "09:36",
+   "arr": "12:30",
+   "duration": "2h54",
+   "cost_krw_pp": 34300,
+   "booking": "Korail+ app or korail.com. Train 752; only 3 a day (09:36, 14:56, 18:35). Book now.",
+   "note": "The new Donghae coast line; sit on the left (east) side for the sea between Jeongdongjin and Samcheok. If you miss it, the 14:56 arrives 17:44: do Wolji at night only."
+  },
+  {
+   "date": "2026-10-22",
+   "from": "Gyeongju Station",
+   "to": "Sinhaeundae Station (Busan)",
+   "mode": "KTX-Eum",
+   "dep": "14:16",
+   "arr": "15:10",
+   "duration": "54 min",
+   "cost_krw_pp": 10900,
+   "booking": "Korail+ / korail.com. KTX-Eum 707 (Oct 7-13 timetable; confirm).",
+   "note": "Backup: ITX-Maeum 1841 12:03 → 13:21 if you skip Seokguram."
+  },
+  {
+   "date": "2026-10-25",
+   "from": "Busan Station",
+   "to": "Seoul Station",
+   "mode": "KTX",
+   "dep": "13:03",
+   "arr": "15:47",
+   "duration": "2h44",
+   "cost_krw_pp": 54400,
+   "booking": "Korail+ / korail.com. Sunday trains sell out: book now.",
+   "note": "Backups: KTX 36 12:34 → 15:00, KTX 124 13:17 → 16:34. Don't go later than about 14:30."
+  },
+  {
+   "date": "2026-10-25",
+   "from": "Seoul Station",
+   "to": "Incheon Airport T1",
+   "mode": "AREX",
+   "dep": "16:10",
+   "arr": "16:53",
+   "duration": "43 min",
+   "cost_krw_pp": 13000,
+   "booking": "Seoul Station B2 AREX machines, or Klook/Trip.com vouchers (about ₩11,000)",
+   "note": "Air Premia can't use Seoul Station city check-in, so take your bags."
+  }
+ ],
+ "activities_paid": [
+  {
+   "date": "2026-10-17",
+   "what": "Jongmyo Shrine (Saturday free-roaming)",
+   "cost_krw_pp": 1000
+  },
+  {
+   "date": "2026-10-17",
+   "what": "Changgyeonggung Mulbit Yeonhwa night show (includes admission)",
+   "cost_krw_pp": 1000
+  },
+  {
+   "date": "2026-10-18",
+   "what": "Changdeokgung + Huwon (Secret Garden) guided tour",
+   "cost_krw_pp": 8000
+  },
+  {
+   "date": "2026-10-19",
+   "what": "Gaetbae hand-pulled ferry, Abai Village (round trip, cash)",
+   "cost_krw_pp": 1000
+  },
+  {
+   "date": "2026-10-19",
+   "what": "Cheoksan Hot Spring public baths",
+   "cost_krw_pp": 11000
+  },
+  {
+   "date": "2026-10-20",
+   "what": "Seorak cable car to Gwongeumseong (round trip)",
+   "cost_krw_pp": 16000
+  },
+  {
+   "date": "2026-10-20",
+   "what": "Seorak Waterpia night spa (sweet tier: covered by the ALL INCLUSIVE rate)",
+   "cost_krw_pp": 27000
+  },
+  {
+   "date": "2026-10-21",
+   "what": "Daereungwon / Cheonmachong tomb",
+   "cost_krw_pp": 3000
+  },
+  {
+   "date": "2026-10-21",
+   "what": "Donggung Palace & Wolji Pond",
+   "cost_krw_pp": 3000
+  },
+  {
+   "date": "2026-10-22",
+   "what": "Blueline Park Sky Capsule, Cheongsapo → Mipo (₩55,000 per 3-person capsule)",
+   "cost_krw_pp": 18334
+  },
+  {
+   "date": "2026-10-24",
+   "what": "Hurshimchung hot-spring bath (weekend rate)",
+   "cost_krw_pp": 18000
+  }
+ ],
+ "budget": {
+  "fx": 1340,
+  "lodging_krw_total": {
+   "value": 1995316,
+   "sweet": 2506868,
+   "splurge": 4043493
+  },
+  "oct16_extra_krw": {
+   "value": 400441,
+   "sweet": 421517,
+   "splurge": 569296
+  },
+  "transport_krw_pp": 185600,
+  "local_transit_krw_pp": 125000,
+  "activities_krw_pp": 107334,
+  "per_person_usd": {
+   "value": 808,
+   "sweet": 935,
+   "splurge": 1318
+  },
+  "per_person_usd_with_oct16": {
+   "value": 908,
+   "sweet": 1040,
+   "splurge": 1459
+  },
+  "notes": [
+   "Lodging is for 3 people sharing one room each night (two Ragung suites on the splurge tier), 8 core nights Oct 17-24. The Oct 16 night is shown separately.",
+   "Seoul and Busan prices are live Booking.com / official-site checks from Oct 6 2026, taxes included. Sorano and Ragung prices are live Korean-OTA rates (Yanolja / NOL), which may need a Korean phone; Agoda or Trip.com can cost 5-15% more.",
+   "Busan Fri-Sat has no sweet tier: Planet16 is the only live 2-night room on the drone-show beach. The splurge pick (Ananti Cove) puts the splurge total well over US$1,000.",
+   "Intercity transport covers the airport taxi share, two buses, two coast taxis, two KTX-Eum trains, the Busan-Seoul KTX and the AREX. Taxi fares are split 3 ways.",
+   "Local transit (about 125,000 per person) covers Seoul subway rides and about 25 taxi rides in Sokcho, Gyeongju and Busan, split 3 ways. With big suitcases, large taxis cost about 20% more.",
+   "Food is excluded. Typical spend is 50,000-80,000 per person per day, plus Iwa's omakase lunch (about 80,000) and the Sokcho crab dinner (about 40,000)."
+  ]
+ },
+ "book_now": [
+  {
+   "what": "Ragung suite for Wed Oct 21 (5 rooms left on Oct 6)",
+   "when": "now",
+   "how": "NOL World (English, world.nol.com, NC-11074) or Yanolja; free cancellation until Oct 14, 17:00",
+   "priority": "critical"
+  },
+  {
+   "what": "KTX-Eum 752 Gangneung → Gyeongju, Wed Oct 21, 09:36",
+   "when": "now (only 3 trains a day)",
+   "how": "Korail+ app or korail.com with a foreign card",
+   "priority": "critical"
+  },
+  {
+   "what": "4rest Stay Jongno, Oct 16-19 (1 Deluxe Suite left)",
+   "when": "now",
+   "how": "Booking.com; the refundable rate cancels free before Oct 9",
+   "priority": "critical"
+  },
+  {
+   "what": "Hanwha Resort Seorak Sorano, Oct 19-21 (ALL INCLUSIVE rate for the sweet tier)",
+   "when": "now",
+   "how": "mom-mom.net / yeogi.com, or hanwharesort.co.kr; Agoda as fallback",
+   "priority": "critical"
+  },
+  {
+   "what": "Gwangalli-Planet16 Fri-Sat Oct 23-25 (2-night minimum)",
+   "when": "now",
+   "how": "Booking.com; free cancellation before Oct 20",
+   "priority": "critical"
+  },
+  {
+   "what": "Busan Thu Oct 22: Paradise Special Deal (sweet) or Aqua Palace (value)",
+   "when": "now",
+   "how": "busanparadisehotel.co.kr (Korean UI, foreign cards OK) or Booking.com",
+   "priority": "high"
+  },
+  {
+   "what": "Huwon (Secret Garden) tickets for Sun Oct 18, 10:00-11:00 slot",
+   "when": "Mon Oct 12, 10:00 KST (Sun Oct 11, 21:00 New York time)",
+   "how": "Changdeokgung official reservation site; sells out in minutes. A few on-site tickets go on sale at 09:00.",
+   "priority": "critical"
+  },
+  {
+   "what": "KTX-Eum 707 Gyeongju → Sinhaeundae (Thu 22) and KTX Busan → Seoul (Sun 25)",
+   "when": "now (Sunday trains sell out)",
+   "how": "Korail+ app or korail.com",
+   "priority": "high"
+  },
+  {
+   "what": "Dong Seoul → Sokcho bus, Mon Oct 19, 08:20 (deluxe)",
+   "when": "a few days ahead",
+   "how": "kobus.co.kr or the T-money Bus app",
+   "priority": "normal"
+  },
+  {
+   "what": "Iwa omakase lunch, Sat Oct 24 around 12:00",
+   "when": "now",
+   "how": "Phone +82 10-8543-3356 (open daily 11:30-22:00); ask your hotel to call, or check CatchTable Global",
+   "priority": "high"
+  },
+  {
+   "what": "Blueline Sky Capsule, Thu Oct 22, Cheongsapo → Mipo around 17:25",
+   "when": "a week ahead",
+   "how": "Blueline Park website or Klook (₩55,000 per capsule)",
+   "priority": "high"
+  },
+  {
+   "what": "Changgyeonggung Mulbit Yeonhwa, Sat Oct 17, 19:00 or 19:30",
+   "when": "now",
+   "how": "Ticketlink or Creatrip (₩1,000 each)",
+   "priority": "normal"
+  },
+  {
+   "what": "Korea e-Arrival Card for all 3 travelers",
+   "when": "Oct 14-16 (within 3 days before landing)",
+   "how": "e-arrivalcard.go.kr only (free; US citizens are K-ETA-exempt through Dec 31 2026)",
+   "priority": "critical"
+  }
+ ],
+ "watch_outs": [
+  "The 09:36 coast train on Wed 21 is the hinge of the trip. Take a bus that reaches Gangneung by 08:45; if you miss the train, the 14:56 arrives at 17:44 and Gyeongju becomes night sights only.",
+  "Seorak cable car tickets are same-day only and the car stops in high wind. Gwongeumseong and Seonjae-gil are 5-10°C colder than the coast: bring a windproof layer and gloves.",
+  "Luggage moves 4 times. Confirm each hotel will hold bags before check-in and after check-out, and use Kakao T's large taxis (Venti) with big suitcases.",
+  "Ragung has no breakfast (drip coffee only): buy Hwangnam bread on Wednesday afternoon.",
+  "Gyeongju weekdays are school-trip season: be at Bulguksa by 08:45.",
+  "The Gwangalli drone show is cancelled in rain or strong wind.",
+  "Air Premia can't use Seoul Station city check-in; ride the AREX with your bags and reach T1 by about 17:00."
+ ]
+}

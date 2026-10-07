@@ -1,5 +1,6 @@
 // Build option-foliage.json (Seoul · Seoraksan · Gangneung) with computed budget.
 import fs from "fs";
+import foliageDays from "./foliage-days.mjs";
 
 const FX = 1340;
 const HOTEL = { lat: 37.5745, lon: 126.9925 }; // 4rest Stay Jongno
@@ -51,8 +52,8 @@ const stays = [
 // ---------- transport (intercity legs counted in transport_krw_pp) ----------
 const transport = [
   { date: "2026-10-17", from: "Incheon Airport T1", to: "4rest Stay Jongno", mode: "taxi", dep: "06:30", arr: "07:40", duration: "1h10", cost_krw_pp: 25000, booking: "Taxi rank outside arrivals, or Kakao T (works with foreign phones/cards)", note: "About 65-80k for the car including tolls, split 3 ways. Door to door with suitcases at dawn, about the same price as 3 AREX Express tickets plus a taxi from Seoul Station.", counted: true },
-  { date: "2026-10-19", from: "4rest Stay Jongno", to: "Dong Seoul Bus Terminal (Gangbyeon)", mode: "taxi", dep: "07:15", arr: "07:40", duration: "25 min", cost_krw_pp: 5000, booking: "Kakao T", note: "Or subway Line 5 to Dongdaemun History & Culture Park, then Line 2 to Gangbyeon (about 35 min, 1,550). Counted in local transit.", counted: false },
-  { date: "2026-10-19", from: "Dong Seoul Bus Terminal", to: "Sokcho Express Bus Terminal", mode: "bus", dep: "08:00", arr: "10:20", duration: "2h20", cost_krw_pp: 22800, booking: "kobus.co.kr / Express Bus Mobile app (foreign Visa/MC accepted), Klook, or terminal kiosk; book a few days ahead", note: "Deluxe (udeung) 22,800 after the Oct 1 2026 fare rise; 15 departures a day 07:00-20:30, so pick the closest to 08:00. A Monday departure avoids the weekend foliage jams (3.5-5 h). Fallback: Seoul Express Bus Terminal (Gangnam) to Sokcho, 45 a day, deluxe 24,300.", counted: true },
+  { date: "2026-10-19", from: "4rest Stay Jongno", to: "Dong Seoul Bus Terminal (Gangbyeon)", mode: "taxi", dep: "07:30", arr: "07:55", duration: "25 min", cost_krw_pp: 5000, booking: "Kakao T", note: "Or subway Line 5 to Dongdaemun History & Culture Park, then Line 2 to Gangbyeon (about 35 min, 1,550). Counted in local transit.", counted: false },
+  { date: "2026-10-19", from: "Dong Seoul Bus Terminal", to: "Sokcho Express Bus Terminal", mode: "bus", dep: "08:20", arr: "10:36", duration: "2h16", cost_krw_pp: 22800, booking: "kobus.co.kr / Express Bus Mobile app (foreign Visa/MC accepted), Klook, or terminal kiosk; book a few days ahead", note: "Deluxe (udeung) 22,800 after the Oct 1 2026 fare rise; 15 departures a day 07:00-20:30 (07:00, 08:20, 09:00 ...); arrives at the Express terminal by Cheongchoho lake, a short taxi or 20-min walk from Abai Village. A Monday departure avoids the weekend foliage jams (3.5-5 h). Fallback: Seoul Express Bus Terminal (Gangnam) to Sokcho, 45 a day, deluxe 24,300.", counted: true },
   { date: "2026-10-19", from: "Sokcho Jungang Market", to: "Hanwha Resort Seorak Sorano", mode: "taxi", dep: "14:20", arr: "14:40", duration: "20 min", cost_krw_pp: 5000, booking: "Hail or Kakao T", note: "About 15k for the car. Counted in local transit.", counted: false },
   { date: "2026-10-20", from: "Sorano", to: "Seorak Sogongwon (cable car)", mode: "taxi", dep: "07:30", arr: "07:45", duration: "12-15 min", cost_krw_pp: 3500, booking: "Kakao T; ask the front desk the night before", note: "Weekday traffic controls (Oct 3-Nov 8) still let taxis through early. Sokcho city bus 7/7-1 also runs (1,500). Counted in local transit.", counted: false },
   { date: "2026-10-21", from: "Sorano", to: "Naksansa", mode: "taxi", dep: "09:00", arr: "09:30", duration: "30 min", cost_krw_pp: 8400, booking: "Kakao T", note: "About 25k for the car. There is no direct bus from the Seorak side.", counted: true },
@@ -110,7 +111,7 @@ for (const t of tiers) {
   pp16[t] = Math.round((base + extra / 3) / FX);
 }
 
-const days = JSON.parse(fs.readFileSync(new URL("./foliage-days.json", import.meta.url), "utf8"));
+const days = foliageDays;
 
 const out = {
   id: "foliage",
@@ -120,7 +121,7 @@ const out = {
   summary: "This is the trip for the foliage: on weekdays you catch Seoraksan and Odaesan at their 2026 peak, when the cable car and trails are quieter, and you soak in hot springs after the hikes. Then the Gangneung coast (seaside temple, coffee festival, a night in a 300-year-old manor) and two Seoul weekends of palaces, night markets and Friday-night Hongdae. It suits travelers who liked Kamakura and the Izu ryokan more than they need Gyeongju's tombs or Busan's beaches.",
   design_notes: [
     "Haneul Park silver grass moved from Sat 17 to Fri 23, the festival's last evening (open to 21:00). Day 1 stays jet-lag-gentle within 10 minutes of the hotel, a weekend afternoon at Haneul Park is the crowd peak, and Friday leads straight into Hongdae's best night.",
-    "Day 1 uses Jongmyo, which allows free-roaming only on Saturdays (weekdays are guided tours only) and is 3 minutes from the hotel. It connects by footbridge to Changgyeonggung, which is open to 21:00.",
+    "Day 1 uses Jongmyo, which allows free-roaming only on Saturdays (weekdays are guided tours only) and is 3 minutes from the hotel. Changgyeonggung next door is open to 21:00 for the Mulbit Yeonhwa show.",
     "Hwadam Botanic Garden is dropped from Fri 23. Gonjiam is off the Gangneung-Seoul rail line, it needs timed NOL tickets, Seoul-area color is still partial on Oct 23, and the travelers will have just seen peak Gangwon. It stays as a Sat 24 swap for anyone who wants it.",
     "Seoul hotel: Nine Tree Dongdaemun showed NO availability for Oct 16-19 or Oct 23-25 in a live check (Oct 6, US time). 4rest Stay Jongno is live for both stays, so the plan uses the same hotel twice and big suitcases stay there Oct 19-23. The live 3-night weekend rate (about 400k/night) is higher than the brief's 5-night average of 295k.",
     "The Sokcho base is Sorano at the Seorak entrance, not Osaek. Osaek is about 40 min from the cable car, and its famous carbonated spring is cool water. Cheoksan (53°C, outdoor baths) and Waterpia give the real hot soaks.",
@@ -189,7 +190,7 @@ const out = {
     { what: "Huwon (Secret Garden) tickets for Sun Oct 18, a 10:00-11:00 slot", when: "Mon Oct 12, 10:00 KST (Sun Oct 11, 21:00 New York time)", how: "Changdeokgung official reservation site; sells out in minutes in autumn. A few on-site tickets go on sale at 09:00.", priority: "critical" },
     { what: "KTX Gangneung -> Seoul, Fri Oct 23 around 11:30", when: "now (Friday foliage-season trains sell out)", how: "Korail+ app / korail.com with a foreign card", priority: "high" },
     { what: "KTX Gangneung <-> Jinbu (Odaesan) round trip, Thu Oct 22", when: "this week", how: "Korail+ app; choose trains that stop at Jinbu", priority: "normal" },
-    { what: "Dong Seoul -> Sokcho bus, Mon Oct 19 about 08:00 (deluxe)", when: "a few days ahead", how: "kobus.co.kr / Express Bus Mobile app / Klook", priority: "normal" },
+    { what: "Dong Seoul -> Sokcho bus, Mon Oct 19, 08:20 (deluxe)", when: "a few days ahead", how: "kobus.co.kr / Express Bus Mobile app / Klook", priority: "normal" },
     { what: "Omakase dinner Sat Oct 24: Sushi Sora Gwanghwamun (about 110k) or Sushi Cho, Westin Josun (about 340k)", when: "now", how: "CatchTable Global app (Sushi Sora); Westin Josun website or phone (Sushi Cho). Confirm the closed day when booking.", priority: "high" },
     { what: "Korea e-Arrival Card for all 3 travelers", when: "Oct 14-17 (within 3 days before arrival)", how: "Official e-Arrival site (free; US citizens are K-ETA-exempt through Dec 31 2026)", priority: "critical" },
     { what: "Gyeongbokgung Starlight Night Walk, Sat Oct 24 (18:20 or 19:30), cancellation watch", when: "check daily from now", how: "Creatrip (max 2 tickets per booker, 60,000)", priority: "normal" },
