@@ -243,7 +243,7 @@
               ${typeof pu.sweet === 'number' ? html`<span class="cbar-tick" style="--a:${pct(pu.sweet)}"></span>` : ''}
               <span class="cbar-mark" style="--a:${pct(BUDGET_USD)}"></span>
             </div>
-            <p class="cost-legend"><span>Value to splurge, hotels Oct 17–24</span><span class="mono">US$${NUM.format(BUDGET_USD)} line</span></p>
+            <p class="cost-legend"><span>Value to splurge</span><span class="mono">US$${NUM.format(BUDGET_USD)} line</span></p>
           </div>` : ''}
         <p class="opt-state" data-state>Choose this route</p>
       </article>`;
@@ -441,6 +441,19 @@
     }, { rootMargin: '-48% 0px -48% 0px', threshold: 0 });
     $$('.day').forEach((el) => dayObserver.observe(el));
   }
+  let scrollTick = 0;
+  function onScrollSettle() {
+    clearTimeout(scrollTick);
+    scrollTick = setTimeout(() => {
+      if (performance.now() < state.lockUntil) return;
+      const g = $('#days');
+      if (!g) return;
+      const r = g.getBoundingClientRect();
+      if (r.bottom < 0 || r.top > window.innerHeight) return;
+      const el = nearestDay();
+      if (el) setActive(el.dataset.date);
+    }, 120);
+  }
   function setActive(date) {
     if (state.activeDay === date) return;
     state.activeDay = date;
@@ -539,7 +552,7 @@
           <span class="choice-price">
             <b>${won(c.price_krw_per_night)}</b> / night<br>
             ${nightsText} · ${won(c.total_krw)}<br>
-            ${approx(c.total_krw / TRAVELERS, 1)} pp
+            ${approx(c.total_krw / TRAVELERS, fxOf(state.opt))} pp
           </span>
         </label>
         ${hasExtra ? html`<div class="choice-extra">${links(c.name, L.name_ko, L.lat, L.lon)}${aboutHtml(L)}</div>` : ''}
@@ -588,7 +601,7 @@
       <div id="bud-live"></div>
       <div class="sub">
         <h3>Intercity transport</h3>
-        <p class="small muted" style="margin-bottom:.6rem">Prices per person. Times are from the Oct 7–13 timetable where noted; confirm before booking.</p>
+        <p class="small muted" style="margin-bottom:.6rem">Prices are per person. Confirm departure times on the operator's site before you book.</p>
         <div class="scroll"><table class="tbl" style="min-width:44rem">
           <thead><tr><th>Date</th><th>Route</th><th>Mode</th><th>Time</th><th class="num">Per person</th><th>Booking and notes</th></tr></thead>
           <tbody>
@@ -855,7 +868,8 @@
   }
 
   function placeCard(p) {
-    const hc = [p.hours, costText(p)].filter(Boolean).join(' · ');
+    const cost = costText(p);
+    const hc = [p.hours, cost].filter((x, i, a) => x && a.indexOf(x) === i).join(' · ');
     return html`
       <article class="card pl" id="pl-${p.id}" data-id="${p.id}">
         <div>${pic(p.image, motifFor(null, p), p.name)}</div>
@@ -953,6 +967,7 @@
   }
 
   function bindEvents() {
+    window.addEventListener('scroll', onScrollSettle, { passive: true });
     window.addEventListener('hashchange', () => {
       const o = optionFromHash();
       if (o && (!state.opt || o.id !== state.opt.id)) applyOption(o.id);
@@ -1041,6 +1056,7 @@
       return;
     }
     viz('initMap', host);
+    if (!host.firstChild) put(host, html`<div class="map-ph">The map could not start. Each stop in the day cards still has Naver Map and Google Maps links.</div>`);
     window.Viz.onPin = (date, idx) => {
       const el = document.getElementById(`it-${date}-${idx}`);
       if (!el) return;
@@ -1063,6 +1079,8 @@
       || T.options.find((o) => o.recommended)
       || T.options[0];
     if (!location.hash) { try { history.replaceState(null, '', '#' + first.id); } catch (e) { /* sandboxed */ } }
+    const cmp = $('#compare');
+    if (cmp && window.matchMedia) cmp.open = window.matchMedia('(min-width: 900px)').matches;
     setupMap();
     applyOption(first.id);
     setupNavSpy();

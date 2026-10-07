@@ -1,4 +1,5 @@
 <title>Korea Autumn 2026</title>
+<meta charset="utf-8">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hahmlet:wght@500;700;800&family=IBM+Plex+Sans+KR:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style>
 :root{
@@ -155,10 +156,10 @@ a.chip:hover{border-color:var(--celadon)}
 .opt-state{font:500 .8rem var(--font-mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .opt.is-selected .opt-state{color:var(--link)}
 .rstrip{display:flex;align-items:flex-start;padding-top:.5rem;margin-right:.5rem;min-width:0}
-.rseg{position:relative;flex:var(--n,1) 1 0;min-width:3.4rem;margin-top:.35rem;padding:.7rem .3rem 0 0;border-top:4px solid var(--celadon)}
+.rseg{position:relative;flex:var(--n,1) 1 0;min-width:4.1rem;margin-top:.35rem;padding:.7rem .3rem 0 0;border-top:4px solid var(--celadon)}
 .rseg::before{content:"";position:absolute;left:0;top:-10px;width:14px;height:14px;border-radius:50%;background:var(--card);border:3px solid var(--celadon)}
 .rseg:last-child::after{content:"";position:absolute;right:-6px;top:-8px;width:12px;height:12px;border-radius:50%;background:var(--celadon)}
-.rseg b{display:block;font-size:.8rem;line-height:1.25;font-weight:600;overflow-wrap:anywhere}
+.rseg b{display:block;font-size:.8rem;line-height:1.25;font-weight:600;overflow-wrap:break-word}
 .rseg span{font:400 .8rem var(--font-mono);color:var(--muted)}
 .cost{display:grid;gap:.4rem;margin-top:auto}
 .cost-nums{font:500 1rem var(--font-mono)}
@@ -199,7 +200,7 @@ a.chip:hover{border-color:var(--celadon)}
 .map-ph{position:absolute;inset:0;display:grid;place-items:center;padding:1rem;text-align:center;color:var(--muted);font-size:.9rem}
 .map-cap{margin-top:.4rem;font-size:.8rem;color:var(--muted)}
 @media (min-width:1100px){
-  .plan-grid{grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:1.75rem;align-items:start}
+  .plan-grid{grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:1.5rem;align-items:start}
   .map-panel{order:0;position:sticky;top:calc(env(safe-area-inset-top,0px) + var(--nav-h) + 12px)}
   .map-box{height:max(400px,calc(100vh - var(--nav-h) - 3.5rem))}
 }
@@ -231,7 +232,7 @@ a.chip:hover{border-color:var(--celadon)}
 .autumn svg{width:1.1rem;height:1.1rem;flex:none;margin-top:.15rem;color:var(--maple)}
 .tt{list-style:none;margin:1.1rem 0 0;padding:0;display:grid;gap:1rem}
 .tt>li{margin:0}
-.it{position:relative;display:grid;grid-template-columns:3.1rem 1.4rem minmax(0,1fr) 5rem;gap:.35rem .65rem;scroll-margin-top:calc(var(--nav-h) + 6rem)}
+.it{position:relative;display:grid;grid-template-columns:3.1rem 1.4rem minmax(0,1fr) 4.5rem;gap:.35rem .65rem;scroll-margin-top:calc(var(--nav-h) + 6rem)}
 .it:not(:last-child)::after{content:"";position:absolute;left:calc(3.1rem + .65rem + .7rem - 1px);top:1.55rem;bottom:calc(-1rem + .2rem);width:2px;background:var(--line)}
 .it.is-hit{background:var(--ginkgo-soft);outline:2px solid var(--ginkgo);outline-offset:3px}
 .it-time{font:500 .9rem/1.5 var(--font-mono);font-variant-numeric:tabular-nums}
@@ -240,7 +241,9 @@ a.chip:hover{border-color:var(--celadon)}
 .k-transport .it-ico{color:var(--sea)}
 .k-food .it-ico{color:var(--ginkgo)}
 .k-night .it-ico,.k-rest .it-ico{color:var(--muted)}
-.it-main{min-width:0}
+.it-main{min-width:0;grid-column:3}
+.it.no-thumb .it-main{grid-column:3 / -1}
+.it-thumb{grid-column:4;grid-row:1}
 .it-title{font-weight:600}
 .it-detail{margin-top:.15rem;max-width:62ch}
 .it-chips{display:flex;flex-wrap:wrap;gap:.3rem .4rem;margin-top:.45rem;align-items:center}
@@ -275,8 +278,9 @@ a.chip:hover{border-color:var(--celadon)}
   .meal{grid-template-columns:minmax(0,1fr)}
 }
 @media (max-width:519.98px){
-  .it{grid-template-columns:2.7rem 1.3rem minmax(0,1fr)}
-  .it:not(:last-child)::after{left:calc(2.7rem + .65rem + .65rem - 1px)}
+  .it{grid-template-columns:3.1rem 1.3rem minmax(0,1fr);gap:.35rem .55rem}
+  .it:not(:last-child)::after{left:calc(3.1rem + .55rem + .65rem - 1px)}
+  .it-time{font-size:.85rem}
   .it-thumb{display:none}
   .about dl{grid-template-columns:minmax(0,1fr);gap:0}
   .about dd{margin-bottom:.35rem}
@@ -364,7 +368,7 @@ fieldset.choices{margin:0;padding:0;border:0;min-width:0}
 .explain{max-width:72ch;color:var(--muted);margin-bottom:.8rem}
 
 /* ---------- japan ---------- */
-.jcards{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,24rem),1fr))}
+.jcards{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(min(100%,30rem),1fr))}
 .jcard{padding:1rem;display:flex;flex-direction:column;gap:.9rem;min-width:0}
 .jcard h3{font-size:1.4rem}
 .why-loved{color:var(--muted);font-size:.9rem;max-width:56ch}
@@ -435,7 +439,7 @@ fieldset.choices{margin:0;padding:0;border:0;min-width:0}
 .pl .ko{color:var(--muted);font-size:.9rem}
 .pl-meta{font-size:.8rem;color:var(--muted);margin-top:.1rem}
 .pl-sum{font-size:.9rem;margin-top:.3rem;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.pl-hc{font:400 .8rem/1.4 var(--font-mono);color:var(--muted);margin-top:.35rem}
+.pl-hc{font:400 .8rem/1.4 var(--font-mono);color:var(--muted);margin-top:.35rem;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .pl .maplinks{margin-top:.35rem}
 .pl-plan{margin-top:.35rem}
 .pl-plan:empty{display:none}
